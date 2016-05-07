@@ -1,0 +1,10 @@
+PODS:
+  - shapelib (1.3)
+
+DEPENDENCIES:
+  - shapelib
+
+SPEC CHECKSUMS:
+  shapelib: 70f767e1e6484b824bd9986613afb66cb16e9df4
+
+COCOAPODS: 0.39.0
