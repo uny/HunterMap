@@ -14,6 +14,7 @@
 		8FEE7DE61CDDBE9400BFDA8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FEE7DE41CDDBE9400BFDA8C /* LaunchScreen.storyboard */; };
 		8FEE7DF11CDDBE9500BFDA8C /* HunterMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE7DF01CDDBE9500BFDA8C /* HunterMapTests.swift */; };
 		8FEE7DFC1CDDBE9500BFDA8C /* HunterMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE7DFB1CDDBE9500BFDA8C /* HunterMapUITests.swift */; };
+		8FEE7E0A1CDDBFC400BFDA8C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEE7E091CDDBFC400BFDA8C /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8FEE7DF71CDDBE9500BFDA8C /* HunterMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HunterMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FEE7DFB1CDDBE9500BFDA8C /* HunterMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunterMapUITests.swift; sourceTree = "<group>"; };
 		8FEE7DFD1CDDBE9500BFDA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FEE7E091CDDBFC400BFDA8C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FEE7E0A1CDDBFC400BFDA8C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		8FEE7DCF1CDDBE9400BFDA8C = {
 			isa = PBXGroup;
 			children = (
+				8FEE7E091CDDBFC400BFDA8C /* MapKit.framework */,
 				8FEE7DDA1CDDBE9400BFDA8C /* HunterMap */,
 				8FEE7DEF1CDDBE9500BFDA8C /* HunterMapTests */,
 				8FEE7DFA1CDDBE9500BFDA8C /* HunterMapUITests */,
