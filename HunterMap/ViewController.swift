@@ -14,7 +14,7 @@ import shapelib
 class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
     
-
+    
     @IBOutlet weak var mapView: MKMapView!
     
     let locationManager = CLLocationManager()
@@ -45,11 +45,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
      * dataSource : http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-A15.html
      */
     override func viewDidAppear(animated: Bool) {
-        let shpFilePath = NSBundle.mainBundle().pathForResource("A15-09_14_WildlifePreserve", ofType: "shp")
-        
-        // remove extension from shpFilePath
-        let path = (shpFilePath! as NSString).stringByAppendingPathComponent("")
-        loadShapeFile(path)
+        renderRestrictedAreas()
     }
     
     /**
@@ -82,62 +78,31 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     }
     
     // MARK: - ShapeLib
-    /**
-     * load shape file and draw area on map
-     */
-    func loadShapeFile(path: String) {
-        let dbf = DBFOpen(path, "rb")
-        let typeIndex = DBFGetFieldIndex(dbf, "A15_004")
+    func renderRestrictedAreas() {
+        let restrictedAreas = RestrictedAreaModel.loadRestrictedAreas(ShapeFiles.Kanagawa)
         
-        let shp = SHPOpen(path, "rb")
-        
-        var pnEntities: Int32 = 0
-        var pnShapeType: Int32 = 0
-        SHPGetInfo(shp, &pnEntities, &pnShapeType, nil, nil)
-        
-        // loop all SHPObjects
-        for i in 0..<pnEntities {
-            let shpObject = SHPReadObject(shp, i).memory
-            
-            let type = DBFReadIntegerAttribute(dbf, shpObject.nShapeId, typeIndex)
-            
-            let numParts = Int(shpObject.nParts)
-            let totalVertexCount = Int(shpObject.nVertices)
-            
-            // loop all Vertices
-            for j in 0..<numParts {
-                let startVertex = Int(shpObject.panPartStart[j])
-                let partVertexCount = (j == numParts-1) ? totalVertexCount - startVertex : Int(shpObject.panPartStart[j+1]) - startVertex
-                let endIndex = startVertex + partVertexCount
-                
-                var coordinates: [CLLocationCoordinate2D] = []
-                // vertexes
-                for k in startVertex..<endIndex {
-                    let coord = CLLocationCoordinate2DMake(shpObject.padfY[k], shpObject.padfX[k])
-                    coordinates.append(coord)
-                }
-                switch type {
-                case 1:
-                    let polygon = HMGameReserveOverlay(coordinates: &coordinates, count: coordinates.count)
-                    mapView.addOverlay(polygon)
-                case 2:
-                    let polygon = HMSpecialProtectionAreaOverlay(coordinates: &coordinates, count: coordinates.count)
-                    mapView.addOverlay(polygon)
-                case 3:
-                    let polygon = HMTempGameReserveOverlay(coordinates: &coordinates, count: coordinates.count)
-                    mapView.addOverlay(polygon)
-                default:
-                    break
-                }
+        for var area in restrictedAreas {
+            switch area.areaType {
+            case AreaType.GameReserve.rawValue:
+                let polygon = HMGameReserveOverlay(coordinates: &area.coordinates, count: area.coordinates.count)
+                self.mapView.addOverlay(polygon)
+            case AreaType.SpecialProtectionArea.rawValue:
+                let polygon = HMSpecialProtectionAreaOverlay(coordinates: &area.coordinates, count: area.coordinates.count)
+                self.mapView.addOverlay(polygon)
+            case AreaType.TempGameReserve.rawValue:
+                let polygon = HMTempGameReserveOverlay(coordinates: &area.coordinates, count: area.coordinates.count)
+                self.mapView.addOverlay(polygon)
+            default:
+                let polygon = MKPolygon(coordinates: &area.coordinates, count: area.coordinates.count)
+                self.mapView.addOverlay(polygon)
             }
         }
-        SHPClose(shp)
-        
-        
     }
     
     func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOverlayRenderer {
         let polygonView = MKPolygonRenderer(overlay: overlay)
+        polygonView.lineWidth = 3
+        
         if overlay is HMGameReserveOverlay {
             polygonView.strokeColor = UIColor.redColor().colorWithAlphaComponent(0.2)
             polygonView.fillColor = UIColor.magentaColor().colorWithAlphaComponent(0.7)
@@ -151,8 +116,6 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
             polygonView.strokeColor = UIColor.blackColor().colorWithAlphaComponent(0.2)
             polygonView.fillColor = UIColor.grayColor().colorWithAlphaComponent(0.7)
         }
-        
-        polygonView.lineWidth = 3
         
         return polygonView
     }
