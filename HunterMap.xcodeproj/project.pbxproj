@@ -1,1143 +1,703 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>43F2F015A74B2A4B897FD594</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-HunterMap/Pods-HunterMap-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>64F48F304B00B0A8B7128170</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>6900A76C5302E1EBD6BE9481</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E6F4C36183B1839A4D853573</string>
-				<string>B1862CA8DFE98846A93327FE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FEE7DCF1CDDBE9400BFDA8C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8FEE7E091CDDBFC400BFDA8C</string>
-				<string>8FEE7DDA1CDDBE9400BFDA8C</string>
-				<string>8FEE7DEF1CDDBE9500BFDA8C</string>
-				<string>8FEE7DFA1CDDBE9500BFDA8C</string>
-				<string>8FEE7DD91CDDBE9400BFDA8C</string>
-				<string>6900A76C5302E1EBD6BE9481</string>
-				<string>C4AD76B50E0407A7333C39A0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FEE7DD01CDDBE9400BFDA8C</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>1tsuki</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>8FEE7DD71CDDBE9400BFDA8C</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3.1</string>
-					</dict>
-					<key>8FEE7DEB1CDDBE9500BFDA8C</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3.1</string>
-						<key>TestTargetID</key>
-						<string>8FEE7DD71CDDBE9400BFDA8C</string>
-					</dict>
-					<key>8FEE7DF61CDDBE9500BFDA8C</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3.1</string>
-						<key>TestTargetID</key>
-						<string>8FEE7DD71CDDBE9400BFDA8C</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>8FEE7DD31CDDBE9400BFDA8C</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>8FEE7DCF1CDDBE9400BFDA8C</string>
-			<key>productRefGroup</key>
-			<string>8FEE7DD91CDDBE9400BFDA8C</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>8FEE7DD71CDDBE9400BFDA8C</string>
-				<string>8FEE7DEB1CDDBE9500BFDA8C</string>
-				<string>8FEE7DF61CDDBE9500BFDA8C</string>
-			</array>
-		</dict>
-		<key>8FEE7DD31CDDBE9400BFDA8C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8FEE7DFE1CDDBE9500BFDA8C</string>
-				<string>8FEE7DFF1CDDBE9500BFDA8C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8FEE7DD41CDDBE9400BFDA8C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8FEE7DDE1CDDBE9400BFDA8C</string>
-				<string>8FEE7DDC1CDDBE9400BFDA8C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8FEE7DD51CDDBE9400BFDA8C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8FEE7E0A1CDDBFC400BFDA8C</string>
-				<string>F4B639FD6333C8F10E4C7543</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8FEE7DD61CDDBE9400BFDA8C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8FEE7DE61CDDBE9400BFDA8C</string>
-				<string>8FEE7DE31CDDBE9400BFDA8C</string>
-				<string>8FEE7DE11CDDBE9400BFDA8C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8FEE7DD71CDDBE9400BFDA8C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8FEE7E001CDDBE9500BFDA8C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>64F48F304B00B0A8B7128170</string>
-				<string>8FEE7DD41CDDBE9400BFDA8C</string>
-				<string>8FEE7DD51CDDBE9400BFDA8C</string>
-				<string>8FEE7DD61CDDBE9400BFDA8C</string>
-				<string>F3C7710972358AFA8AE3EBEE</string>
-				<string>43F2F015A74B2A4B897FD594</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>HunterMap</string>
-			<key>productName</key>
-			<string>HunterMap</string>
-			<key>productReference</key>
-			<string>8FEE7DD81CDDBE9400BFDA8C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>8FEE7DD81CDDBE9400BFDA8C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>HunterMap.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8FEE7DD91CDDBE9400BFDA8C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8FEE7DD81CDDBE9400BFDA8C</string>
-				<string>8FEE7DEC1CDDBE9500BFDA8C</string>
-				<string>8FEE7DF71CDDBE9500BFDA8C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FEE7DDA1CDDBE9400BFDA8C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8FEE7DDB1CDDBE9400BFDA8C</string>
-				<string>8FEE7DDD1CDDBE9400BFDA8C</string>
-				<string>8FEE7DDF1CDDBE9400BFDA8C</string>
-				<string>8FEE7DE21CDDBE9400BFDA8C</string>
-				<string>8FEE7DE41CDDBE9400BFDA8C</string>
-				<string>8FEE7DE71CDDBE9400BFDA8C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>HunterMap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FEE7DDB1CDDBE9400BFDA8C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FEE7DDC1CDDBE9400BFDA8C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8FEE7DDB1CDDBE9400BFDA8C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8FEE7DDD1CDDBE9400BFDA8C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FEE7DDE1CDDBE9400BFDA8C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8FEE7DDD1CDDBE9400BFDA8C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8FEE7DDF1CDDBE9400BFDA8C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8FEE7DE01CDDBE9400BFDA8C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FEE7DE01CDDBE9400BFDA8C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FEE7DE11CDDBE9400BFDA8C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8FEE7DDF1CDDBE9400BFDA8C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8FEE7DE21CDDBE9400BFDA8C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FEE7DE31CDDBE9400BFDA8C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8FEE7DE21CDDBE9400BFDA8C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8FEE7DE41CDDBE9400BFDA8C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8FEE7DE51CDDBE9400BFDA8C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FEE7DE51CDDBE9400BFDA8C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FEE7DE61CDDBE9400BFDA8C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8FEE7DE41CDDBE9400BFDA8C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8FEE7DE71CDDBE9400BFDA8C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FEE7DE81CDDBE9500BFDA8C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8FEE7DF11CDDBE9500BFDA8C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8FEE7DE91CDDBE9500BFDA8C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8FEE7DEA1CDDBE9500BFDA8C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8FEE7DEB1CDDBE9500BFDA8C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8FEE7E031CDDBE9500BFDA8C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8FEE7DE81CDDBE9500BFDA8C</string>
-				<string>8FEE7DE91CDDBE9500BFDA8C</string>
-				<string>8FEE7DEA1CDDBE9500BFDA8C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>8FEE7DEE1CDDBE9500BFDA8C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>HunterMapTests</string>
-			<key>productName</key>
-			<string>HunterMapTests</string>
-			<key>productReference</key>
-			<string>8FEE7DEC1CDDBE9500BFDA8C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>8FEE7DEC1CDDBE9500BFDA8C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>HunterMapTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8FEE7DED1CDDBE9500BFDA8C</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>8FEE7DD01CDDBE9400BFDA8C</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>8FEE7DD71CDDBE9400BFDA8C</string>
-			<key>remoteInfo</key>
-			<string>HunterMap</string>
-		</dict>
-		<key>8FEE7DEE1CDDBE9500BFDA8C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>8FEE7DD71CDDBE9400BFDA8C</string>
-			<key>targetProxy</key>
-			<string>8FEE7DED1CDDBE9500BFDA8C</string>
-		</dict>
-		<key>8FEE7DEF1CDDBE9500BFDA8C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8FEE7DF01CDDBE9500BFDA8C</string>
-				<string>8FEE7DF21CDDBE9500BFDA8C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>HunterMapTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FEE7DF01CDDBE9500BFDA8C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>HunterMapTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FEE7DF11CDDBE9500BFDA8C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8FEE7DF01CDDBE9500BFDA8C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8FEE7DF21CDDBE9500BFDA8C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FEE7DF31CDDBE9500BFDA8C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8FEE7DFC1CDDBE9500BFDA8C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8FEE7DF41CDDBE9500BFDA8C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8FEE7DF51CDDBE9500BFDA8C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8FEE7DF61CDDBE9500BFDA8C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8FEE7E061CDDBE9500BFDA8C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8FEE7DF31CDDBE9500BFDA8C</string>
-				<string>8FEE7DF41CDDBE9500BFDA8C</string>
-				<string>8FEE7DF51CDDBE9500BFDA8C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>8FEE7DF91CDDBE9500BFDA8C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>HunterMapUITests</string>
-			<key>productName</key>
-			<string>HunterMapUITests</string>
-			<key>productReference</key>
-			<string>8FEE7DF71CDDBE9500BFDA8C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>8FEE7DF71CDDBE9500BFDA8C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>HunterMapUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8FEE7DF81CDDBE9500BFDA8C</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>8FEE7DD01CDDBE9400BFDA8C</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>8FEE7DD71CDDBE9400BFDA8C</string>
-			<key>remoteInfo</key>
-			<string>HunterMap</string>
-		</dict>
-		<key>8FEE7DF91CDDBE9500BFDA8C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>8FEE7DD71CDDBE9400BFDA8C</string>
-			<key>targetProxy</key>
-			<string>8FEE7DF81CDDBE9500BFDA8C</string>
-		</dict>
-		<key>8FEE7DFA1CDDBE9500BFDA8C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8FEE7DFB1CDDBE9500BFDA8C</string>
-				<string>8FEE7DFD1CDDBE9500BFDA8C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>HunterMapUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FEE7DFB1CDDBE9500BFDA8C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>HunterMapUITests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FEE7DFC1CDDBE9500BFDA8C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8FEE7DFB1CDDBE9500BFDA8C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8FEE7DFD1CDDBE9500BFDA8C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FEE7DFE1CDDBE9500BFDA8C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8FEE7DFF1CDDBE9500BFDA8C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8FEE7E001CDDBE9500BFDA8C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8FEE7E011CDDBE9500BFDA8C</string>
-				<string>8FEE7E021CDDBE9500BFDA8C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8FEE7E011CDDBE9500BFDA8C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E6F4C36183B1839A4D853573</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HunterMap/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.1tsuki.HunterMap</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8FEE7E021CDDBE9500BFDA8C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B1862CA8DFE98846A93327FE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HunterMap/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.1tsuki.HunterMap</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8FEE7E031CDDBE9500BFDA8C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8FEE7E041CDDBE9500BFDA8C</string>
-				<string>8FEE7E051CDDBE9500BFDA8C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8FEE7E041CDDBE9500BFDA8C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HunterMapTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.1tsuki.HunterMapTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/HunterMap.app/HunterMap</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8FEE7E051CDDBE9500BFDA8C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HunterMapTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.1tsuki.HunterMapTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/HunterMap.app/HunterMap</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8FEE7E061CDDBE9500BFDA8C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8FEE7E071CDDBE9500BFDA8C</string>
-				<string>8FEE7E081CDDBE9500BFDA8C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8FEE7E071CDDBE9500BFDA8C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>HunterMapUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.1tsuki.HunterMapUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>HunterMap</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8FEE7E081CDDBE9500BFDA8C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>HunterMapUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.1tsuki.HunterMapUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>HunterMap</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8FEE7E091CDDBFC400BFDA8C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>MapKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/MapKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>8FEE7E0A1CDDBFC400BFDA8C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8FEE7E091CDDBFC400BFDA8C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B1862CA8DFE98846A93327FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-HunterMap.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-HunterMap/Pods-HunterMap.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4AD76B50E0407A7333C39A0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EFA93F866B87D60C20FCCC25</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E6F4C36183B1839A4D853573</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-HunterMap.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-HunterMap/Pods-HunterMap.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFA93F866B87D60C20FCCC25</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-HunterMap.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>F3C7710972358AFA8AE3EBEE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-HunterMap/Pods-HunterMap-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>F4B639FD6333C8F10E4C7543</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFA93F866B87D60C20FCCC25</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>8FEE7DD01CDDBE9400BFDA8C</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06B57FFF565B7E85FB41A512 /* Pods_HunterMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6921E72053184F938B5C6BC4 /* Pods_HunterMap.framework */; };
+		0C27B835E10B5424339E8287 /* Pods_HunterMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7F6059BDAC7230E764FFFA /* Pods_HunterMapTests.framework */; };
+		8F4E8EE81CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F4E8EE51CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.dbf */; };
+		8F4E8EE91CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F4E8EE61CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shp */; };
+		8F4E8EEA1CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F4E8EE71CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shx */; };
+		8FEE7DDC1CDDBE9400BFDA8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE7DDB1CDDBE9400BFDA8C /* AppDelegate.swift */; };
+		8FEE7DDE1CDDBE9400BFDA8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE7DDD1CDDBE9400BFDA8C /* ViewController.swift */; };
+		8FEE7DE11CDDBE9400BFDA8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FEE7DDF1CDDBE9400BFDA8C /* Main.storyboard */; };
+		8FEE7DE31CDDBE9400BFDA8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FEE7DE21CDDBE9400BFDA8C /* Assets.xcassets */; };
+		8FEE7DE61CDDBE9400BFDA8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FEE7DE41CDDBE9400BFDA8C /* LaunchScreen.storyboard */; };
+		8FEE7DF11CDDBE9500BFDA8C /* HunterMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE7DF01CDDBE9500BFDA8C /* HunterMapTests.swift */; };
+		8FEE7DFC1CDDBE9500BFDA8C /* HunterMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE7DFB1CDDBE9500BFDA8C /* HunterMapUITests.swift */; };
+		8FEE7E0A1CDDBFC400BFDA8C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEE7E091CDDBFC400BFDA8C /* MapKit.framework */; };
+		BB9CCBB882A65F9CFA474A67 /* Pods_HunterMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5DD7F817A4E15A7CD51DC1 /* Pods_HunterMapUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FEE7DED1CDDBE9500BFDA8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FEE7DD01CDDBE9400BFDA8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FEE7DD71CDDBE9400BFDA8C;
+			remoteInfo = HunterMap;
+		};
+		8FEE7DF81CDDBE9500BFDA8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FEE7DD01CDDBE9400BFDA8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FEE7DD71CDDBE9400BFDA8C;
+			remoteInfo = HunterMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09339115D8D91C56FF3A4DA4 /* Pods-HunterMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HunterMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HunterMap/Pods-HunterMap.debug.xcconfig"; sourceTree = "<group>"; };
+		17ED07828BF9012C7F6DF777 /* Pods-HunterMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HunterMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-HunterMap/Pods-HunterMap.release.xcconfig"; sourceTree = "<group>"; };
+		424F669D70DED33BA1965E1C /* Pods-HunterMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HunterMapUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HunterMapUITests/Pods-HunterMapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6921E72053184F938B5C6BC4 /* Pods_HunterMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HunterMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		702ED2A17F7BA9D5A2134B9B /* Pods-HunterMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HunterMapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HunterMapTests/Pods-HunterMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B5DD7F817A4E15A7CD51DC1 /* Pods_HunterMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HunterMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4E8EE51CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "A15-09_14_WildlifePreserve.dbf"; path = "HunterMap/Data/Kanagawa/A15-09_14_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F4E8EE61CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = "A15-09_14_WildlifePreserve.shp"; path = "HunterMap/Data/Kanagawa/A15-09_14_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F4E8EE71CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; name = "A15-09_14_WildlifePreserve.shx"; path = "HunterMap/Data/Kanagawa/A15-09_14_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8FEE7DD81CDDBE9400BFDA8C /* HunterMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HunterMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEE7DDB1CDDBE9400BFDA8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FEE7DDD1CDDBE9400BFDA8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FEE7DE01CDDBE9400BFDA8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FEE7DE21CDDBE9400BFDA8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FEE7DE51CDDBE9400BFDA8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FEE7DE71CDDBE9400BFDA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FEE7DEC1CDDBE9500BFDA8C /* HunterMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HunterMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEE7DF01CDDBE9500BFDA8C /* HunterMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunterMapTests.swift; sourceTree = "<group>"; };
+		8FEE7DF21CDDBE9500BFDA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FEE7DF71CDDBE9500BFDA8C /* HunterMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HunterMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEE7DFB1CDDBE9500BFDA8C /* HunterMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunterMapUITests.swift; sourceTree = "<group>"; };
+		8FEE7DFD1CDDBE9500BFDA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FEE7E091CDDBFC400BFDA8C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A79A6867572C9A1407693286 /* Pods-HunterMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HunterMapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HunterMapTests/Pods-HunterMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		C38D4888E05BE74C33C49DD3 /* Pods-HunterMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HunterMapUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HunterMapUITests/Pods-HunterMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA7F6059BDAC7230E764FFFA /* Pods_HunterMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HunterMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FEE7DD51CDDBE9400BFDA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEE7E0A1CDDBFC400BFDA8C /* MapKit.framework in Frameworks */,
+				06B57FFF565B7E85FB41A512 /* Pods_HunterMap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEE7DE91CDDBE9500BFDA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C27B835E10B5424339E8287 /* Pods_HunterMapTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEE7DF41CDDBE9500BFDA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9CCBB882A65F9CFA474A67 /* Pods_HunterMapUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7EE5012D954236167C2311 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6921E72053184F938B5C6BC4 /* Pods_HunterMap.framework */,
+				CA7F6059BDAC7230E764FFFA /* Pods_HunterMapTests.framework */,
+				7B5DD7F817A4E15A7CD51DC1 /* Pods_HunterMapUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FEE7DCF1CDDBE9400BFDA8C = {
+			isa = PBXGroup;
+			children = (
+				8F4E8EE51CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.dbf */,
+				8F4E8EE61CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shp */,
+				8F4E8EE71CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shx */,
+				8FEE7E091CDDBFC400BFDA8C /* MapKit.framework */,
+				8FEE7DDA1CDDBE9400BFDA8C /* HunterMap */,
+				8FEE7DEF1CDDBE9500BFDA8C /* HunterMapTests */,
+				8FEE7DFA1CDDBE9500BFDA8C /* HunterMapUITests */,
+				8FEE7DD91CDDBE9400BFDA8C /* Products */,
+				E53042CBCD210AB9118E7C38 /* Pods */,
+				3F7EE5012D954236167C2311 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8FEE7DD91CDDBE9400BFDA8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FEE7DD81CDDBE9400BFDA8C /* HunterMap.app */,
+				8FEE7DEC1CDDBE9500BFDA8C /* HunterMapTests.xctest */,
+				8FEE7DF71CDDBE9500BFDA8C /* HunterMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FEE7DDA1CDDBE9400BFDA8C /* HunterMap */ = {
+			isa = PBXGroup;
+			children = (
+				8FEE7DDB1CDDBE9400BFDA8C /* AppDelegate.swift */,
+				8FEE7DDD1CDDBE9400BFDA8C /* ViewController.swift */,
+				8FEE7DDF1CDDBE9400BFDA8C /* Main.storyboard */,
+				8FEE7DE21CDDBE9400BFDA8C /* Assets.xcassets */,
+				8FEE7DE41CDDBE9400BFDA8C /* LaunchScreen.storyboard */,
+				8FEE7DE71CDDBE9400BFDA8C /* Info.plist */,
+			);
+			path = HunterMap;
+			sourceTree = "<group>";
+		};
+		8FEE7DEF1CDDBE9500BFDA8C /* HunterMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FEE7DF01CDDBE9500BFDA8C /* HunterMapTests.swift */,
+				8FEE7DF21CDDBE9500BFDA8C /* Info.plist */,
+			);
+			path = HunterMapTests;
+			sourceTree = "<group>";
+		};
+		8FEE7DFA1CDDBE9500BFDA8C /* HunterMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FEE7DFB1CDDBE9500BFDA8C /* HunterMapUITests.swift */,
+				8FEE7DFD1CDDBE9500BFDA8C /* Info.plist */,
+			);
+			path = HunterMapUITests;
+			sourceTree = "<group>";
+		};
+		E53042CBCD210AB9118E7C38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09339115D8D91C56FF3A4DA4 /* Pods-HunterMap.debug.xcconfig */,
+				17ED07828BF9012C7F6DF777 /* Pods-HunterMap.release.xcconfig */,
+				702ED2A17F7BA9D5A2134B9B /* Pods-HunterMapTests.debug.xcconfig */,
+				A79A6867572C9A1407693286 /* Pods-HunterMapTests.release.xcconfig */,
+				C38D4888E05BE74C33C49DD3 /* Pods-HunterMapUITests.debug.xcconfig */,
+				424F669D70DED33BA1965E1C /* Pods-HunterMapUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FEE7DD71CDDBE9400BFDA8C /* HunterMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FEE7E001CDDBE9500BFDA8C /* Build configuration list for PBXNativeTarget "HunterMap" */;
+			buildPhases = (
+				7BF153736E29264B297F0BCD /* 📦 Check Pods Manifest.lock */,
+				8FEE7DD41CDDBE9400BFDA8C /* Sources */,
+				8FEE7DD51CDDBE9400BFDA8C /* Frameworks */,
+				8FEE7DD61CDDBE9400BFDA8C /* Resources */,
+				46FAEE986BE0BA24CAC89C2A /* 📦 Embed Pods Frameworks */,
+				2158D3A83C9E058166969F74 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HunterMap;
+			productName = HunterMap;
+			productReference = 8FEE7DD81CDDBE9400BFDA8C /* HunterMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FEE7DEB1CDDBE9500BFDA8C /* HunterMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FEE7E031CDDBE9500BFDA8C /* Build configuration list for PBXNativeTarget "HunterMapTests" */;
+			buildPhases = (
+				77149F0F14F7D5D4A111930D /* 📦 Check Pods Manifest.lock */,
+				8FEE7DE81CDDBE9500BFDA8C /* Sources */,
+				8FEE7DE91CDDBE9500BFDA8C /* Frameworks */,
+				8FEE7DEA1CDDBE9500BFDA8C /* Resources */,
+				F72E144F22DE8F8F61127AF1 /* 📦 Embed Pods Frameworks */,
+				C3244C5AE0619EB9F143DAB9 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FEE7DEE1CDDBE9500BFDA8C /* PBXTargetDependency */,
+			);
+			name = HunterMapTests;
+			productName = HunterMapTests;
+			productReference = 8FEE7DEC1CDDBE9500BFDA8C /* HunterMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FEE7DF61CDDBE9500BFDA8C /* HunterMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FEE7E061CDDBE9500BFDA8C /* Build configuration list for PBXNativeTarget "HunterMapUITests" */;
+			buildPhases = (
+				366A0BA057AB94FE79D624B6 /* 📦 Check Pods Manifest.lock */,
+				8FEE7DF31CDDBE9500BFDA8C /* Sources */,
+				8FEE7DF41CDDBE9500BFDA8C /* Frameworks */,
+				8FEE7DF51CDDBE9500BFDA8C /* Resources */,
+				C6F62E076E23B47DD2CA2AFD /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FEE7DF91CDDBE9500BFDA8C /* PBXTargetDependency */,
+			);
+			name = HunterMapUITests;
+			productName = HunterMapUITests;
+			productReference = 8FEE7DF71CDDBE9500BFDA8C /* HunterMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FEE7DD01CDDBE9400BFDA8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = 1tsuki;
+				TargetAttributes = {
+					8FEE7DD71CDDBE9400BFDA8C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8FEE7DEB1CDDBE9500BFDA8C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8FEE7DD71CDDBE9400BFDA8C;
+					};
+					8FEE7DF61CDDBE9500BFDA8C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8FEE7DD71CDDBE9400BFDA8C;
+					};
+				};
+			};
+			buildConfigurationList = 8FEE7DD31CDDBE9400BFDA8C /* Build configuration list for PBXProject "HunterMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FEE7DCF1CDDBE9400BFDA8C;
+			productRefGroup = 8FEE7DD91CDDBE9400BFDA8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FEE7DD71CDDBE9400BFDA8C /* HunterMap */,
+				8FEE7DEB1CDDBE9500BFDA8C /* HunterMapTests */,
+				8FEE7DF61CDDBE9500BFDA8C /* HunterMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FEE7DD61CDDBE9400BFDA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4E8EE81CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.dbf in Resources */,
+				8F4E8EE91CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shp in Resources */,
+				8F4E8EEA1CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shx in Resources */,
+				8FEE7DE61CDDBE9400BFDA8C /* LaunchScreen.storyboard in Resources */,
+				8FEE7DE31CDDBE9400BFDA8C /* Assets.xcassets in Resources */,
+				8FEE7DE11CDDBE9400BFDA8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEE7DEA1CDDBE9500BFDA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEE7DF51CDDBE9500BFDA8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2158D3A83C9E058166969F74 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HunterMap/Pods-HunterMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		366A0BA057AB94FE79D624B6 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46FAEE986BE0BA24CAC89C2A /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HunterMap/Pods-HunterMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77149F0F14F7D5D4A111930D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7BF153736E29264B297F0BCD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3244C5AE0619EB9F143DAB9 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HunterMapTests/Pods-HunterMapTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6F62E076E23B47DD2CA2AFD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HunterMapUITests/Pods-HunterMapUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F72E144F22DE8F8F61127AF1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HunterMapTests/Pods-HunterMapTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FEE7DD41CDDBE9400BFDA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEE7DDE1CDDBE9400BFDA8C /* ViewController.swift in Sources */,
+				8FEE7DDC1CDDBE9400BFDA8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEE7DE81CDDBE9500BFDA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEE7DF11CDDBE9500BFDA8C /* HunterMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEE7DF31CDDBE9500BFDA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEE7DFC1CDDBE9500BFDA8C /* HunterMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FEE7DEE1CDDBE9500BFDA8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FEE7DD71CDDBE9400BFDA8C /* HunterMap */;
+			targetProxy = 8FEE7DED1CDDBE9500BFDA8C /* PBXContainerItemProxy */;
+		};
+		8FEE7DF91CDDBE9500BFDA8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FEE7DD71CDDBE9400BFDA8C /* HunterMap */;
+			targetProxy = 8FEE7DF81CDDBE9500BFDA8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FEE7DDF1CDDBE9400BFDA8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FEE7DE01CDDBE9400BFDA8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FEE7DE41CDDBE9400BFDA8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FEE7DE51CDDBE9400BFDA8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FEE7DFE1CDDBE9500BFDA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FEE7DFF1CDDBE9500BFDA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FEE7E011CDDBE9500BFDA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09339115D8D91C56FF3A4DA4 /* Pods-HunterMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HunterMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1tsuki.HunterMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FEE7E021CDDBE9500BFDA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17ED07828BF9012C7F6DF777 /* Pods-HunterMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HunterMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1tsuki.HunterMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FEE7E041CDDBE9500BFDA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 702ED2A17F7BA9D5A2134B9B /* Pods-HunterMapTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HunterMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1tsuki.HunterMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HunterMap.app/HunterMap";
+			};
+			name = Debug;
+		};
+		8FEE7E051CDDBE9500BFDA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A79A6867572C9A1407693286 /* Pods-HunterMapTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HunterMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1tsuki.HunterMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HunterMap.app/HunterMap";
+			};
+			name = Release;
+		};
+		8FEE7E071CDDBE9500BFDA8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38D4888E05BE74C33C49DD3 /* Pods-HunterMapUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = HunterMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1tsuki.HunterMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HunterMap;
+			};
+			name = Debug;
+		};
+		8FEE7E081CDDBE9500BFDA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 424F669D70DED33BA1965E1C /* Pods-HunterMapUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = HunterMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1tsuki.HunterMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HunterMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FEE7DD31CDDBE9400BFDA8C /* Build configuration list for PBXProject "HunterMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEE7DFE1CDDBE9500BFDA8C /* Debug */,
+				8FEE7DFF1CDDBE9500BFDA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FEE7E001CDDBE9500BFDA8C /* Build configuration list for PBXNativeTarget "HunterMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEE7E011CDDBE9500BFDA8C /* Debug */,
+				8FEE7E021CDDBE9500BFDA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FEE7E031CDDBE9500BFDA8C /* Build configuration list for PBXNativeTarget "HunterMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEE7E041CDDBE9500BFDA8C /* Debug */,
+				8FEE7E051CDDBE9500BFDA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FEE7E061CDDBE9500BFDA8C /* Build configuration list for PBXNativeTarget "HunterMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEE7E071CDDBE9500BFDA8C /* Debug */,
+				8FEE7E081CDDBE9500BFDA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FEE7DD01CDDBE9400BFDA8C /* Project object */;
+}
