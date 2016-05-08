@@ -66,7 +66,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
         
-        let region = MKCoordinateRegion(center : center, span: MKCoordinateSpan(latitudeDelta: 1, longitudeDelta: 1))
+        let region = MKCoordinateRegion(center : center, span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5))
         
         self.mapView.setRegion(region, animated: true)
     }
@@ -83,44 +83,43 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
      * load shape file and draw area on map
      */
     func loadShapeFile(path: String) {
-        let shapeHandle = SHPOpen(path, "rb")
+        let shp = SHPOpen(path, "rb")
         
         var pnEntities: Int32 = 0
         var pnShapeType: Int32 = 0
-        SHPGetInfo(shapeHandle, &pnEntities, &pnShapeType, nil, nil)
+        SHPGetInfo(shp, &pnEntities, &pnShapeType, nil, nil)
         
         // loop all SHPObjects
         for i in 0..<pnEntities {
-            let shape = SHPReadObject(shapeHandle, i).memory
+            let shpObject = SHPReadObject(shp, i).memory
             
-            shape.nSHPType
+            let numParts = Int(shpObject.nParts)
+            let totalVertexCount = Int(shpObject.nVertices)
             
-            let numParts = Int(shape.nParts)
-            let totalVertexCount = Int(shape.nVertices)
-            
-            // loop all Vertexes
+            // loop all Vertices
             for j in 0..<numParts {
-                let startVertex = Int(shape.panPartStart[j])
-                let partVertexCount = (j == numParts-1) ? totalVertexCount - startVertex : Int(shape.panPartStart[j+1]) - startVertex
+                let startVertex = Int(shpObject.panPartStart[j])
+                let partVertexCount = (j == numParts-1) ? totalVertexCount - startVertex : Int(shpObject.panPartStart[j+1]) - startVertex
                 let endIndex = startVertex + partVertexCount
                 
                 var coordinates: [CLLocationCoordinate2D] = []
                 // vertexes
-                for k in startVertex...endIndex {
-                    let coord = CLLocationCoordinate2DMake(shape.padfY[k], shape.padfX[k])
+                for k in startVertex..<endIndex {
+                    let coord = CLLocationCoordinate2DMake(shpObject.padfY[k], shpObject.padfX[k])
                     coordinates.append(coord)
                 }
                 let polygon = MKPolygon(coordinates: &coordinates, count: coordinates.count)
                 mapView.addOverlay(polygon)
             }
         }
-        
-        SHPClose(shapeHandle)
+        SHPClose(shp)
     }
     
     func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOverlayRenderer {
         let polygonView = MKPolygonRenderer(overlay: overlay)
-        polygonView.strokeColor = UIColor.magentaColor()
+        polygonView.strokeColor = UIColor.blueColor().colorWithAlphaComponent(0.2)
+        polygonView.fillColor = UIColor.cyanColor().colorWithAlphaComponent(0.7)
+        polygonView.lineWidth = 3
         
         return polygonView
     }
