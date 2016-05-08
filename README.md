@@ -1,11 +1,11 @@
 # HunterMap
 ## TL;DR
-iOS App to show variable informations for hunters
+iOS App to show valuable information for hunters
 
 ## Features
 Done
-- [x] show Hunting Restricted area on map
-* can't show _Certain Hunting Equipment Prohibited Area_, neither _Paid Game Hunting Area_ because of no data source
+- [x] Restricted Area map
+ -  can't show _Certain Hunting Equipment Prohibited Area_, neither _Paid Game Hunting Area_ currently because of no data source
 
 Todos
 - [ ] Trace Hunting route
