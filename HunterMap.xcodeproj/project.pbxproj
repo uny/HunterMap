@@ -12,6 +12,12 @@
 		8F4E8EE81CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F4E8EE51CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.dbf */; };
 		8F4E8EE91CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F4E8EE61CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shp */; };
 		8F4E8EEA1CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F4E8EE71CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shx */; };
+		8F4E8EED1CDF4C7B00A865E2 /* HMGameReserveOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EEC1CDF4C7B00A865E2 /* HMGameReserveOverlay.swift */; };
+		8F4E8EEF1CDF4C9C00A865E2 /* HMGameReserveOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EEE1CDF4C9C00A865E2 /* HMGameReserveOverlayView.swift */; };
+		8F4E8EF11CDF4CC400A865E2 /* HMSpecialProtectionAreaOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EF01CDF4CC400A865E2 /* HMSpecialProtectionAreaOverlay.swift */; };
+		8F4E8EF31CDF4CCD00A865E2 /* HMSpecialProtectionAreaOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EF21CDF4CCD00A865E2 /* HMSpecialProtectionAreaOverlayView.swift */; };
+		8F4E8EF51CDF4D1200A865E2 /* HMTempGameReserveOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EF41CDF4D1200A865E2 /* HMTempGameReserveOverlay.swift */; };
+		8F4E8EF71CDF4D1D00A865E2 /* HMTempGameReserveOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EF61CDF4D1D00A865E2 /* HMTempGameReserveOverlayView.swift */; };
 		8FEE7DDC1CDDBE9400BFDA8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE7DDB1CDDBE9400BFDA8C /* AppDelegate.swift */; };
 		8FEE7DDE1CDDBE9400BFDA8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE7DDD1CDDBE9400BFDA8C /* ViewController.swift */; };
 		8FEE7DE11CDDBE9400BFDA8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FEE7DDF1CDDBE9400BFDA8C /* Main.storyboard */; };
@@ -50,6 +56,12 @@
 		8F4E8EE51CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "A15-09_14_WildlifePreserve.dbf"; path = "HunterMap/Data/Kanagawa/A15-09_14_WildlifePreserve.dbf"; sourceTree = "<group>"; };
 		8F4E8EE61CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = "A15-09_14_WildlifePreserve.shp"; path = "HunterMap/Data/Kanagawa/A15-09_14_WildlifePreserve.shp"; sourceTree = "<group>"; };
 		8F4E8EE71CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; name = "A15-09_14_WildlifePreserve.shx"; path = "HunterMap/Data/Kanagawa/A15-09_14_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F4E8EEC1CDF4C7B00A865E2 /* HMGameReserveOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMGameReserveOverlay.swift; sourceTree = "<group>"; };
+		8F4E8EEE1CDF4C9C00A865E2 /* HMGameReserveOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMGameReserveOverlayView.swift; sourceTree = "<group>"; };
+		8F4E8EF01CDF4CC400A865E2 /* HMSpecialProtectionAreaOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSpecialProtectionAreaOverlay.swift; sourceTree = "<group>"; };
+		8F4E8EF21CDF4CCD00A865E2 /* HMSpecialProtectionAreaOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSpecialProtectionAreaOverlayView.swift; sourceTree = "<group>"; };
+		8F4E8EF41CDF4D1200A865E2 /* HMTempGameReserveOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMTempGameReserveOverlay.swift; sourceTree = "<group>"; };
+		8F4E8EF61CDF4D1D00A865E2 /* HMTempGameReserveOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMTempGameReserveOverlayView.swift; sourceTree = "<group>"; };
 		8FEE7DD81CDDBE9400BFDA8C /* HunterMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HunterMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FEE7DDB1CDDBE9400BFDA8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FEE7DDD1CDDBE9400BFDA8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +120,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8F4E8EEB1CDF4C4100A865E2 /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				8F4E8EEC1CDF4C7B00A865E2 /* HMGameReserveOverlay.swift */,
+				8F4E8EEE1CDF4C9C00A865E2 /* HMGameReserveOverlayView.swift */,
+				8F4E8EF01CDF4CC400A865E2 /* HMSpecialProtectionAreaOverlay.swift */,
+				8F4E8EF21CDF4CCD00A865E2 /* HMSpecialProtectionAreaOverlayView.swift */,
+				8F4E8EF41CDF4D1200A865E2 /* HMTempGameReserveOverlay.swift */,
+				8F4E8EF61CDF4D1D00A865E2 /* HMTempGameReserveOverlayView.swift */,
+			);
+			name = Overlays;
+			sourceTree = "<group>";
+		};
 		8FEE7DCF1CDDBE9400BFDA8C = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +162,7 @@
 		8FEE7DDA1CDDBE9400BFDA8C /* HunterMap */ = {
 			isa = PBXGroup;
 			children = (
+				8F4E8EEB1CDF4C4100A865E2 /* Overlays */,
 				8FEE7DDB1CDDBE9400BFDA8C /* AppDelegate.swift */,
 				8FEE7DDD1CDDBE9400BFDA8C /* ViewController.swift */,
 				8FEE7DDF1CDDBE9400BFDA8C /* Main.storyboard */,
@@ -443,8 +469,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F4E8EF11CDF4CC400A865E2 /* HMSpecialProtectionAreaOverlay.swift in Sources */,
 				8FEE7DDE1CDDBE9400BFDA8C /* ViewController.swift in Sources */,
+				8F4E8EEF1CDF4C9C00A865E2 /* HMGameReserveOverlayView.swift in Sources */,
+				8F4E8EF51CDF4D1200A865E2 /* HMTempGameReserveOverlay.swift in Sources */,
 				8FEE7DDC1CDDBE9400BFDA8C /* AppDelegate.swift in Sources */,
+				8F4E8EF31CDF4CCD00A865E2 /* HMSpecialProtectionAreaOverlayView.swift in Sources */,
+				8F4E8EED1CDF4C7B00A865E2 /* HMGameReserveOverlay.swift in Sources */,
+				8F4E8EF71CDF4D1D00A865E2 /* HMTempGameReserveOverlayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
