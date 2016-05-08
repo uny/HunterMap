@@ -12,9 +12,9 @@
 		8F4E8EE81CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F4E8EE51CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.dbf */; };
 		8F4E8EE91CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F4E8EE61CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shp */; };
 		8F4E8EEA1CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F4E8EE71CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shx */; };
-		8F4E8EED1CDF4C7B00A865E2 /* HMGameReserveOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EEC1CDF4C7B00A865E2 /* HMGameReserveOverlay.swift */; };
+		8F4E8EED1CDF4C7B00A865E2 /* HMWildlifeProtectionAreaOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EEC1CDF4C7B00A865E2 /* HMWildlifeProtectionAreaOverlay.swift */; };
 		8F4E8EF11CDF4CC400A865E2 /* HMSpecialProtectionAreaOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EF01CDF4CC400A865E2 /* HMSpecialProtectionAreaOverlay.swift */; };
-		8F4E8EF51CDF4D1200A865E2 /* HMTempGameReserveOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EF41CDF4D1200A865E2 /* HMTempGameReserveOverlay.swift */; };
+		8F4E8EF51CDF4D1200A865E2 /* HMGameReserveOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EF41CDF4D1200A865E2 /* HMGameReserveOverlay.swift */; };
 		8F4E8EFA1CDF6A5500A865E2 /* ShapeFileUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EF91CDF6A5500A865E2 /* ShapeFileUtil.swift */; };
 		8F4E8EFC1CDF74BA00A865E2 /* RestrictedAreaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EFB1CDF74BA00A865E2 /* RestrictedAreaModel.swift */; };
 		8FEE7DDC1CDDBE9400BFDA8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE7DDB1CDDBE9400BFDA8C /* AppDelegate.swift */; };
@@ -55,9 +55,9 @@
 		8F4E8EE51CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "A15-09_14_WildlifePreserve.dbf"; path = "HunterMap/Data/Kanagawa/A15-09_14_WildlifePreserve.dbf"; sourceTree = "<group>"; };
 		8F4E8EE61CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = "A15-09_14_WildlifePreserve.shp"; path = "HunterMap/Data/Kanagawa/A15-09_14_WildlifePreserve.shp"; sourceTree = "<group>"; };
 		8F4E8EE71CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; name = "A15-09_14_WildlifePreserve.shx"; path = "HunterMap/Data/Kanagawa/A15-09_14_WildlifePreserve.shx"; sourceTree = "<group>"; };
-		8F4E8EEC1CDF4C7B00A865E2 /* HMGameReserveOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMGameReserveOverlay.swift; sourceTree = "<group>"; };
+		8F4E8EEC1CDF4C7B00A865E2 /* HMWildlifeProtectionAreaOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMWildlifeProtectionAreaOverlay.swift; sourceTree = "<group>"; };
 		8F4E8EF01CDF4CC400A865E2 /* HMSpecialProtectionAreaOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSpecialProtectionAreaOverlay.swift; sourceTree = "<group>"; };
-		8F4E8EF41CDF4D1200A865E2 /* HMTempGameReserveOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMTempGameReserveOverlay.swift; sourceTree = "<group>"; };
+		8F4E8EF41CDF4D1200A865E2 /* HMGameReserveOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMGameReserveOverlay.swift; sourceTree = "<group>"; };
 		8F4E8EF91CDF6A5500A865E2 /* ShapeFileUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeFileUtil.swift; sourceTree = "<group>"; };
 		8F4E8EFB1CDF74BA00A865E2 /* RestrictedAreaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestrictedAreaModel.swift; sourceTree = "<group>"; };
 		8FEE7DD81CDDBE9400BFDA8C /* HunterMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HunterMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,9 +121,9 @@
 		8F4E8EEB1CDF4C4100A865E2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8F4E8EEC1CDF4C7B00A865E2 /* HMGameReserveOverlay.swift */,
+				8F4E8EEC1CDF4C7B00A865E2 /* HMWildlifeProtectionAreaOverlay.swift */,
 				8F4E8EF01CDF4CC400A865E2 /* HMSpecialProtectionAreaOverlay.swift */,
-				8F4E8EF41CDF4D1200A865E2 /* HMTempGameReserveOverlay.swift */,
+				8F4E8EF41CDF4D1200A865E2 /* HMGameReserveOverlay.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -484,10 +484,10 @@
 			files = (
 				8F4E8EF11CDF4CC400A865E2 /* HMSpecialProtectionAreaOverlay.swift in Sources */,
 				8FEE7DDE1CDDBE9400BFDA8C /* ViewController.swift in Sources */,
-				8F4E8EF51CDF4D1200A865E2 /* HMTempGameReserveOverlay.swift in Sources */,
+				8F4E8EF51CDF4D1200A865E2 /* HMGameReserveOverlay.swift in Sources */,
 				8FEE7DDC1CDDBE9400BFDA8C /* AppDelegate.swift in Sources */,
 				8F4E8EFC1CDF74BA00A865E2 /* RestrictedAreaModel.swift in Sources */,
-				8F4E8EED1CDF4C7B00A865E2 /* HMGameReserveOverlay.swift in Sources */,
+				8F4E8EED1CDF4C7B00A865E2 /* HMWildlifeProtectionAreaOverlay.swift in Sources */,
 				8F4E8EFA1CDF6A5500A865E2 /* ShapeFileUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

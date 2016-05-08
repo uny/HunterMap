@@ -83,14 +83,14 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         for var area in restrictedAreas {
             switch area.areaType {
-            case AreaType.GameReserve.rawValue:
-                let polygon = HMGameReserveOverlay(coordinates: &area.coordinates, count: area.coordinates.count)
+            case AreaType.WildlifeProtectionArea.rawValue:
+                let polygon = HMWildlifeProtectionAreaOverlay(coordinates: &area.coordinates, count: area.coordinates.count)
                 self.mapView.addOverlay(polygon)
             case AreaType.SpecialProtectionArea.rawValue:
                 let polygon = HMSpecialProtectionAreaOverlay(coordinates: &area.coordinates, count: area.coordinates.count)
                 self.mapView.addOverlay(polygon)
-            case AreaType.TempGameReserve.rawValue:
-                let polygon = HMTempGameReserveOverlay(coordinates: &area.coordinates, count: area.coordinates.count)
+            case AreaType.GameReserve.rawValue:
+                let polygon = HMGameReserveOverlay(coordinates: &area.coordinates, count: area.coordinates.count)
                 self.mapView.addOverlay(polygon)
             default:
                 let polygon = MKPolygon(coordinates: &area.coordinates, count: area.coordinates.count)
@@ -103,15 +103,15 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         let polygonView = MKPolygonRenderer(overlay: overlay)
         polygonView.lineWidth = 3
         
-        if overlay is HMGameReserveOverlay {
-            polygonView.strokeColor = UIColor.redColor().colorWithAlphaComponent(0.2)
+        if overlay is HMWildlifeProtectionAreaOverlay {
+            polygonView.strokeColor = UIColor.blackColor().colorWithAlphaComponent(0.2)
             polygonView.fillColor = UIColor.magentaColor().colorWithAlphaComponent(0.7)
         } else if overlay is HMSpecialProtectionAreaOverlay {
-            polygonView.strokeColor = UIColor.blueColor().colorWithAlphaComponent(0.2)
-            polygonView.fillColor = UIColor.cyanColor().colorWithAlphaComponent(0.7)
-        } else if overlay is HMTempGameReserveOverlay {
-            polygonView.strokeColor = UIColor.yellowColor().colorWithAlphaComponent(0.2)
-            polygonView.fillColor = UIColor.yellowColor().colorWithAlphaComponent(0.7)
+            polygonView.strokeColor = UIColor.blackColor().colorWithAlphaComponent(0.2)
+            polygonView.fillColor = UIColor.redColor().colorWithAlphaComponent(0.7)
+        } else if overlay is HMGameReserveOverlay {
+            polygonView.strokeColor = UIColor.blackColor().colorWithAlphaComponent(0.2)
+            polygonView.fillColor = UIColor.grayColor().colorWithAlphaComponent(0.7)
         } else {
             polygonView.strokeColor = UIColor.blackColor().colorWithAlphaComponent(0.2)
             polygonView.fillColor = UIColor.grayColor().colorWithAlphaComponent(0.7)

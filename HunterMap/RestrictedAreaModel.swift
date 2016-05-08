@@ -15,9 +15,11 @@ enum ShapeFiles: String {
 }
 
 enum AreaType: Int {
-    case GameReserve = 1
+    case WildlifeProtectionArea = 1
     case SpecialProtectionArea = 2
-    case TempGameReserve = 3
+    case GameReserve = 3
+    case PaidGameHuntingArea = 8
+    case CertainHuntingEquipmentProhibitedArea = 9
 }
 
 struct RestrictedArea {

@@ -1,5 +1,5 @@
 //
-//  HMGameReserveOverlay.swift
+//  HMTempGameReserveOverlay.swift
 //  HunterMap
 //
 //  Created by 佐橘　一旗 on 5/8/16.
@@ -12,4 +12,3 @@ import MapKit
 class HMGameReserveOverlay: MKPolygon {
     
 }
-
