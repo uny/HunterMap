@@ -10,8 +10,19 @@ import Foundation
 import MapKit
 import shapelib
 
+struct ShapeFileHandlerArgs {
+    let coordinates: [CLLocationCoordinate2D]
+    let maxLat: Double
+    let minLat: Double
+    let maxLng: Double
+    let minLng: Double
+    let dimension: Double
+    let shpObject: SHPObject
+    let dbf: DBFHandle
+}
 
 class ShapeFileUtil {
+    
     
     static let kShapeFileExtension = "shp"
     
@@ -22,7 +33,7 @@ class ShapeFileUtil {
     }
     
     // load shape file with handler method
-    static func loadShapeFile(path: String, handler: ((coordinates: [CLLocationCoordinate2D], shpObject: SHPObject, dbf: DBFHandle)->Void)?) {
+    static func loadShapeFile(path: String, handler: ((args: ShapeFileHandlerArgs)->Void)?) {
         // open dbf
         let dbf = DBFOpen(path, "rb")
         defer { DBFClose(dbf) }
@@ -53,9 +64,22 @@ class ShapeFileUtil {
                     coordinates.append(coord)
                 }
                 
-                handler?(coordinates: coordinates, shpObject: shpObject, dbf: dbf)
+                
+                handler?(args: ShapeFileHandlerArgs(
+                    coordinates: coordinates,
+                    maxLat: shpObject.dfYMax,
+                    minLat: shpObject.dfYMin,
+                    maxLng: shpObject.dfXMax,
+                    minLng: shpObject.dfXMin,
+                    dimension: getDimention(shpObject),
+                    shpObject: shpObject,
+                    dbf: dbf))
             }
             
         }
+    }
+    
+    static func getDimention(shpObject: SHPObject) -> Double {
+        return fabs(shpObject.dfXMax - shpObject.dfXMin) * fabs(shpObject.dfYMax - shpObject.dfYMin)
     }
 }

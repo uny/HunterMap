@@ -10,9 +10,6 @@
 		06B57FFF565B7E85FB41A512 /* Pods_HunterMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6921E72053184F938B5C6BC4 /* Pods_HunterMap.framework */; };
 		0C27B835E10B5424339E8287 /* Pods_HunterMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7F6059BDAC7230E764FFFA /* Pods_HunterMapTests.framework */; };
 		8F1FAD021CE0720A008C4762 /* icon_location.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1FAD011CE0720A008C4762 /* icon_location.png */; };
-		8F4E8EE81CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F4E8EE51CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.dbf */; };
-		8F4E8EE91CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F4E8EE61CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shp */; };
-		8F4E8EEA1CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F4E8EE71CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shx */; };
 		8F4E8EED1CDF4C7B00A865E2 /* HMWildlifeProtectionAreaOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EEC1CDF4C7B00A865E2 /* HMWildlifeProtectionAreaOverlay.swift */; };
 		8F4E8EF11CDF4CC400A865E2 /* HMSpecialProtectionAreaOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EF01CDF4CC400A865E2 /* HMSpecialProtectionAreaOverlay.swift */; };
 		8F4E8EF51CDF4D1200A865E2 /* HMGameReserveOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EF41CDF4D1200A865E2 /* HMGameReserveOverlay.swift */; };
@@ -20,6 +17,241 @@
 		8F4E8EFC1CDF74BA00A865E2 /* RestrictedAreaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EFB1CDF74BA00A865E2 /* RestrictedAreaModel.swift */; };
 		8F5667EE1CE0839A00C54942 /* HMRestrictedAreaOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5667ED1CE0839A00C54942 /* HMRestrictedAreaOverlay.swift */; };
 		8F5667F01CE0959C00C54942 /* icon_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F5667EF1CE0959C00C54942 /* icon_add.png */; };
+		8F56690C1CE0DFCC00C54942 /* A15-09_01-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5667F31CE0DFCB00C54942 /* A15-09_01-g.xml */; };
+		8F56690D1CE0DFCC00C54942 /* A15-09_01_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5667F41CE0DFCB00C54942 /* A15-09_01_WildlifePreserve.dbf */; };
+		8F56690E1CE0DFCC00C54942 /* A15-09_01_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5667F51CE0DFCB00C54942 /* A15-09_01_WildlifePreserve.shp */; };
+		8F56690F1CE0DFCC00C54942 /* A15-09_01_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5667F61CE0DFCB00C54942 /* A15-09_01_WildlifePreserve.shx */; };
+		8F5669101CE0DFCC00C54942 /* KS-META-A15-09_01-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5667F71CE0DFCB00C54942 /* KS-META-A15-09_01-g.xml */; };
+		8F5669111CE0DFCC00C54942 /* A15-09_02-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5667F91CE0DFCB00C54942 /* A15-09_02-g.xml */; };
+		8F5669121CE0DFCC00C54942 /* A15-09_02_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5667FA1CE0DFCB00C54942 /* A15-09_02_WildlifePreserve.dbf */; };
+		8F5669131CE0DFCC00C54942 /* A15-09_02_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5667FB1CE0DFCB00C54942 /* A15-09_02_WildlifePreserve.shp */; };
+		8F5669141CE0DFCC00C54942 /* A15-09_02_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5667FC1CE0DFCB00C54942 /* A15-09_02_WildlifePreserve.shx */; };
+		8F5669151CE0DFCC00C54942 /* KS-META-A15-09_02-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5667FD1CE0DFCB00C54942 /* KS-META-A15-09_02-g.xml */; };
+		8F5669161CE0DFCC00C54942 /* A15-09_03-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5667FF1CE0DFCB00C54942 /* A15-09_03-g.xml */; };
+		8F5669171CE0DFCC00C54942 /* A15-09_03_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668001CE0DFCB00C54942 /* A15-09_03_WildlifePreserve.dbf */; };
+		8F5669181CE0DFCC00C54942 /* A15-09_03_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668011CE0DFCB00C54942 /* A15-09_03_WildlifePreserve.shp */; };
+		8F5669191CE0DFCC00C54942 /* A15-09_03_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668021CE0DFCB00C54942 /* A15-09_03_WildlifePreserve.shx */; };
+		8F56691A1CE0DFCC00C54942 /* KS-META-A15-09_03-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668031CE0DFCB00C54942 /* KS-META-A15-09_03-g.xml */; };
+		8F56691B1CE0DFCC00C54942 /* A15-09_04-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668051CE0DFCB00C54942 /* A15-09_04-g.xml */; };
+		8F56691C1CE0DFCC00C54942 /* A15-09_04_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668061CE0DFCB00C54942 /* A15-09_04_WildlifePreserve.dbf */; };
+		8F56691D1CE0DFCC00C54942 /* A15-09_04_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668071CE0DFCB00C54942 /* A15-09_04_WildlifePreserve.shp */; };
+		8F56691E1CE0DFCC00C54942 /* A15-09_04_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668081CE0DFCB00C54942 /* A15-09_04_WildlifePreserve.shx */; };
+		8F56691F1CE0DFCC00C54942 /* KS-META-A15-09_04-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668091CE0DFCB00C54942 /* KS-META-A15-09_04-g.xml */; };
+		8F5669201CE0DFCC00C54942 /* A15-09_05-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56680B1CE0DFCB00C54942 /* A15-09_05-g.xml */; };
+		8F5669211CE0DFCC00C54942 /* A15-09_05_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F56680C1CE0DFCB00C54942 /* A15-09_05_WildlifePreserve.dbf */; };
+		8F5669221CE0DFCC00C54942 /* A15-09_05_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F56680D1CE0DFCB00C54942 /* A15-09_05_WildlifePreserve.shp */; };
+		8F5669231CE0DFCC00C54942 /* A15-09_05_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F56680E1CE0DFCB00C54942 /* A15-09_05_WildlifePreserve.shx */; };
+		8F5669241CE0DFCC00C54942 /* KS-META-A15-09_05-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56680F1CE0DFCB00C54942 /* KS-META-A15-09_05-g.xml */; };
+		8F5669251CE0DFCC00C54942 /* A15-09_06-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668111CE0DFCB00C54942 /* A15-09_06-g.xml */; };
+		8F5669261CE0DFCC00C54942 /* A15-09_06_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668121CE0DFCB00C54942 /* A15-09_06_WildlifePreserve.dbf */; };
+		8F5669271CE0DFCC00C54942 /* A15-09_06_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668131CE0DFCB00C54942 /* A15-09_06_WildlifePreserve.shp */; };
+		8F5669281CE0DFCC00C54942 /* A15-09_06_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668141CE0DFCB00C54942 /* A15-09_06_WildlifePreserve.shx */; };
+		8F5669291CE0DFCC00C54942 /* KS-META-A15-09_06-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668151CE0DFCB00C54942 /* KS-META-A15-09_06-g.xml */; };
+		8F56692A1CE0DFCC00C54942 /* A15-09_07-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668171CE0DFCB00C54942 /* A15-09_07-g.xml */; };
+		8F56692B1CE0DFCC00C54942 /* A15-09_07_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668181CE0DFCB00C54942 /* A15-09_07_WildlifePreserve.dbf */; };
+		8F56692C1CE0DFCC00C54942 /* A15-09_07_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668191CE0DFCB00C54942 /* A15-09_07_WildlifePreserve.shp */; };
+		8F56692D1CE0DFCC00C54942 /* A15-09_07_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F56681A1CE0DFCB00C54942 /* A15-09_07_WildlifePreserve.shx */; };
+		8F56692E1CE0DFCC00C54942 /* KS-META-A15-09_07-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56681B1CE0DFCB00C54942 /* KS-META-A15-09_07-g.xml */; };
+		8F56692F1CE0DFCC00C54942 /* A15-09_08-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56681D1CE0DFCB00C54942 /* A15-09_08-g.xml */; };
+		8F5669301CE0DFCC00C54942 /* A15-09_08_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F56681E1CE0DFCB00C54942 /* A15-09_08_WildlifePreserve.dbf */; };
+		8F5669311CE0DFCC00C54942 /* A15-09_08_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F56681F1CE0DFCB00C54942 /* A15-09_08_WildlifePreserve.shp */; };
+		8F5669321CE0DFCC00C54942 /* A15-09_08_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668201CE0DFCB00C54942 /* A15-09_08_WildlifePreserve.shx */; };
+		8F5669331CE0DFCC00C54942 /* KS-META-A15-09_08-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668211CE0DFCB00C54942 /* KS-META-A15-09_08-g.xml */; };
+		8F5669341CE0DFCC00C54942 /* A15-09_09-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668231CE0DFCB00C54942 /* A15-09_09-g.xml */; };
+		8F5669351CE0DFCC00C54942 /* A15-09_09_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668241CE0DFCB00C54942 /* A15-09_09_WildlifePreserve.dbf */; };
+		8F5669361CE0DFCC00C54942 /* A15-09_09_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668251CE0DFCB00C54942 /* A15-09_09_WildlifePreserve.shp */; };
+		8F5669371CE0DFCC00C54942 /* A15-09_09_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668261CE0DFCB00C54942 /* A15-09_09_WildlifePreserve.shx */; };
+		8F5669381CE0DFCC00C54942 /* KS-META-A15-09_09-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668271CE0DFCB00C54942 /* KS-META-A15-09_09-g.xml */; };
+		8F5669391CE0DFCC00C54942 /* A15-09_10-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668291CE0DFCB00C54942 /* A15-09_10-g.xml */; };
+		8F56693A1CE0DFCC00C54942 /* A15-09_10_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F56682A1CE0DFCB00C54942 /* A15-09_10_WildlifePreserve.dbf */; };
+		8F56693B1CE0DFCC00C54942 /* A15-09_10_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F56682B1CE0DFCB00C54942 /* A15-09_10_WildlifePreserve.shp */; };
+		8F56693C1CE0DFCC00C54942 /* A15-09_10_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F56682C1CE0DFCB00C54942 /* A15-09_10_WildlifePreserve.shx */; };
+		8F56693D1CE0DFCC00C54942 /* KS-META-A15-09_10-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56682D1CE0DFCB00C54942 /* KS-META-A15-09_10-g.xml */; };
+		8F56693E1CE0DFCC00C54942 /* A15-09_11-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56682F1CE0DFCB00C54942 /* A15-09_11-g.xml */; };
+		8F56693F1CE0DFCC00C54942 /* A15-09_11_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668301CE0DFCB00C54942 /* A15-09_11_WildlifePreserve.dbf */; };
+		8F5669401CE0DFCC00C54942 /* A15-09_11_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668311CE0DFCB00C54942 /* A15-09_11_WildlifePreserve.shp */; };
+		8F5669411CE0DFCC00C54942 /* A15-09_11_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668321CE0DFCB00C54942 /* A15-09_11_WildlifePreserve.shx */; };
+		8F5669421CE0DFCC00C54942 /* KS-META-A15-09_11-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668331CE0DFCB00C54942 /* KS-META-A15-09_11-g.xml */; };
+		8F5669431CE0DFCC00C54942 /* A15-09_12-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668351CE0DFCB00C54942 /* A15-09_12-g.xml */; };
+		8F5669441CE0DFCC00C54942 /* A15-09_12_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668361CE0DFCB00C54942 /* A15-09_12_WildlifePreserve.dbf */; };
+		8F5669451CE0DFCC00C54942 /* A15-09_12_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668371CE0DFCB00C54942 /* A15-09_12_WildlifePreserve.shp */; };
+		8F5669461CE0DFCC00C54942 /* A15-09_12_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668381CE0DFCB00C54942 /* A15-09_12_WildlifePreserve.shx */; };
+		8F5669471CE0DFCC00C54942 /* KS-META-A15-09_12-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668391CE0DFCB00C54942 /* KS-META-A15-09_12-g.xml */; };
+		8F5669481CE0DFCC00C54942 /* A15-09_13-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56683B1CE0DFCB00C54942 /* A15-09_13-g.xml */; };
+		8F5669491CE0DFCC00C54942 /* A15-09_13_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F56683C1CE0DFCB00C54942 /* A15-09_13_WildlifePreserve.dbf */; };
+		8F56694A1CE0DFCC00C54942 /* A15-09_13_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F56683D1CE0DFCC00C54942 /* A15-09_13_WildlifePreserve.shp */; };
+		8F56694B1CE0DFCC00C54942 /* A15-09_13_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F56683E1CE0DFCC00C54942 /* A15-09_13_WildlifePreserve.shx */; };
+		8F56694C1CE0DFCC00C54942 /* KS-META-A15-09_13-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56683F1CE0DFCC00C54942 /* KS-META-A15-09_13-g.xml */; };
+		8F56694D1CE0DFCC00C54942 /* A15-09_14-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668411CE0DFCC00C54942 /* A15-09_14-g.xml */; };
+		8F56694E1CE0DFCC00C54942 /* A15-09_14_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668421CE0DFCC00C54942 /* A15-09_14_WildlifePreserve.dbf */; };
+		8F56694F1CE0DFCC00C54942 /* A15-09_14_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668431CE0DFCC00C54942 /* A15-09_14_WildlifePreserve.shp */; };
+		8F5669501CE0DFCC00C54942 /* A15-09_14_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668441CE0DFCC00C54942 /* A15-09_14_WildlifePreserve.shx */; };
+		8F5669511CE0DFCC00C54942 /* KS-META-A15-09_14-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668451CE0DFCC00C54942 /* KS-META-A15-09_14-g.xml */; };
+		8F5669521CE0DFCC00C54942 /* A15-09_15-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668471CE0DFCC00C54942 /* A15-09_15-g.xml */; };
+		8F5669531CE0DFCC00C54942 /* A15-09_15_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668481CE0DFCC00C54942 /* A15-09_15_WildlifePreserve.dbf */; };
+		8F5669541CE0DFCC00C54942 /* A15-09_15_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668491CE0DFCC00C54942 /* A15-09_15_WildlifePreserve.shp */; };
+		8F5669551CE0DFCC00C54942 /* A15-09_15_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F56684A1CE0DFCC00C54942 /* A15-09_15_WildlifePreserve.shx */; };
+		8F5669561CE0DFCC00C54942 /* KS-META-A15-09_15-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56684B1CE0DFCC00C54942 /* KS-META-A15-09_15-g.xml */; };
+		8F5669571CE0DFCC00C54942 /* A15-09_16-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56684D1CE0DFCC00C54942 /* A15-09_16-g.xml */; };
+		8F5669581CE0DFCC00C54942 /* A15-09_16_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F56684E1CE0DFCC00C54942 /* A15-09_16_WildlifePreserve.dbf */; };
+		8F5669591CE0DFCC00C54942 /* A15-09_16_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F56684F1CE0DFCC00C54942 /* A15-09_16_WildlifePreserve.shp */; };
+		8F56695A1CE0DFCC00C54942 /* A15-09_16_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668501CE0DFCC00C54942 /* A15-09_16_WildlifePreserve.shx */; };
+		8F56695B1CE0DFCC00C54942 /* KS-META-A15-09_16-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668511CE0DFCC00C54942 /* KS-META-A15-09_16-g.xml */; };
+		8F56695C1CE0DFCC00C54942 /* A15-09_17-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668531CE0DFCC00C54942 /* A15-09_17-g.xml */; };
+		8F56695D1CE0DFCC00C54942 /* A15-09_17_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668541CE0DFCC00C54942 /* A15-09_17_WildlifePreserve.dbf */; };
+		8F56695E1CE0DFCC00C54942 /* A15-09_17_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668551CE0DFCC00C54942 /* A15-09_17_WildlifePreserve.shp */; };
+		8F56695F1CE0DFCC00C54942 /* A15-09_17_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668561CE0DFCC00C54942 /* A15-09_17_WildlifePreserve.shx */; };
+		8F5669601CE0DFCC00C54942 /* KS-META-A15-09_17-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668571CE0DFCC00C54942 /* KS-META-A15-09_17-g.xml */; };
+		8F5669611CE0DFCC00C54942 /* A15-09_18-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668591CE0DFCC00C54942 /* A15-09_18-g.xml */; };
+		8F5669621CE0DFCC00C54942 /* A15-09_18_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F56685A1CE0DFCC00C54942 /* A15-09_18_WildlifePreserve.dbf */; };
+		8F5669631CE0DFCC00C54942 /* A15-09_18_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F56685B1CE0DFCC00C54942 /* A15-09_18_WildlifePreserve.shp */; };
+		8F5669641CE0DFCC00C54942 /* A15-09_18_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F56685C1CE0DFCC00C54942 /* A15-09_18_WildlifePreserve.shx */; };
+		8F5669651CE0DFCC00C54942 /* KS-META-A15-09_18-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56685D1CE0DFCC00C54942 /* KS-META-A15-09_18-g.xml */; };
+		8F5669661CE0DFCC00C54942 /* A15-09_19-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56685F1CE0DFCC00C54942 /* A15-09_19-g.xml */; };
+		8F5669671CE0DFCC00C54942 /* A15-09_19_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668601CE0DFCC00C54942 /* A15-09_19_WildlifePreserve.dbf */; };
+		8F5669681CE0DFCC00C54942 /* A15-09_19_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668611CE0DFCC00C54942 /* A15-09_19_WildlifePreserve.shp */; };
+		8F5669691CE0DFCC00C54942 /* A15-09_19_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668621CE0DFCC00C54942 /* A15-09_19_WildlifePreserve.shx */; };
+		8F56696A1CE0DFCC00C54942 /* KS-META-A15-09_19-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668631CE0DFCC00C54942 /* KS-META-A15-09_19-g.xml */; };
+		8F56696B1CE0DFCC00C54942 /* A15-09_20-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668651CE0DFCC00C54942 /* A15-09_20-g.xml */; };
+		8F56696C1CE0DFCC00C54942 /* A15-09_20_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668661CE0DFCC00C54942 /* A15-09_20_WildlifePreserve.dbf */; };
+		8F56696D1CE0DFCC00C54942 /* A15-09_20_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668671CE0DFCC00C54942 /* A15-09_20_WildlifePreserve.shp */; };
+		8F56696E1CE0DFCC00C54942 /* A15-09_20_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668681CE0DFCC00C54942 /* A15-09_20_WildlifePreserve.shx */; };
+		8F56696F1CE0DFCC00C54942 /* KS-META-A15-09_20-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668691CE0DFCC00C54942 /* KS-META-A15-09_20-g.xml */; };
+		8F5669701CE0DFCC00C54942 /* A15-09_21-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56686B1CE0DFCC00C54942 /* A15-09_21-g.xml */; };
+		8F5669711CE0DFCC00C54942 /* A15-09_21_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F56686C1CE0DFCC00C54942 /* A15-09_21_WildlifePreserve.dbf */; };
+		8F5669721CE0DFCC00C54942 /* A15-09_21_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F56686D1CE0DFCC00C54942 /* A15-09_21_WildlifePreserve.shp */; };
+		8F5669731CE0DFCC00C54942 /* A15-09_21_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F56686E1CE0DFCC00C54942 /* A15-09_21_WildlifePreserve.shx */; };
+		8F5669741CE0DFCC00C54942 /* KS-META-A15-09_21-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56686F1CE0DFCC00C54942 /* KS-META-A15-09_21-g.xml */; };
+		8F5669751CE0DFCC00C54942 /* A15-09_22-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668711CE0DFCC00C54942 /* A15-09_22-g.xml */; };
+		8F5669761CE0DFCC00C54942 /* A15-09_22_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668721CE0DFCC00C54942 /* A15-09_22_WildlifePreserve.dbf */; };
+		8F5669771CE0DFCC00C54942 /* A15-09_22_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668731CE0DFCC00C54942 /* A15-09_22_WildlifePreserve.shp */; };
+		8F5669781CE0DFCC00C54942 /* A15-09_22_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668741CE0DFCC00C54942 /* A15-09_22_WildlifePreserve.shx */; };
+		8F5669791CE0DFCC00C54942 /* KS-META-A15-09_22-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668751CE0DFCC00C54942 /* KS-META-A15-09_22-g.xml */; };
+		8F56697A1CE0DFCC00C54942 /* A15-09_23-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668771CE0DFCC00C54942 /* A15-09_23-g.xml */; };
+		8F56697B1CE0DFCC00C54942 /* A15-09_23_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668781CE0DFCC00C54942 /* A15-09_23_WildlifePreserve.dbf */; };
+		8F56697C1CE0DFCC00C54942 /* A15-09_23_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668791CE0DFCC00C54942 /* A15-09_23_WildlifePreserve.shp */; };
+		8F56697D1CE0DFCC00C54942 /* A15-09_23_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F56687A1CE0DFCC00C54942 /* A15-09_23_WildlifePreserve.shx */; };
+		8F56697E1CE0DFCC00C54942 /* KS-META-A15-09_23-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56687B1CE0DFCC00C54942 /* KS-META-A15-09_23-g.xml */; };
+		8F56697F1CE0DFCC00C54942 /* A15-09_24-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56687D1CE0DFCC00C54942 /* A15-09_24-g.xml */; };
+		8F5669801CE0DFCC00C54942 /* A15-09_24_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F56687E1CE0DFCC00C54942 /* A15-09_24_WildlifePreserve.dbf */; };
+		8F5669811CE0DFCC00C54942 /* A15-09_24_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F56687F1CE0DFCC00C54942 /* A15-09_24_WildlifePreserve.shp */; };
+		8F5669821CE0DFCC00C54942 /* A15-09_24_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668801CE0DFCC00C54942 /* A15-09_24_WildlifePreserve.shx */; };
+		8F5669831CE0DFCC00C54942 /* KS-META-A15-09_24-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668811CE0DFCC00C54942 /* KS-META-A15-09_24-g.xml */; };
+		8F5669841CE0DFCC00C54942 /* A15-09_25-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668831CE0DFCC00C54942 /* A15-09_25-g.xml */; };
+		8F5669851CE0DFCC00C54942 /* A15-09_25_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668841CE0DFCC00C54942 /* A15-09_25_WildlifePreserve.dbf */; };
+		8F5669861CE0DFCC00C54942 /* A15-09_25_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668851CE0DFCC00C54942 /* A15-09_25_WildlifePreserve.shp */; };
+		8F5669871CE0DFCC00C54942 /* A15-09_25_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668861CE0DFCC00C54942 /* A15-09_25_WildlifePreserve.shx */; };
+		8F5669881CE0DFCC00C54942 /* KS-META-A15-09_25-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668871CE0DFCC00C54942 /* KS-META-A15-09_25-g.xml */; };
+		8F5669891CE0DFCC00C54942 /* A15-09_26-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668891CE0DFCC00C54942 /* A15-09_26-g.xml */; };
+		8F56698A1CE0DFCC00C54942 /* A15-09_26_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F56688A1CE0DFCC00C54942 /* A15-09_26_WildlifePreserve.dbf */; };
+		8F56698B1CE0DFCC00C54942 /* A15-09_26_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F56688B1CE0DFCC00C54942 /* A15-09_26_WildlifePreserve.shp */; };
+		8F56698C1CE0DFCC00C54942 /* A15-09_26_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F56688C1CE0DFCC00C54942 /* A15-09_26_WildlifePreserve.shx */; };
+		8F56698D1CE0DFCC00C54942 /* KS-META-A15-09_26-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56688D1CE0DFCC00C54942 /* KS-META-A15-09_26-g.xml */; };
+		8F56698E1CE0DFCC00C54942 /* A15-09_27-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56688F1CE0DFCC00C54942 /* A15-09_27-g.xml */; };
+		8F56698F1CE0DFCC00C54942 /* A15-09_27_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668901CE0DFCC00C54942 /* A15-09_27_WildlifePreserve.dbf */; };
+		8F5669901CE0DFCC00C54942 /* A15-09_27_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668911CE0DFCC00C54942 /* A15-09_27_WildlifePreserve.shp */; };
+		8F5669911CE0DFCC00C54942 /* A15-09_27_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668921CE0DFCC00C54942 /* A15-09_27_WildlifePreserve.shx */; };
+		8F5669921CE0DFCC00C54942 /* KS-META-A15-09_27-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668931CE0DFCC00C54942 /* KS-META-A15-09_27-g.xml */; };
+		8F5669931CE0DFCC00C54942 /* A15-09_28-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668951CE0DFCC00C54942 /* A15-09_28-g.xml */; };
+		8F5669941CE0DFCC00C54942 /* A15-09_28_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668961CE0DFCC00C54942 /* A15-09_28_WildlifePreserve.dbf */; };
+		8F5669951CE0DFCC00C54942 /* A15-09_28_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668971CE0DFCC00C54942 /* A15-09_28_WildlifePreserve.shp */; };
+		8F5669961CE0DFCC00C54942 /* A15-09_28_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668981CE0DFCC00C54942 /* A15-09_28_WildlifePreserve.shx */; };
+		8F5669971CE0DFCC00C54942 /* KS-META-A15-09_28-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668991CE0DFCC00C54942 /* KS-META-A15-09_28-g.xml */; };
+		8F5669981CE0DFCC00C54942 /* A15-09_29-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56689B1CE0DFCC00C54942 /* A15-09_29-g.xml */; };
+		8F5669991CE0DFCC00C54942 /* A15-09_29_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F56689C1CE0DFCC00C54942 /* A15-09_29_WildlifePreserve.dbf */; };
+		8F56699A1CE0DFCC00C54942 /* A15-09_29_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F56689D1CE0DFCC00C54942 /* A15-09_29_WildlifePreserve.shp */; };
+		8F56699B1CE0DFCC00C54942 /* A15-09_29_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F56689E1CE0DFCC00C54942 /* A15-09_29_WildlifePreserve.shx */; };
+		8F56699C1CE0DFCC00C54942 /* KS-META-A15-09_29-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56689F1CE0DFCC00C54942 /* KS-META-A15-09_29-g.xml */; };
+		8F56699D1CE0DFCC00C54942 /* A15-09_30-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668A11CE0DFCC00C54942 /* A15-09_30-g.xml */; };
+		8F56699E1CE0DFCC00C54942 /* A15-09_30_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668A21CE0DFCC00C54942 /* A15-09_30_WildlifePreserve.dbf */; };
+		8F56699F1CE0DFCC00C54942 /* A15-09_30_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668A31CE0DFCC00C54942 /* A15-09_30_WildlifePreserve.shp */; };
+		8F5669A01CE0DFCC00C54942 /* A15-09_30_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668A41CE0DFCC00C54942 /* A15-09_30_WildlifePreserve.shx */; };
+		8F5669A11CE0DFCC00C54942 /* KS-META-A15-09_30-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668A51CE0DFCC00C54942 /* KS-META-A15-09_30-g.xml */; };
+		8F5669A21CE0DFCC00C54942 /* A15-09_31-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668A71CE0DFCC00C54942 /* A15-09_31-g.xml */; };
+		8F5669A31CE0DFCC00C54942 /* A15-09_31_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668A81CE0DFCC00C54942 /* A15-09_31_WildlifePreserve.dbf */; };
+		8F5669A41CE0DFCC00C54942 /* A15-09_31_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668A91CE0DFCC00C54942 /* A15-09_31_WildlifePreserve.shp */; };
+		8F5669A51CE0DFCC00C54942 /* A15-09_31_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668AA1CE0DFCC00C54942 /* A15-09_31_WildlifePreserve.shx */; };
+		8F5669A61CE0DFCC00C54942 /* KS-META-A15-09_31-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668AB1CE0DFCC00C54942 /* KS-META-A15-09_31-g.xml */; };
+		8F5669A71CE0DFCC00C54942 /* A15-09_32-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668AD1CE0DFCC00C54942 /* A15-09_32-g.xml */; };
+		8F5669A81CE0DFCC00C54942 /* A15-09_32_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668AE1CE0DFCC00C54942 /* A15-09_32_WildlifePreserve.dbf */; };
+		8F5669A91CE0DFCC00C54942 /* A15-09_32_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668AF1CE0DFCC00C54942 /* A15-09_32_WildlifePreserve.shp */; };
+		8F5669AA1CE0DFCC00C54942 /* A15-09_32_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668B01CE0DFCC00C54942 /* A15-09_32_WildlifePreserve.shx */; };
+		8F5669AB1CE0DFCC00C54942 /* KS-META-A15-09_32-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668B11CE0DFCC00C54942 /* KS-META-A15-09_32-g.xml */; };
+		8F5669AC1CE0DFCC00C54942 /* A15-09_33-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668B31CE0DFCC00C54942 /* A15-09_33-g.xml */; };
+		8F5669AD1CE0DFCC00C54942 /* A15-09_33_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668B41CE0DFCC00C54942 /* A15-09_33_WildlifePreserve.dbf */; };
+		8F5669AE1CE0DFCC00C54942 /* A15-09_33_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668B51CE0DFCC00C54942 /* A15-09_33_WildlifePreserve.shp */; };
+		8F5669AF1CE0DFCC00C54942 /* A15-09_33_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668B61CE0DFCC00C54942 /* A15-09_33_WildlifePreserve.shx */; };
+		8F5669B01CE0DFCC00C54942 /* KS-META-A15-09_33-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668B71CE0DFCC00C54942 /* KS-META-A15-09_33-g.xml */; };
+		8F5669B11CE0DFCC00C54942 /* A15-09_34-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668B91CE0DFCC00C54942 /* A15-09_34-g.xml */; };
+		8F5669B21CE0DFCC00C54942 /* A15-09_34_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668BA1CE0DFCC00C54942 /* A15-09_34_WildlifePreserve.dbf */; };
+		8F5669B31CE0DFCC00C54942 /* A15-09_34_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668BB1CE0DFCC00C54942 /* A15-09_34_WildlifePreserve.shp */; };
+		8F5669B41CE0DFCC00C54942 /* A15-09_34_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668BC1CE0DFCC00C54942 /* A15-09_34_WildlifePreserve.shx */; };
+		8F5669B51CE0DFCC00C54942 /* KS-META-A15-09_34-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668BD1CE0DFCC00C54942 /* KS-META-A15-09_34-g.xml */; };
+		8F5669B61CE0DFCC00C54942 /* A15-09_35-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668BF1CE0DFCC00C54942 /* A15-09_35-g.xml */; };
+		8F5669B71CE0DFCC00C54942 /* A15-09_35_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668C01CE0DFCC00C54942 /* A15-09_35_WildlifePreserve.dbf */; };
+		8F5669B81CE0DFCC00C54942 /* A15-09_35_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668C11CE0DFCC00C54942 /* A15-09_35_WildlifePreserve.shp */; };
+		8F5669B91CE0DFCC00C54942 /* A15-09_35_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668C21CE0DFCC00C54942 /* A15-09_35_WildlifePreserve.shx */; };
+		8F5669BA1CE0DFCC00C54942 /* KS-META-A15-09_35-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668C31CE0DFCC00C54942 /* KS-META-A15-09_35-g.xml */; };
+		8F5669BB1CE0DFCC00C54942 /* A15-09_36-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668C51CE0DFCC00C54942 /* A15-09_36-g.xml */; };
+		8F5669BC1CE0DFCC00C54942 /* A15-09_36_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668C61CE0DFCC00C54942 /* A15-09_36_WildlifePreserve.dbf */; };
+		8F5669BD1CE0DFCC00C54942 /* A15-09_36_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668C71CE0DFCC00C54942 /* A15-09_36_WildlifePreserve.shp */; };
+		8F5669BE1CE0DFCC00C54942 /* A15-09_36_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668C81CE0DFCC00C54942 /* A15-09_36_WildlifePreserve.shx */; };
+		8F5669BF1CE0DFCC00C54942 /* KS-META-A15-09_36-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668C91CE0DFCC00C54942 /* KS-META-A15-09_36-g.xml */; };
+		8F5669C01CE0DFCC00C54942 /* A15-09_37-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668CB1CE0DFCC00C54942 /* A15-09_37-g.xml */; };
+		8F5669C11CE0DFCC00C54942 /* A15-09_37_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668CC1CE0DFCC00C54942 /* A15-09_37_WildlifePreserve.dbf */; };
+		8F5669C21CE0DFCC00C54942 /* A15-09_37_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668CD1CE0DFCC00C54942 /* A15-09_37_WildlifePreserve.shp */; };
+		8F5669C31CE0DFCC00C54942 /* A15-09_37_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668CE1CE0DFCC00C54942 /* A15-09_37_WildlifePreserve.shx */; };
+		8F5669C41CE0DFCC00C54942 /* KS-META-A15-09_37-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668CF1CE0DFCC00C54942 /* KS-META-A15-09_37-g.xml */; };
+		8F5669C51CE0DFCC00C54942 /* A15-09_38-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668D11CE0DFCC00C54942 /* A15-09_38-g.xml */; };
+		8F5669C61CE0DFCC00C54942 /* A15-09_38_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668D21CE0DFCC00C54942 /* A15-09_38_WildlifePreserve.dbf */; };
+		8F5669C71CE0DFCC00C54942 /* A15-09_38_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668D31CE0DFCC00C54942 /* A15-09_38_WildlifePreserve.shp */; };
+		8F5669C81CE0DFCC00C54942 /* A15-09_38_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668D41CE0DFCC00C54942 /* A15-09_38_WildlifePreserve.shx */; };
+		8F5669C91CE0DFCC00C54942 /* KS-META-A15-09_38-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668D51CE0DFCC00C54942 /* KS-META-A15-09_38-g.xml */; };
+		8F5669CA1CE0DFCC00C54942 /* A15-09_39-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668D71CE0DFCC00C54942 /* A15-09_39-g.xml */; };
+		8F5669CB1CE0DFCC00C54942 /* A15-09_39_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668D81CE0DFCC00C54942 /* A15-09_39_WildlifePreserve.dbf */; };
+		8F5669CC1CE0DFCC00C54942 /* A15-09_39_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668D91CE0DFCC00C54942 /* A15-09_39_WildlifePreserve.shp */; };
+		8F5669CD1CE0DFCC00C54942 /* A15-09_39_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668DA1CE0DFCC00C54942 /* A15-09_39_WildlifePreserve.shx */; };
+		8F5669CE1CE0DFCC00C54942 /* KS-META-A15-09_39-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668DB1CE0DFCC00C54942 /* KS-META-A15-09_39-g.xml */; };
+		8F5669CF1CE0DFCC00C54942 /* A15-09_40-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668DD1CE0DFCC00C54942 /* A15-09_40-g.xml */; };
+		8F5669D01CE0DFCC00C54942 /* A15-09_40_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668DE1CE0DFCC00C54942 /* A15-09_40_WildlifePreserve.dbf */; };
+		8F5669D11CE0DFCC00C54942 /* A15-09_40_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668DF1CE0DFCC00C54942 /* A15-09_40_WildlifePreserve.shp */; };
+		8F5669D21CE0DFCC00C54942 /* A15-09_40_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668E01CE0DFCC00C54942 /* A15-09_40_WildlifePreserve.shx */; };
+		8F5669D31CE0DFCC00C54942 /* KS-META-A15-09_40-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668E11CE0DFCC00C54942 /* KS-META-A15-09_40-g.xml */; };
+		8F5669D41CE0DFCC00C54942 /* A15-09_41-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668E31CE0DFCC00C54942 /* A15-09_41-g.xml */; };
+		8F5669D51CE0DFCC00C54942 /* A15-09_41_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668E41CE0DFCC00C54942 /* A15-09_41_WildlifePreserve.dbf */; };
+		8F5669D61CE0DFCC00C54942 /* A15-09_41_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668E51CE0DFCC00C54942 /* A15-09_41_WildlifePreserve.shp */; };
+		8F5669D71CE0DFCC00C54942 /* A15-09_41_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668E61CE0DFCC00C54942 /* A15-09_41_WildlifePreserve.shx */; };
+		8F5669D81CE0DFCC00C54942 /* KS-META-A15-09_41-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668E71CE0DFCC00C54942 /* KS-META-A15-09_41-g.xml */; };
+		8F5669D91CE0DFCC00C54942 /* A15-09_42-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668E91CE0DFCC00C54942 /* A15-09_42-g.xml */; };
+		8F5669DA1CE0DFCC00C54942 /* A15-09_42_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668EA1CE0DFCC00C54942 /* A15-09_42_WildlifePreserve.dbf */; };
+		8F5669DB1CE0DFCC00C54942 /* A15-09_42_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668EB1CE0DFCC00C54942 /* A15-09_42_WildlifePreserve.shp */; };
+		8F5669DC1CE0DFCC00C54942 /* A15-09_42_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668EC1CE0DFCC00C54942 /* A15-09_42_WildlifePreserve.shx */; };
+		8F5669DD1CE0DFCC00C54942 /* KS-META-A15-09_42-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668ED1CE0DFCC00C54942 /* KS-META-A15-09_42-g.xml */; };
+		8F5669DE1CE0DFCC00C54942 /* A15-09_43-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668EF1CE0DFCC00C54942 /* A15-09_43-g.xml */; };
+		8F5669DF1CE0DFCC00C54942 /* A15-09_43_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668F01CE0DFCC00C54942 /* A15-09_43_WildlifePreserve.dbf */; };
+		8F5669E01CE0DFCC00C54942 /* A15-09_43_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668F11CE0DFCC00C54942 /* A15-09_43_WildlifePreserve.shp */; };
+		8F5669E11CE0DFCC00C54942 /* A15-09_43_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668F21CE0DFCC00C54942 /* A15-09_43_WildlifePreserve.shx */; };
+		8F5669E21CE0DFCC00C54942 /* KS-META-A15-09_43-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668F31CE0DFCC00C54942 /* KS-META-A15-09_43-g.xml */; };
+		8F5669E31CE0DFCC00C54942 /* A15-09_44-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668F51CE0DFCC00C54942 /* A15-09_44-g.xml */; };
+		8F5669E41CE0DFCC00C54942 /* A15-09_44_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668F61CE0DFCC00C54942 /* A15-09_44_WildlifePreserve.dbf */; };
+		8F5669E51CE0DFCC00C54942 /* A15-09_44_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668F71CE0DFCC00C54942 /* A15-09_44_WildlifePreserve.shp */; };
+		8F5669E61CE0DFCC00C54942 /* A15-09_44_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668F81CE0DFCC00C54942 /* A15-09_44_WildlifePreserve.shx */; };
+		8F5669E71CE0DFCC00C54942 /* KS-META-A15-09_44-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668F91CE0DFCC00C54942 /* KS-META-A15-09_44-g.xml */; };
+		8F5669E81CE0DFCC00C54942 /* A15-09_45-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668FB1CE0DFCC00C54942 /* A15-09_45-g.xml */; };
+		8F5669E91CE0DFCC00C54942 /* A15-09_45_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668FC1CE0DFCC00C54942 /* A15-09_45_WildlifePreserve.dbf */; };
+		8F5669EA1CE0DFCC00C54942 /* A15-09_45_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668FD1CE0DFCC00C54942 /* A15-09_45_WildlifePreserve.shp */; };
+		8F5669EB1CE0DFCC00C54942 /* A15-09_45_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668FE1CE0DFCC00C54942 /* A15-09_45_WildlifePreserve.shx */; };
+		8F5669EC1CE0DFCC00C54942 /* KS-META-A15-09_45-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5668FF1CE0DFCC00C54942 /* KS-META-A15-09_45-g.xml */; };
+		8F5669ED1CE0DFCC00C54942 /* A15-09_46-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5669011CE0DFCC00C54942 /* A15-09_46-g.xml */; };
+		8F5669EE1CE0DFCC00C54942 /* A15-09_46_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5669021CE0DFCC00C54942 /* A15-09_46_WildlifePreserve.dbf */; };
+		8F5669EF1CE0DFCC00C54942 /* A15-09_46_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5669031CE0DFCC00C54942 /* A15-09_46_WildlifePreserve.shp */; };
+		8F5669F01CE0DFCC00C54942 /* A15-09_46_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F5669041CE0DFCC00C54942 /* A15-09_46_WildlifePreserve.shx */; };
+		8F5669F11CE0DFCC00C54942 /* KS-META-A15-09_46-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5669051CE0DFCC00C54942 /* KS-META-A15-09_46-g.xml */; };
+		8F5669F21CE0DFCC00C54942 /* A15-09_47-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5669071CE0DFCC00C54942 /* A15-09_47-g.xml */; };
+		8F5669F31CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5669081CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.dbf */; };
+		8F5669F41CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5669091CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.shp */; };
+		8F5669F51CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F56690A1CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.shx */; };
+		8F5669F61CE0DFCC00C54942 /* KS-META-A15-09_47-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56690B1CE0DFCC00C54942 /* KS-META-A15-09_47-g.xml */; };
 		8FEE7DDC1CDDBE9400BFDA8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE7DDB1CDDBE9400BFDA8C /* AppDelegate.swift */; };
 		8FEE7DDE1CDDBE9400BFDA8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE7DDD1CDDBE9400BFDA8C /* ViewController.swift */; };
 		8FEE7DE11CDDBE9400BFDA8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FEE7DDF1CDDBE9400BFDA8C /* Main.storyboard */; };
@@ -56,9 +288,6 @@
 		702ED2A17F7BA9D5A2134B9B /* Pods-HunterMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HunterMapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HunterMapTests/Pods-HunterMapTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B5DD7F817A4E15A7CD51DC1 /* Pods_HunterMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HunterMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F1FAD011CE0720A008C4762 /* icon_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_location.png; sourceTree = "<group>"; };
-		8F4E8EE51CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "A15-09_14_WildlifePreserve.dbf"; path = "HunterMap/Data/Kanagawa/A15-09_14_WildlifePreserve.dbf"; sourceTree = "<group>"; };
-		8F4E8EE61CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = "A15-09_14_WildlifePreserve.shp"; path = "HunterMap/Data/Kanagawa/A15-09_14_WildlifePreserve.shp"; sourceTree = "<group>"; };
-		8F4E8EE71CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; name = "A15-09_14_WildlifePreserve.shx"; path = "HunterMap/Data/Kanagawa/A15-09_14_WildlifePreserve.shx"; sourceTree = "<group>"; };
 		8F4E8EEC1CDF4C7B00A865E2 /* HMWildlifeProtectionAreaOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMWildlifeProtectionAreaOverlay.swift; sourceTree = "<group>"; };
 		8F4E8EF01CDF4CC400A865E2 /* HMSpecialProtectionAreaOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSpecialProtectionAreaOverlay.swift; sourceTree = "<group>"; };
 		8F4E8EF41CDF4D1200A865E2 /* HMGameReserveOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMGameReserveOverlay.swift; sourceTree = "<group>"; };
@@ -66,6 +295,241 @@
 		8F4E8EFB1CDF74BA00A865E2 /* RestrictedAreaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestrictedAreaModel.swift; sourceTree = "<group>"; };
 		8F5667ED1CE0839A00C54942 /* HMRestrictedAreaOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMRestrictedAreaOverlay.swift; sourceTree = "<group>"; };
 		8F5667EF1CE0959C00C54942 /* icon_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_add.png; sourceTree = "<group>"; };
+		8F5667F31CE0DFCB00C54942 /* A15-09_01-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_01-g.xml"; sourceTree = "<group>"; };
+		8F5667F41CE0DFCB00C54942 /* A15-09_01_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_01_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5667F51CE0DFCB00C54942 /* A15-09_01_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_01_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5667F61CE0DFCB00C54942 /* A15-09_01_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_01_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5667F71CE0DFCB00C54942 /* KS-META-A15-09_01-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_01-g.xml"; sourceTree = "<group>"; };
+		8F5667F91CE0DFCB00C54942 /* A15-09_02-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_02-g.xml"; sourceTree = "<group>"; };
+		8F5667FA1CE0DFCB00C54942 /* A15-09_02_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_02_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5667FB1CE0DFCB00C54942 /* A15-09_02_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_02_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5667FC1CE0DFCB00C54942 /* A15-09_02_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_02_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5667FD1CE0DFCB00C54942 /* KS-META-A15-09_02-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_02-g.xml"; sourceTree = "<group>"; };
+		8F5667FF1CE0DFCB00C54942 /* A15-09_03-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_03-g.xml"; sourceTree = "<group>"; };
+		8F5668001CE0DFCB00C54942 /* A15-09_03_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_03_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668011CE0DFCB00C54942 /* A15-09_03_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_03_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668021CE0DFCB00C54942 /* A15-09_03_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_03_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668031CE0DFCB00C54942 /* KS-META-A15-09_03-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_03-g.xml"; sourceTree = "<group>"; };
+		8F5668051CE0DFCB00C54942 /* A15-09_04-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_04-g.xml"; sourceTree = "<group>"; };
+		8F5668061CE0DFCB00C54942 /* A15-09_04_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_04_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668071CE0DFCB00C54942 /* A15-09_04_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_04_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668081CE0DFCB00C54942 /* A15-09_04_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_04_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668091CE0DFCB00C54942 /* KS-META-A15-09_04-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_04-g.xml"; sourceTree = "<group>"; };
+		8F56680B1CE0DFCB00C54942 /* A15-09_05-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_05-g.xml"; sourceTree = "<group>"; };
+		8F56680C1CE0DFCB00C54942 /* A15-09_05_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_05_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F56680D1CE0DFCB00C54942 /* A15-09_05_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_05_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F56680E1CE0DFCB00C54942 /* A15-09_05_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_05_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F56680F1CE0DFCB00C54942 /* KS-META-A15-09_05-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_05-g.xml"; sourceTree = "<group>"; };
+		8F5668111CE0DFCB00C54942 /* A15-09_06-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_06-g.xml"; sourceTree = "<group>"; };
+		8F5668121CE0DFCB00C54942 /* A15-09_06_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_06_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668131CE0DFCB00C54942 /* A15-09_06_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_06_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668141CE0DFCB00C54942 /* A15-09_06_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_06_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668151CE0DFCB00C54942 /* KS-META-A15-09_06-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_06-g.xml"; sourceTree = "<group>"; };
+		8F5668171CE0DFCB00C54942 /* A15-09_07-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_07-g.xml"; sourceTree = "<group>"; };
+		8F5668181CE0DFCB00C54942 /* A15-09_07_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_07_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668191CE0DFCB00C54942 /* A15-09_07_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_07_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F56681A1CE0DFCB00C54942 /* A15-09_07_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_07_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F56681B1CE0DFCB00C54942 /* KS-META-A15-09_07-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_07-g.xml"; sourceTree = "<group>"; };
+		8F56681D1CE0DFCB00C54942 /* A15-09_08-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_08-g.xml"; sourceTree = "<group>"; };
+		8F56681E1CE0DFCB00C54942 /* A15-09_08_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_08_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F56681F1CE0DFCB00C54942 /* A15-09_08_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_08_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668201CE0DFCB00C54942 /* A15-09_08_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_08_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668211CE0DFCB00C54942 /* KS-META-A15-09_08-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_08-g.xml"; sourceTree = "<group>"; };
+		8F5668231CE0DFCB00C54942 /* A15-09_09-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_09-g.xml"; sourceTree = "<group>"; };
+		8F5668241CE0DFCB00C54942 /* A15-09_09_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_09_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668251CE0DFCB00C54942 /* A15-09_09_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_09_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668261CE0DFCB00C54942 /* A15-09_09_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_09_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668271CE0DFCB00C54942 /* KS-META-A15-09_09-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_09-g.xml"; sourceTree = "<group>"; };
+		8F5668291CE0DFCB00C54942 /* A15-09_10-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_10-g.xml"; sourceTree = "<group>"; };
+		8F56682A1CE0DFCB00C54942 /* A15-09_10_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_10_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F56682B1CE0DFCB00C54942 /* A15-09_10_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_10_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F56682C1CE0DFCB00C54942 /* A15-09_10_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_10_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F56682D1CE0DFCB00C54942 /* KS-META-A15-09_10-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_10-g.xml"; sourceTree = "<group>"; };
+		8F56682F1CE0DFCB00C54942 /* A15-09_11-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_11-g.xml"; sourceTree = "<group>"; };
+		8F5668301CE0DFCB00C54942 /* A15-09_11_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_11_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668311CE0DFCB00C54942 /* A15-09_11_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_11_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668321CE0DFCB00C54942 /* A15-09_11_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_11_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668331CE0DFCB00C54942 /* KS-META-A15-09_11-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_11-g.xml"; sourceTree = "<group>"; };
+		8F5668351CE0DFCB00C54942 /* A15-09_12-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_12-g.xml"; sourceTree = "<group>"; };
+		8F5668361CE0DFCB00C54942 /* A15-09_12_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_12_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668371CE0DFCB00C54942 /* A15-09_12_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_12_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668381CE0DFCB00C54942 /* A15-09_12_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_12_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668391CE0DFCB00C54942 /* KS-META-A15-09_12-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_12-g.xml"; sourceTree = "<group>"; };
+		8F56683B1CE0DFCB00C54942 /* A15-09_13-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_13-g.xml"; sourceTree = "<group>"; };
+		8F56683C1CE0DFCB00C54942 /* A15-09_13_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_13_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F56683D1CE0DFCC00C54942 /* A15-09_13_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_13_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F56683E1CE0DFCC00C54942 /* A15-09_13_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_13_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F56683F1CE0DFCC00C54942 /* KS-META-A15-09_13-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_13-g.xml"; sourceTree = "<group>"; };
+		8F5668411CE0DFCC00C54942 /* A15-09_14-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_14-g.xml"; sourceTree = "<group>"; };
+		8F5668421CE0DFCC00C54942 /* A15-09_14_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_14_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668431CE0DFCC00C54942 /* A15-09_14_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_14_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668441CE0DFCC00C54942 /* A15-09_14_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_14_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668451CE0DFCC00C54942 /* KS-META-A15-09_14-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_14-g.xml"; sourceTree = "<group>"; };
+		8F5668471CE0DFCC00C54942 /* A15-09_15-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_15-g.xml"; sourceTree = "<group>"; };
+		8F5668481CE0DFCC00C54942 /* A15-09_15_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_15_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668491CE0DFCC00C54942 /* A15-09_15_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_15_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F56684A1CE0DFCC00C54942 /* A15-09_15_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_15_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F56684B1CE0DFCC00C54942 /* KS-META-A15-09_15-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_15-g.xml"; sourceTree = "<group>"; };
+		8F56684D1CE0DFCC00C54942 /* A15-09_16-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_16-g.xml"; sourceTree = "<group>"; };
+		8F56684E1CE0DFCC00C54942 /* A15-09_16_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_16_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F56684F1CE0DFCC00C54942 /* A15-09_16_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_16_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668501CE0DFCC00C54942 /* A15-09_16_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_16_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668511CE0DFCC00C54942 /* KS-META-A15-09_16-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_16-g.xml"; sourceTree = "<group>"; };
+		8F5668531CE0DFCC00C54942 /* A15-09_17-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_17-g.xml"; sourceTree = "<group>"; };
+		8F5668541CE0DFCC00C54942 /* A15-09_17_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_17_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668551CE0DFCC00C54942 /* A15-09_17_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_17_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668561CE0DFCC00C54942 /* A15-09_17_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_17_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668571CE0DFCC00C54942 /* KS-META-A15-09_17-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_17-g.xml"; sourceTree = "<group>"; };
+		8F5668591CE0DFCC00C54942 /* A15-09_18-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_18-g.xml"; sourceTree = "<group>"; };
+		8F56685A1CE0DFCC00C54942 /* A15-09_18_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_18_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F56685B1CE0DFCC00C54942 /* A15-09_18_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_18_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F56685C1CE0DFCC00C54942 /* A15-09_18_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_18_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F56685D1CE0DFCC00C54942 /* KS-META-A15-09_18-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_18-g.xml"; sourceTree = "<group>"; };
+		8F56685F1CE0DFCC00C54942 /* A15-09_19-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_19-g.xml"; sourceTree = "<group>"; };
+		8F5668601CE0DFCC00C54942 /* A15-09_19_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_19_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668611CE0DFCC00C54942 /* A15-09_19_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_19_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668621CE0DFCC00C54942 /* A15-09_19_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_19_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668631CE0DFCC00C54942 /* KS-META-A15-09_19-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_19-g.xml"; sourceTree = "<group>"; };
+		8F5668651CE0DFCC00C54942 /* A15-09_20-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_20-g.xml"; sourceTree = "<group>"; };
+		8F5668661CE0DFCC00C54942 /* A15-09_20_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_20_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668671CE0DFCC00C54942 /* A15-09_20_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_20_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668681CE0DFCC00C54942 /* A15-09_20_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_20_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668691CE0DFCC00C54942 /* KS-META-A15-09_20-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_20-g.xml"; sourceTree = "<group>"; };
+		8F56686B1CE0DFCC00C54942 /* A15-09_21-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_21-g.xml"; sourceTree = "<group>"; };
+		8F56686C1CE0DFCC00C54942 /* A15-09_21_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_21_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F56686D1CE0DFCC00C54942 /* A15-09_21_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_21_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F56686E1CE0DFCC00C54942 /* A15-09_21_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_21_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F56686F1CE0DFCC00C54942 /* KS-META-A15-09_21-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_21-g.xml"; sourceTree = "<group>"; };
+		8F5668711CE0DFCC00C54942 /* A15-09_22-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_22-g.xml"; sourceTree = "<group>"; };
+		8F5668721CE0DFCC00C54942 /* A15-09_22_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_22_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668731CE0DFCC00C54942 /* A15-09_22_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_22_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668741CE0DFCC00C54942 /* A15-09_22_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_22_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668751CE0DFCC00C54942 /* KS-META-A15-09_22-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_22-g.xml"; sourceTree = "<group>"; };
+		8F5668771CE0DFCC00C54942 /* A15-09_23-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_23-g.xml"; sourceTree = "<group>"; };
+		8F5668781CE0DFCC00C54942 /* A15-09_23_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_23_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668791CE0DFCC00C54942 /* A15-09_23_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_23_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F56687A1CE0DFCC00C54942 /* A15-09_23_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_23_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F56687B1CE0DFCC00C54942 /* KS-META-A15-09_23-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_23-g.xml"; sourceTree = "<group>"; };
+		8F56687D1CE0DFCC00C54942 /* A15-09_24-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_24-g.xml"; sourceTree = "<group>"; };
+		8F56687E1CE0DFCC00C54942 /* A15-09_24_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_24_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F56687F1CE0DFCC00C54942 /* A15-09_24_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_24_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668801CE0DFCC00C54942 /* A15-09_24_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_24_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668811CE0DFCC00C54942 /* KS-META-A15-09_24-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_24-g.xml"; sourceTree = "<group>"; };
+		8F5668831CE0DFCC00C54942 /* A15-09_25-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_25-g.xml"; sourceTree = "<group>"; };
+		8F5668841CE0DFCC00C54942 /* A15-09_25_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_25_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668851CE0DFCC00C54942 /* A15-09_25_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_25_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668861CE0DFCC00C54942 /* A15-09_25_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_25_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668871CE0DFCC00C54942 /* KS-META-A15-09_25-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_25-g.xml"; sourceTree = "<group>"; };
+		8F5668891CE0DFCC00C54942 /* A15-09_26-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_26-g.xml"; sourceTree = "<group>"; };
+		8F56688A1CE0DFCC00C54942 /* A15-09_26_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_26_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F56688B1CE0DFCC00C54942 /* A15-09_26_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_26_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F56688C1CE0DFCC00C54942 /* A15-09_26_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_26_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F56688D1CE0DFCC00C54942 /* KS-META-A15-09_26-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_26-g.xml"; sourceTree = "<group>"; };
+		8F56688F1CE0DFCC00C54942 /* A15-09_27-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_27-g.xml"; sourceTree = "<group>"; };
+		8F5668901CE0DFCC00C54942 /* A15-09_27_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_27_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668911CE0DFCC00C54942 /* A15-09_27_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_27_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668921CE0DFCC00C54942 /* A15-09_27_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_27_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668931CE0DFCC00C54942 /* KS-META-A15-09_27-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_27-g.xml"; sourceTree = "<group>"; };
+		8F5668951CE0DFCC00C54942 /* A15-09_28-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_28-g.xml"; sourceTree = "<group>"; };
+		8F5668961CE0DFCC00C54942 /* A15-09_28_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_28_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668971CE0DFCC00C54942 /* A15-09_28_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_28_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668981CE0DFCC00C54942 /* A15-09_28_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_28_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668991CE0DFCC00C54942 /* KS-META-A15-09_28-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_28-g.xml"; sourceTree = "<group>"; };
+		8F56689B1CE0DFCC00C54942 /* A15-09_29-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_29-g.xml"; sourceTree = "<group>"; };
+		8F56689C1CE0DFCC00C54942 /* A15-09_29_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_29_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F56689D1CE0DFCC00C54942 /* A15-09_29_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_29_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F56689E1CE0DFCC00C54942 /* A15-09_29_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_29_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F56689F1CE0DFCC00C54942 /* KS-META-A15-09_29-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_29-g.xml"; sourceTree = "<group>"; };
+		8F5668A11CE0DFCC00C54942 /* A15-09_30-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_30-g.xml"; sourceTree = "<group>"; };
+		8F5668A21CE0DFCC00C54942 /* A15-09_30_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_30_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668A31CE0DFCC00C54942 /* A15-09_30_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_30_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668A41CE0DFCC00C54942 /* A15-09_30_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_30_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668A51CE0DFCC00C54942 /* KS-META-A15-09_30-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_30-g.xml"; sourceTree = "<group>"; };
+		8F5668A71CE0DFCC00C54942 /* A15-09_31-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_31-g.xml"; sourceTree = "<group>"; };
+		8F5668A81CE0DFCC00C54942 /* A15-09_31_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_31_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668A91CE0DFCC00C54942 /* A15-09_31_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_31_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668AA1CE0DFCC00C54942 /* A15-09_31_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_31_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668AB1CE0DFCC00C54942 /* KS-META-A15-09_31-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_31-g.xml"; sourceTree = "<group>"; };
+		8F5668AD1CE0DFCC00C54942 /* A15-09_32-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_32-g.xml"; sourceTree = "<group>"; };
+		8F5668AE1CE0DFCC00C54942 /* A15-09_32_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_32_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668AF1CE0DFCC00C54942 /* A15-09_32_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_32_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668B01CE0DFCC00C54942 /* A15-09_32_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_32_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668B11CE0DFCC00C54942 /* KS-META-A15-09_32-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_32-g.xml"; sourceTree = "<group>"; };
+		8F5668B31CE0DFCC00C54942 /* A15-09_33-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_33-g.xml"; sourceTree = "<group>"; };
+		8F5668B41CE0DFCC00C54942 /* A15-09_33_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_33_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668B51CE0DFCC00C54942 /* A15-09_33_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_33_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668B61CE0DFCC00C54942 /* A15-09_33_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_33_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668B71CE0DFCC00C54942 /* KS-META-A15-09_33-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_33-g.xml"; sourceTree = "<group>"; };
+		8F5668B91CE0DFCC00C54942 /* A15-09_34-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_34-g.xml"; sourceTree = "<group>"; };
+		8F5668BA1CE0DFCC00C54942 /* A15-09_34_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_34_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668BB1CE0DFCC00C54942 /* A15-09_34_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_34_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668BC1CE0DFCC00C54942 /* A15-09_34_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_34_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668BD1CE0DFCC00C54942 /* KS-META-A15-09_34-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_34-g.xml"; sourceTree = "<group>"; };
+		8F5668BF1CE0DFCC00C54942 /* A15-09_35-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_35-g.xml"; sourceTree = "<group>"; };
+		8F5668C01CE0DFCC00C54942 /* A15-09_35_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_35_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668C11CE0DFCC00C54942 /* A15-09_35_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_35_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668C21CE0DFCC00C54942 /* A15-09_35_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_35_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668C31CE0DFCC00C54942 /* KS-META-A15-09_35-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_35-g.xml"; sourceTree = "<group>"; };
+		8F5668C51CE0DFCC00C54942 /* A15-09_36-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_36-g.xml"; sourceTree = "<group>"; };
+		8F5668C61CE0DFCC00C54942 /* A15-09_36_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_36_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668C71CE0DFCC00C54942 /* A15-09_36_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_36_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668C81CE0DFCC00C54942 /* A15-09_36_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_36_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668C91CE0DFCC00C54942 /* KS-META-A15-09_36-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_36-g.xml"; sourceTree = "<group>"; };
+		8F5668CB1CE0DFCC00C54942 /* A15-09_37-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_37-g.xml"; sourceTree = "<group>"; };
+		8F5668CC1CE0DFCC00C54942 /* A15-09_37_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_37_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668CD1CE0DFCC00C54942 /* A15-09_37_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_37_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668CE1CE0DFCC00C54942 /* A15-09_37_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_37_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668CF1CE0DFCC00C54942 /* KS-META-A15-09_37-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_37-g.xml"; sourceTree = "<group>"; };
+		8F5668D11CE0DFCC00C54942 /* A15-09_38-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_38-g.xml"; sourceTree = "<group>"; };
+		8F5668D21CE0DFCC00C54942 /* A15-09_38_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_38_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668D31CE0DFCC00C54942 /* A15-09_38_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_38_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668D41CE0DFCC00C54942 /* A15-09_38_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_38_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668D51CE0DFCC00C54942 /* KS-META-A15-09_38-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_38-g.xml"; sourceTree = "<group>"; };
+		8F5668D71CE0DFCC00C54942 /* A15-09_39-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_39-g.xml"; sourceTree = "<group>"; };
+		8F5668D81CE0DFCC00C54942 /* A15-09_39_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_39_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668D91CE0DFCC00C54942 /* A15-09_39_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_39_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668DA1CE0DFCC00C54942 /* A15-09_39_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_39_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668DB1CE0DFCC00C54942 /* KS-META-A15-09_39-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_39-g.xml"; sourceTree = "<group>"; };
+		8F5668DD1CE0DFCC00C54942 /* A15-09_40-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_40-g.xml"; sourceTree = "<group>"; };
+		8F5668DE1CE0DFCC00C54942 /* A15-09_40_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_40_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668DF1CE0DFCC00C54942 /* A15-09_40_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_40_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668E01CE0DFCC00C54942 /* A15-09_40_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_40_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668E11CE0DFCC00C54942 /* KS-META-A15-09_40-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_40-g.xml"; sourceTree = "<group>"; };
+		8F5668E31CE0DFCC00C54942 /* A15-09_41-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_41-g.xml"; sourceTree = "<group>"; };
+		8F5668E41CE0DFCC00C54942 /* A15-09_41_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_41_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668E51CE0DFCC00C54942 /* A15-09_41_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_41_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668E61CE0DFCC00C54942 /* A15-09_41_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_41_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668E71CE0DFCC00C54942 /* KS-META-A15-09_41-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_41-g.xml"; sourceTree = "<group>"; };
+		8F5668E91CE0DFCC00C54942 /* A15-09_42-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_42-g.xml"; sourceTree = "<group>"; };
+		8F5668EA1CE0DFCC00C54942 /* A15-09_42_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_42_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668EB1CE0DFCC00C54942 /* A15-09_42_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_42_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668EC1CE0DFCC00C54942 /* A15-09_42_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_42_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668ED1CE0DFCC00C54942 /* KS-META-A15-09_42-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_42-g.xml"; sourceTree = "<group>"; };
+		8F5668EF1CE0DFCC00C54942 /* A15-09_43-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_43-g.xml"; sourceTree = "<group>"; };
+		8F5668F01CE0DFCC00C54942 /* A15-09_43_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_43_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668F11CE0DFCC00C54942 /* A15-09_43_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_43_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668F21CE0DFCC00C54942 /* A15-09_43_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_43_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668F31CE0DFCC00C54942 /* KS-META-A15-09_43-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_43-g.xml"; sourceTree = "<group>"; };
+		8F5668F51CE0DFCC00C54942 /* A15-09_44-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_44-g.xml"; sourceTree = "<group>"; };
+		8F5668F61CE0DFCC00C54942 /* A15-09_44_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_44_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668F71CE0DFCC00C54942 /* A15-09_44_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_44_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668F81CE0DFCC00C54942 /* A15-09_44_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_44_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668F91CE0DFCC00C54942 /* KS-META-A15-09_44-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_44-g.xml"; sourceTree = "<group>"; };
+		8F5668FB1CE0DFCC00C54942 /* A15-09_45-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_45-g.xml"; sourceTree = "<group>"; };
+		8F5668FC1CE0DFCC00C54942 /* A15-09_45_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_45_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5668FD1CE0DFCC00C54942 /* A15-09_45_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_45_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5668FE1CE0DFCC00C54942 /* A15-09_45_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_45_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5668FF1CE0DFCC00C54942 /* KS-META-A15-09_45-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_45-g.xml"; sourceTree = "<group>"; };
+		8F5669011CE0DFCC00C54942 /* A15-09_46-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_46-g.xml"; sourceTree = "<group>"; };
+		8F5669021CE0DFCC00C54942 /* A15-09_46_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_46_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5669031CE0DFCC00C54942 /* A15-09_46_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_46_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F5669041CE0DFCC00C54942 /* A15-09_46_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_46_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F5669051CE0DFCC00C54942 /* KS-META-A15-09_46-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_46-g.xml"; sourceTree = "<group>"; };
+		8F5669071CE0DFCC00C54942 /* A15-09_47-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_47-g.xml"; sourceTree = "<group>"; };
+		8F5669081CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_47_WildlifePreserve.dbf"; sourceTree = "<group>"; };
+		8F5669091CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_47_WildlifePreserve.shp"; sourceTree = "<group>"; };
+		8F56690A1CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_47_WildlifePreserve.shx"; sourceTree = "<group>"; };
+		8F56690B1CE0DFCC00C54942 /* KS-META-A15-09_47-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_47-g.xml"; sourceTree = "<group>"; };
 		8FEE7DD81CDDBE9400BFDA8C /* HunterMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HunterMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FEE7DDB1CDDBE9400BFDA8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FEE7DDD1CDDBE9400BFDA8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -151,14 +615,631 @@
 			name = Utils;
 			sourceTree = "<group>";
 		};
+		8F5667F11CE0DFCB00C54942 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8F5667F21CE0DFCB00C54942 /* A15-09_01_GML */,
+				8F5667F81CE0DFCB00C54942 /* A15-09_02_GML */,
+				8F5667FE1CE0DFCB00C54942 /* A15-09_03_GML */,
+				8F5668041CE0DFCB00C54942 /* A15-09_04_GML */,
+				8F56680A1CE0DFCB00C54942 /* A15-09_05_GML */,
+				8F5668101CE0DFCB00C54942 /* A15-09_06_GML */,
+				8F5668161CE0DFCB00C54942 /* A15-09_07_GML */,
+				8F56681C1CE0DFCB00C54942 /* A15-09_08_GML */,
+				8F5668221CE0DFCB00C54942 /* A15-09_09_GML */,
+				8F5668281CE0DFCB00C54942 /* A15-09_10_GML */,
+				8F56682E1CE0DFCB00C54942 /* A15-09_11_GML */,
+				8F5668341CE0DFCB00C54942 /* A15-09_12_GML */,
+				8F56683A1CE0DFCB00C54942 /* A15-09_13_GML */,
+				8F5668401CE0DFCC00C54942 /* A15-09_14_GML */,
+				8F5668461CE0DFCC00C54942 /* A15-09_15_GML */,
+				8F56684C1CE0DFCC00C54942 /* A15-09_16_GML */,
+				8F5668521CE0DFCC00C54942 /* A15-09_17_GML */,
+				8F5668581CE0DFCC00C54942 /* A15-09_18_GML */,
+				8F56685E1CE0DFCC00C54942 /* A15-09_19_GML */,
+				8F5668641CE0DFCC00C54942 /* A15-09_20_GML */,
+				8F56686A1CE0DFCC00C54942 /* A15-09_21_GML */,
+				8F5668701CE0DFCC00C54942 /* A15-09_22_GML */,
+				8F5668761CE0DFCC00C54942 /* A15-09_23_GML */,
+				8F56687C1CE0DFCC00C54942 /* A15-09_24_GML */,
+				8F5668821CE0DFCC00C54942 /* A15-09_25_GML */,
+				8F5668881CE0DFCC00C54942 /* A15-09_26_GML */,
+				8F56688E1CE0DFCC00C54942 /* A15-09_27_GML */,
+				8F5668941CE0DFCC00C54942 /* A15-09_28_GML */,
+				8F56689A1CE0DFCC00C54942 /* A15-09_29_GML */,
+				8F5668A01CE0DFCC00C54942 /* A15-09_30_GML */,
+				8F5668A61CE0DFCC00C54942 /* A15-09_31_GML */,
+				8F5668AC1CE0DFCC00C54942 /* A15-09_32_GML */,
+				8F5668B21CE0DFCC00C54942 /* A15-09_33_GML */,
+				8F5668B81CE0DFCC00C54942 /* A15-09_34_GML */,
+				8F5668BE1CE0DFCC00C54942 /* A15-09_35_GML */,
+				8F5668C41CE0DFCC00C54942 /* A15-09_36_GML */,
+				8F5668CA1CE0DFCC00C54942 /* A15-09_37_GML */,
+				8F5668D01CE0DFCC00C54942 /* A15-09_38_GML */,
+				8F5668D61CE0DFCC00C54942 /* A15-09_39_GML */,
+				8F5668DC1CE0DFCC00C54942 /* A15-09_40_GML */,
+				8F5668E21CE0DFCC00C54942 /* A15-09_41_GML */,
+				8F5668E81CE0DFCC00C54942 /* A15-09_42_GML */,
+				8F5668EE1CE0DFCC00C54942 /* A15-09_43_GML */,
+				8F5668F41CE0DFCC00C54942 /* A15-09_44_GML */,
+				8F5668FA1CE0DFCC00C54942 /* A15-09_45_GML */,
+				8F5669001CE0DFCC00C54942 /* A15-09_46_GML */,
+				8F5669061CE0DFCC00C54942 /* A15-09_47_GML */,
+			);
+			name = Data;
+			path = HunterMap/Data;
+			sourceTree = "<group>";
+		};
+		8F5667F21CE0DFCB00C54942 /* A15-09_01_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5667F31CE0DFCB00C54942 /* A15-09_01-g.xml */,
+				8F5667F41CE0DFCB00C54942 /* A15-09_01_WildlifePreserve.dbf */,
+				8F5667F51CE0DFCB00C54942 /* A15-09_01_WildlifePreserve.shp */,
+				8F5667F61CE0DFCB00C54942 /* A15-09_01_WildlifePreserve.shx */,
+				8F5667F71CE0DFCB00C54942 /* KS-META-A15-09_01-g.xml */,
+			);
+			path = "A15-09_01_GML";
+			sourceTree = "<group>";
+		};
+		8F5667F81CE0DFCB00C54942 /* A15-09_02_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5667F91CE0DFCB00C54942 /* A15-09_02-g.xml */,
+				8F5667FA1CE0DFCB00C54942 /* A15-09_02_WildlifePreserve.dbf */,
+				8F5667FB1CE0DFCB00C54942 /* A15-09_02_WildlifePreserve.shp */,
+				8F5667FC1CE0DFCB00C54942 /* A15-09_02_WildlifePreserve.shx */,
+				8F5667FD1CE0DFCB00C54942 /* KS-META-A15-09_02-g.xml */,
+			);
+			path = "A15-09_02_GML";
+			sourceTree = "<group>";
+		};
+		8F5667FE1CE0DFCB00C54942 /* A15-09_03_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5667FF1CE0DFCB00C54942 /* A15-09_03-g.xml */,
+				8F5668001CE0DFCB00C54942 /* A15-09_03_WildlifePreserve.dbf */,
+				8F5668011CE0DFCB00C54942 /* A15-09_03_WildlifePreserve.shp */,
+				8F5668021CE0DFCB00C54942 /* A15-09_03_WildlifePreserve.shx */,
+				8F5668031CE0DFCB00C54942 /* KS-META-A15-09_03-g.xml */,
+			);
+			path = "A15-09_03_GML";
+			sourceTree = "<group>";
+		};
+		8F5668041CE0DFCB00C54942 /* A15-09_04_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668051CE0DFCB00C54942 /* A15-09_04-g.xml */,
+				8F5668061CE0DFCB00C54942 /* A15-09_04_WildlifePreserve.dbf */,
+				8F5668071CE0DFCB00C54942 /* A15-09_04_WildlifePreserve.shp */,
+				8F5668081CE0DFCB00C54942 /* A15-09_04_WildlifePreserve.shx */,
+				8F5668091CE0DFCB00C54942 /* KS-META-A15-09_04-g.xml */,
+			);
+			path = "A15-09_04_GML";
+			sourceTree = "<group>";
+		};
+		8F56680A1CE0DFCB00C54942 /* A15-09_05_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F56680B1CE0DFCB00C54942 /* A15-09_05-g.xml */,
+				8F56680C1CE0DFCB00C54942 /* A15-09_05_WildlifePreserve.dbf */,
+				8F56680D1CE0DFCB00C54942 /* A15-09_05_WildlifePreserve.shp */,
+				8F56680E1CE0DFCB00C54942 /* A15-09_05_WildlifePreserve.shx */,
+				8F56680F1CE0DFCB00C54942 /* KS-META-A15-09_05-g.xml */,
+			);
+			path = "A15-09_05_GML";
+			sourceTree = "<group>";
+		};
+		8F5668101CE0DFCB00C54942 /* A15-09_06_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668111CE0DFCB00C54942 /* A15-09_06-g.xml */,
+				8F5668121CE0DFCB00C54942 /* A15-09_06_WildlifePreserve.dbf */,
+				8F5668131CE0DFCB00C54942 /* A15-09_06_WildlifePreserve.shp */,
+				8F5668141CE0DFCB00C54942 /* A15-09_06_WildlifePreserve.shx */,
+				8F5668151CE0DFCB00C54942 /* KS-META-A15-09_06-g.xml */,
+			);
+			path = "A15-09_06_GML";
+			sourceTree = "<group>";
+		};
+		8F5668161CE0DFCB00C54942 /* A15-09_07_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668171CE0DFCB00C54942 /* A15-09_07-g.xml */,
+				8F5668181CE0DFCB00C54942 /* A15-09_07_WildlifePreserve.dbf */,
+				8F5668191CE0DFCB00C54942 /* A15-09_07_WildlifePreserve.shp */,
+				8F56681A1CE0DFCB00C54942 /* A15-09_07_WildlifePreserve.shx */,
+				8F56681B1CE0DFCB00C54942 /* KS-META-A15-09_07-g.xml */,
+			);
+			path = "A15-09_07_GML";
+			sourceTree = "<group>";
+		};
+		8F56681C1CE0DFCB00C54942 /* A15-09_08_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F56681D1CE0DFCB00C54942 /* A15-09_08-g.xml */,
+				8F56681E1CE0DFCB00C54942 /* A15-09_08_WildlifePreserve.dbf */,
+				8F56681F1CE0DFCB00C54942 /* A15-09_08_WildlifePreserve.shp */,
+				8F5668201CE0DFCB00C54942 /* A15-09_08_WildlifePreserve.shx */,
+				8F5668211CE0DFCB00C54942 /* KS-META-A15-09_08-g.xml */,
+			);
+			path = "A15-09_08_GML";
+			sourceTree = "<group>";
+		};
+		8F5668221CE0DFCB00C54942 /* A15-09_09_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668231CE0DFCB00C54942 /* A15-09_09-g.xml */,
+				8F5668241CE0DFCB00C54942 /* A15-09_09_WildlifePreserve.dbf */,
+				8F5668251CE0DFCB00C54942 /* A15-09_09_WildlifePreserve.shp */,
+				8F5668261CE0DFCB00C54942 /* A15-09_09_WildlifePreserve.shx */,
+				8F5668271CE0DFCB00C54942 /* KS-META-A15-09_09-g.xml */,
+			);
+			path = "A15-09_09_GML";
+			sourceTree = "<group>";
+		};
+		8F5668281CE0DFCB00C54942 /* A15-09_10_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668291CE0DFCB00C54942 /* A15-09_10-g.xml */,
+				8F56682A1CE0DFCB00C54942 /* A15-09_10_WildlifePreserve.dbf */,
+				8F56682B1CE0DFCB00C54942 /* A15-09_10_WildlifePreserve.shp */,
+				8F56682C1CE0DFCB00C54942 /* A15-09_10_WildlifePreserve.shx */,
+				8F56682D1CE0DFCB00C54942 /* KS-META-A15-09_10-g.xml */,
+			);
+			path = "A15-09_10_GML";
+			sourceTree = "<group>";
+		};
+		8F56682E1CE0DFCB00C54942 /* A15-09_11_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F56682F1CE0DFCB00C54942 /* A15-09_11-g.xml */,
+				8F5668301CE0DFCB00C54942 /* A15-09_11_WildlifePreserve.dbf */,
+				8F5668311CE0DFCB00C54942 /* A15-09_11_WildlifePreserve.shp */,
+				8F5668321CE0DFCB00C54942 /* A15-09_11_WildlifePreserve.shx */,
+				8F5668331CE0DFCB00C54942 /* KS-META-A15-09_11-g.xml */,
+			);
+			path = "A15-09_11_GML";
+			sourceTree = "<group>";
+		};
+		8F5668341CE0DFCB00C54942 /* A15-09_12_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668351CE0DFCB00C54942 /* A15-09_12-g.xml */,
+				8F5668361CE0DFCB00C54942 /* A15-09_12_WildlifePreserve.dbf */,
+				8F5668371CE0DFCB00C54942 /* A15-09_12_WildlifePreserve.shp */,
+				8F5668381CE0DFCB00C54942 /* A15-09_12_WildlifePreserve.shx */,
+				8F5668391CE0DFCB00C54942 /* KS-META-A15-09_12-g.xml */,
+			);
+			path = "A15-09_12_GML";
+			sourceTree = "<group>";
+		};
+		8F56683A1CE0DFCB00C54942 /* A15-09_13_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F56683B1CE0DFCB00C54942 /* A15-09_13-g.xml */,
+				8F56683C1CE0DFCB00C54942 /* A15-09_13_WildlifePreserve.dbf */,
+				8F56683D1CE0DFCC00C54942 /* A15-09_13_WildlifePreserve.shp */,
+				8F56683E1CE0DFCC00C54942 /* A15-09_13_WildlifePreserve.shx */,
+				8F56683F1CE0DFCC00C54942 /* KS-META-A15-09_13-g.xml */,
+			);
+			path = "A15-09_13_GML";
+			sourceTree = "<group>";
+		};
+		8F5668401CE0DFCC00C54942 /* A15-09_14_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668411CE0DFCC00C54942 /* A15-09_14-g.xml */,
+				8F5668421CE0DFCC00C54942 /* A15-09_14_WildlifePreserve.dbf */,
+				8F5668431CE0DFCC00C54942 /* A15-09_14_WildlifePreserve.shp */,
+				8F5668441CE0DFCC00C54942 /* A15-09_14_WildlifePreserve.shx */,
+				8F5668451CE0DFCC00C54942 /* KS-META-A15-09_14-g.xml */,
+			);
+			path = "A15-09_14_GML";
+			sourceTree = "<group>";
+		};
+		8F5668461CE0DFCC00C54942 /* A15-09_15_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668471CE0DFCC00C54942 /* A15-09_15-g.xml */,
+				8F5668481CE0DFCC00C54942 /* A15-09_15_WildlifePreserve.dbf */,
+				8F5668491CE0DFCC00C54942 /* A15-09_15_WildlifePreserve.shp */,
+				8F56684A1CE0DFCC00C54942 /* A15-09_15_WildlifePreserve.shx */,
+				8F56684B1CE0DFCC00C54942 /* KS-META-A15-09_15-g.xml */,
+			);
+			path = "A15-09_15_GML";
+			sourceTree = "<group>";
+		};
+		8F56684C1CE0DFCC00C54942 /* A15-09_16_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F56684D1CE0DFCC00C54942 /* A15-09_16-g.xml */,
+				8F56684E1CE0DFCC00C54942 /* A15-09_16_WildlifePreserve.dbf */,
+				8F56684F1CE0DFCC00C54942 /* A15-09_16_WildlifePreserve.shp */,
+				8F5668501CE0DFCC00C54942 /* A15-09_16_WildlifePreserve.shx */,
+				8F5668511CE0DFCC00C54942 /* KS-META-A15-09_16-g.xml */,
+			);
+			path = "A15-09_16_GML";
+			sourceTree = "<group>";
+		};
+		8F5668521CE0DFCC00C54942 /* A15-09_17_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668531CE0DFCC00C54942 /* A15-09_17-g.xml */,
+				8F5668541CE0DFCC00C54942 /* A15-09_17_WildlifePreserve.dbf */,
+				8F5668551CE0DFCC00C54942 /* A15-09_17_WildlifePreserve.shp */,
+				8F5668561CE0DFCC00C54942 /* A15-09_17_WildlifePreserve.shx */,
+				8F5668571CE0DFCC00C54942 /* KS-META-A15-09_17-g.xml */,
+			);
+			path = "A15-09_17_GML";
+			sourceTree = "<group>";
+		};
+		8F5668581CE0DFCC00C54942 /* A15-09_18_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668591CE0DFCC00C54942 /* A15-09_18-g.xml */,
+				8F56685A1CE0DFCC00C54942 /* A15-09_18_WildlifePreserve.dbf */,
+				8F56685B1CE0DFCC00C54942 /* A15-09_18_WildlifePreserve.shp */,
+				8F56685C1CE0DFCC00C54942 /* A15-09_18_WildlifePreserve.shx */,
+				8F56685D1CE0DFCC00C54942 /* KS-META-A15-09_18-g.xml */,
+			);
+			path = "A15-09_18_GML";
+			sourceTree = "<group>";
+		};
+		8F56685E1CE0DFCC00C54942 /* A15-09_19_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F56685F1CE0DFCC00C54942 /* A15-09_19-g.xml */,
+				8F5668601CE0DFCC00C54942 /* A15-09_19_WildlifePreserve.dbf */,
+				8F5668611CE0DFCC00C54942 /* A15-09_19_WildlifePreserve.shp */,
+				8F5668621CE0DFCC00C54942 /* A15-09_19_WildlifePreserve.shx */,
+				8F5668631CE0DFCC00C54942 /* KS-META-A15-09_19-g.xml */,
+			);
+			path = "A15-09_19_GML";
+			sourceTree = "<group>";
+		};
+		8F5668641CE0DFCC00C54942 /* A15-09_20_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668651CE0DFCC00C54942 /* A15-09_20-g.xml */,
+				8F5668661CE0DFCC00C54942 /* A15-09_20_WildlifePreserve.dbf */,
+				8F5668671CE0DFCC00C54942 /* A15-09_20_WildlifePreserve.shp */,
+				8F5668681CE0DFCC00C54942 /* A15-09_20_WildlifePreserve.shx */,
+				8F5668691CE0DFCC00C54942 /* KS-META-A15-09_20-g.xml */,
+			);
+			path = "A15-09_20_GML";
+			sourceTree = "<group>";
+		};
+		8F56686A1CE0DFCC00C54942 /* A15-09_21_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F56686B1CE0DFCC00C54942 /* A15-09_21-g.xml */,
+				8F56686C1CE0DFCC00C54942 /* A15-09_21_WildlifePreserve.dbf */,
+				8F56686D1CE0DFCC00C54942 /* A15-09_21_WildlifePreserve.shp */,
+				8F56686E1CE0DFCC00C54942 /* A15-09_21_WildlifePreserve.shx */,
+				8F56686F1CE0DFCC00C54942 /* KS-META-A15-09_21-g.xml */,
+			);
+			path = "A15-09_21_GML";
+			sourceTree = "<group>";
+		};
+		8F5668701CE0DFCC00C54942 /* A15-09_22_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668711CE0DFCC00C54942 /* A15-09_22-g.xml */,
+				8F5668721CE0DFCC00C54942 /* A15-09_22_WildlifePreserve.dbf */,
+				8F5668731CE0DFCC00C54942 /* A15-09_22_WildlifePreserve.shp */,
+				8F5668741CE0DFCC00C54942 /* A15-09_22_WildlifePreserve.shx */,
+				8F5668751CE0DFCC00C54942 /* KS-META-A15-09_22-g.xml */,
+			);
+			path = "A15-09_22_GML";
+			sourceTree = "<group>";
+		};
+		8F5668761CE0DFCC00C54942 /* A15-09_23_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668771CE0DFCC00C54942 /* A15-09_23-g.xml */,
+				8F5668781CE0DFCC00C54942 /* A15-09_23_WildlifePreserve.dbf */,
+				8F5668791CE0DFCC00C54942 /* A15-09_23_WildlifePreserve.shp */,
+				8F56687A1CE0DFCC00C54942 /* A15-09_23_WildlifePreserve.shx */,
+				8F56687B1CE0DFCC00C54942 /* KS-META-A15-09_23-g.xml */,
+			);
+			path = "A15-09_23_GML";
+			sourceTree = "<group>";
+		};
+		8F56687C1CE0DFCC00C54942 /* A15-09_24_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F56687D1CE0DFCC00C54942 /* A15-09_24-g.xml */,
+				8F56687E1CE0DFCC00C54942 /* A15-09_24_WildlifePreserve.dbf */,
+				8F56687F1CE0DFCC00C54942 /* A15-09_24_WildlifePreserve.shp */,
+				8F5668801CE0DFCC00C54942 /* A15-09_24_WildlifePreserve.shx */,
+				8F5668811CE0DFCC00C54942 /* KS-META-A15-09_24-g.xml */,
+			);
+			path = "A15-09_24_GML";
+			sourceTree = "<group>";
+		};
+		8F5668821CE0DFCC00C54942 /* A15-09_25_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668831CE0DFCC00C54942 /* A15-09_25-g.xml */,
+				8F5668841CE0DFCC00C54942 /* A15-09_25_WildlifePreserve.dbf */,
+				8F5668851CE0DFCC00C54942 /* A15-09_25_WildlifePreserve.shp */,
+				8F5668861CE0DFCC00C54942 /* A15-09_25_WildlifePreserve.shx */,
+				8F5668871CE0DFCC00C54942 /* KS-META-A15-09_25-g.xml */,
+			);
+			path = "A15-09_25_GML";
+			sourceTree = "<group>";
+		};
+		8F5668881CE0DFCC00C54942 /* A15-09_26_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668891CE0DFCC00C54942 /* A15-09_26-g.xml */,
+				8F56688A1CE0DFCC00C54942 /* A15-09_26_WildlifePreserve.dbf */,
+				8F56688B1CE0DFCC00C54942 /* A15-09_26_WildlifePreserve.shp */,
+				8F56688C1CE0DFCC00C54942 /* A15-09_26_WildlifePreserve.shx */,
+				8F56688D1CE0DFCC00C54942 /* KS-META-A15-09_26-g.xml */,
+			);
+			path = "A15-09_26_GML";
+			sourceTree = "<group>";
+		};
+		8F56688E1CE0DFCC00C54942 /* A15-09_27_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F56688F1CE0DFCC00C54942 /* A15-09_27-g.xml */,
+				8F5668901CE0DFCC00C54942 /* A15-09_27_WildlifePreserve.dbf */,
+				8F5668911CE0DFCC00C54942 /* A15-09_27_WildlifePreserve.shp */,
+				8F5668921CE0DFCC00C54942 /* A15-09_27_WildlifePreserve.shx */,
+				8F5668931CE0DFCC00C54942 /* KS-META-A15-09_27-g.xml */,
+			);
+			path = "A15-09_27_GML";
+			sourceTree = "<group>";
+		};
+		8F5668941CE0DFCC00C54942 /* A15-09_28_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668951CE0DFCC00C54942 /* A15-09_28-g.xml */,
+				8F5668961CE0DFCC00C54942 /* A15-09_28_WildlifePreserve.dbf */,
+				8F5668971CE0DFCC00C54942 /* A15-09_28_WildlifePreserve.shp */,
+				8F5668981CE0DFCC00C54942 /* A15-09_28_WildlifePreserve.shx */,
+				8F5668991CE0DFCC00C54942 /* KS-META-A15-09_28-g.xml */,
+			);
+			path = "A15-09_28_GML";
+			sourceTree = "<group>";
+		};
+		8F56689A1CE0DFCC00C54942 /* A15-09_29_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F56689B1CE0DFCC00C54942 /* A15-09_29-g.xml */,
+				8F56689C1CE0DFCC00C54942 /* A15-09_29_WildlifePreserve.dbf */,
+				8F56689D1CE0DFCC00C54942 /* A15-09_29_WildlifePreserve.shp */,
+				8F56689E1CE0DFCC00C54942 /* A15-09_29_WildlifePreserve.shx */,
+				8F56689F1CE0DFCC00C54942 /* KS-META-A15-09_29-g.xml */,
+			);
+			path = "A15-09_29_GML";
+			sourceTree = "<group>";
+		};
+		8F5668A01CE0DFCC00C54942 /* A15-09_30_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668A11CE0DFCC00C54942 /* A15-09_30-g.xml */,
+				8F5668A21CE0DFCC00C54942 /* A15-09_30_WildlifePreserve.dbf */,
+				8F5668A31CE0DFCC00C54942 /* A15-09_30_WildlifePreserve.shp */,
+				8F5668A41CE0DFCC00C54942 /* A15-09_30_WildlifePreserve.shx */,
+				8F5668A51CE0DFCC00C54942 /* KS-META-A15-09_30-g.xml */,
+			);
+			path = "A15-09_30_GML";
+			sourceTree = "<group>";
+		};
+		8F5668A61CE0DFCC00C54942 /* A15-09_31_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668A71CE0DFCC00C54942 /* A15-09_31-g.xml */,
+				8F5668A81CE0DFCC00C54942 /* A15-09_31_WildlifePreserve.dbf */,
+				8F5668A91CE0DFCC00C54942 /* A15-09_31_WildlifePreserve.shp */,
+				8F5668AA1CE0DFCC00C54942 /* A15-09_31_WildlifePreserve.shx */,
+				8F5668AB1CE0DFCC00C54942 /* KS-META-A15-09_31-g.xml */,
+			);
+			path = "A15-09_31_GML";
+			sourceTree = "<group>";
+		};
+		8F5668AC1CE0DFCC00C54942 /* A15-09_32_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668AD1CE0DFCC00C54942 /* A15-09_32-g.xml */,
+				8F5668AE1CE0DFCC00C54942 /* A15-09_32_WildlifePreserve.dbf */,
+				8F5668AF1CE0DFCC00C54942 /* A15-09_32_WildlifePreserve.shp */,
+				8F5668B01CE0DFCC00C54942 /* A15-09_32_WildlifePreserve.shx */,
+				8F5668B11CE0DFCC00C54942 /* KS-META-A15-09_32-g.xml */,
+			);
+			path = "A15-09_32_GML";
+			sourceTree = "<group>";
+		};
+		8F5668B21CE0DFCC00C54942 /* A15-09_33_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668B31CE0DFCC00C54942 /* A15-09_33-g.xml */,
+				8F5668B41CE0DFCC00C54942 /* A15-09_33_WildlifePreserve.dbf */,
+				8F5668B51CE0DFCC00C54942 /* A15-09_33_WildlifePreserve.shp */,
+				8F5668B61CE0DFCC00C54942 /* A15-09_33_WildlifePreserve.shx */,
+				8F5668B71CE0DFCC00C54942 /* KS-META-A15-09_33-g.xml */,
+			);
+			path = "A15-09_33_GML";
+			sourceTree = "<group>";
+		};
+		8F5668B81CE0DFCC00C54942 /* A15-09_34_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668B91CE0DFCC00C54942 /* A15-09_34-g.xml */,
+				8F5668BA1CE0DFCC00C54942 /* A15-09_34_WildlifePreserve.dbf */,
+				8F5668BB1CE0DFCC00C54942 /* A15-09_34_WildlifePreserve.shp */,
+				8F5668BC1CE0DFCC00C54942 /* A15-09_34_WildlifePreserve.shx */,
+				8F5668BD1CE0DFCC00C54942 /* KS-META-A15-09_34-g.xml */,
+			);
+			path = "A15-09_34_GML";
+			sourceTree = "<group>";
+		};
+		8F5668BE1CE0DFCC00C54942 /* A15-09_35_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668BF1CE0DFCC00C54942 /* A15-09_35-g.xml */,
+				8F5668C01CE0DFCC00C54942 /* A15-09_35_WildlifePreserve.dbf */,
+				8F5668C11CE0DFCC00C54942 /* A15-09_35_WildlifePreserve.shp */,
+				8F5668C21CE0DFCC00C54942 /* A15-09_35_WildlifePreserve.shx */,
+				8F5668C31CE0DFCC00C54942 /* KS-META-A15-09_35-g.xml */,
+			);
+			path = "A15-09_35_GML";
+			sourceTree = "<group>";
+		};
+		8F5668C41CE0DFCC00C54942 /* A15-09_36_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668C51CE0DFCC00C54942 /* A15-09_36-g.xml */,
+				8F5668C61CE0DFCC00C54942 /* A15-09_36_WildlifePreserve.dbf */,
+				8F5668C71CE0DFCC00C54942 /* A15-09_36_WildlifePreserve.shp */,
+				8F5668C81CE0DFCC00C54942 /* A15-09_36_WildlifePreserve.shx */,
+				8F5668C91CE0DFCC00C54942 /* KS-META-A15-09_36-g.xml */,
+			);
+			path = "A15-09_36_GML";
+			sourceTree = "<group>";
+		};
+		8F5668CA1CE0DFCC00C54942 /* A15-09_37_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668CB1CE0DFCC00C54942 /* A15-09_37-g.xml */,
+				8F5668CC1CE0DFCC00C54942 /* A15-09_37_WildlifePreserve.dbf */,
+				8F5668CD1CE0DFCC00C54942 /* A15-09_37_WildlifePreserve.shp */,
+				8F5668CE1CE0DFCC00C54942 /* A15-09_37_WildlifePreserve.shx */,
+				8F5668CF1CE0DFCC00C54942 /* KS-META-A15-09_37-g.xml */,
+			);
+			path = "A15-09_37_GML";
+			sourceTree = "<group>";
+		};
+		8F5668D01CE0DFCC00C54942 /* A15-09_38_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668D11CE0DFCC00C54942 /* A15-09_38-g.xml */,
+				8F5668D21CE0DFCC00C54942 /* A15-09_38_WildlifePreserve.dbf */,
+				8F5668D31CE0DFCC00C54942 /* A15-09_38_WildlifePreserve.shp */,
+				8F5668D41CE0DFCC00C54942 /* A15-09_38_WildlifePreserve.shx */,
+				8F5668D51CE0DFCC00C54942 /* KS-META-A15-09_38-g.xml */,
+			);
+			path = "A15-09_38_GML";
+			sourceTree = "<group>";
+		};
+		8F5668D61CE0DFCC00C54942 /* A15-09_39_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668D71CE0DFCC00C54942 /* A15-09_39-g.xml */,
+				8F5668D81CE0DFCC00C54942 /* A15-09_39_WildlifePreserve.dbf */,
+				8F5668D91CE0DFCC00C54942 /* A15-09_39_WildlifePreserve.shp */,
+				8F5668DA1CE0DFCC00C54942 /* A15-09_39_WildlifePreserve.shx */,
+				8F5668DB1CE0DFCC00C54942 /* KS-META-A15-09_39-g.xml */,
+			);
+			path = "A15-09_39_GML";
+			sourceTree = "<group>";
+		};
+		8F5668DC1CE0DFCC00C54942 /* A15-09_40_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668DD1CE0DFCC00C54942 /* A15-09_40-g.xml */,
+				8F5668DE1CE0DFCC00C54942 /* A15-09_40_WildlifePreserve.dbf */,
+				8F5668DF1CE0DFCC00C54942 /* A15-09_40_WildlifePreserve.shp */,
+				8F5668E01CE0DFCC00C54942 /* A15-09_40_WildlifePreserve.shx */,
+				8F5668E11CE0DFCC00C54942 /* KS-META-A15-09_40-g.xml */,
+			);
+			path = "A15-09_40_GML";
+			sourceTree = "<group>";
+		};
+		8F5668E21CE0DFCC00C54942 /* A15-09_41_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668E31CE0DFCC00C54942 /* A15-09_41-g.xml */,
+				8F5668E41CE0DFCC00C54942 /* A15-09_41_WildlifePreserve.dbf */,
+				8F5668E51CE0DFCC00C54942 /* A15-09_41_WildlifePreserve.shp */,
+				8F5668E61CE0DFCC00C54942 /* A15-09_41_WildlifePreserve.shx */,
+				8F5668E71CE0DFCC00C54942 /* KS-META-A15-09_41-g.xml */,
+			);
+			path = "A15-09_41_GML";
+			sourceTree = "<group>";
+		};
+		8F5668E81CE0DFCC00C54942 /* A15-09_42_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668E91CE0DFCC00C54942 /* A15-09_42-g.xml */,
+				8F5668EA1CE0DFCC00C54942 /* A15-09_42_WildlifePreserve.dbf */,
+				8F5668EB1CE0DFCC00C54942 /* A15-09_42_WildlifePreserve.shp */,
+				8F5668EC1CE0DFCC00C54942 /* A15-09_42_WildlifePreserve.shx */,
+				8F5668ED1CE0DFCC00C54942 /* KS-META-A15-09_42-g.xml */,
+			);
+			path = "A15-09_42_GML";
+			sourceTree = "<group>";
+		};
+		8F5668EE1CE0DFCC00C54942 /* A15-09_43_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668EF1CE0DFCC00C54942 /* A15-09_43-g.xml */,
+				8F5668F01CE0DFCC00C54942 /* A15-09_43_WildlifePreserve.dbf */,
+				8F5668F11CE0DFCC00C54942 /* A15-09_43_WildlifePreserve.shp */,
+				8F5668F21CE0DFCC00C54942 /* A15-09_43_WildlifePreserve.shx */,
+				8F5668F31CE0DFCC00C54942 /* KS-META-A15-09_43-g.xml */,
+			);
+			path = "A15-09_43_GML";
+			sourceTree = "<group>";
+		};
+		8F5668F41CE0DFCC00C54942 /* A15-09_44_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668F51CE0DFCC00C54942 /* A15-09_44-g.xml */,
+				8F5668F61CE0DFCC00C54942 /* A15-09_44_WildlifePreserve.dbf */,
+				8F5668F71CE0DFCC00C54942 /* A15-09_44_WildlifePreserve.shp */,
+				8F5668F81CE0DFCC00C54942 /* A15-09_44_WildlifePreserve.shx */,
+				8F5668F91CE0DFCC00C54942 /* KS-META-A15-09_44-g.xml */,
+			);
+			path = "A15-09_44_GML";
+			sourceTree = "<group>";
+		};
+		8F5668FA1CE0DFCC00C54942 /* A15-09_45_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5668FB1CE0DFCC00C54942 /* A15-09_45-g.xml */,
+				8F5668FC1CE0DFCC00C54942 /* A15-09_45_WildlifePreserve.dbf */,
+				8F5668FD1CE0DFCC00C54942 /* A15-09_45_WildlifePreserve.shp */,
+				8F5668FE1CE0DFCC00C54942 /* A15-09_45_WildlifePreserve.shx */,
+				8F5668FF1CE0DFCC00C54942 /* KS-META-A15-09_45-g.xml */,
+			);
+			path = "A15-09_45_GML";
+			sourceTree = "<group>";
+		};
+		8F5669001CE0DFCC00C54942 /* A15-09_46_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5669011CE0DFCC00C54942 /* A15-09_46-g.xml */,
+				8F5669021CE0DFCC00C54942 /* A15-09_46_WildlifePreserve.dbf */,
+				8F5669031CE0DFCC00C54942 /* A15-09_46_WildlifePreserve.shp */,
+				8F5669041CE0DFCC00C54942 /* A15-09_46_WildlifePreserve.shx */,
+				8F5669051CE0DFCC00C54942 /* KS-META-A15-09_46-g.xml */,
+			);
+			path = "A15-09_46_GML";
+			sourceTree = "<group>";
+		};
+		8F5669061CE0DFCC00C54942 /* A15-09_47_GML */ = {
+			isa = PBXGroup;
+			children = (
+				8F5669071CE0DFCC00C54942 /* A15-09_47-g.xml */,
+				8F5669081CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.dbf */,
+				8F5669091CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.shp */,
+				8F56690A1CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.shx */,
+				8F56690B1CE0DFCC00C54942 /* KS-META-A15-09_47-g.xml */,
+			);
+			path = "A15-09_47_GML";
+			sourceTree = "<group>";
+		};
 		8FEE7DCF1CDDBE9400BFDA8C = {
 			isa = PBXGroup;
 			children = (
 				8F1FAD011CE0720A008C4762 /* icon_location.png */,
 				8F5667EF1CE0959C00C54942 /* icon_add.png */,
-				8F4E8EE51CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.dbf */,
-				8F4E8EE61CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shp */,
-				8F4E8EE71CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shx */,
+				8F5667F11CE0DFCB00C54942 /* Data */,
 				8FEE7E091CDDBFC400BFDA8C /* MapKit.framework */,
 				8FEE7DDA1CDDBE9400BFDA8C /* HunterMap */,
 				8FEE7DEF1CDDBE9500BFDA8C /* HunterMapTests */,
@@ -296,6 +1377,9 @@
 		8FEE7DD01CDDBE9400BFDA8C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = 1tsuki;
@@ -338,14 +1422,246 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F5669A71CE0DFCC00C54942 /* A15-09_32-g.xml in Resources */,
+				8F5669891CE0DFCC00C54942 /* A15-09_26-g.xml in Resources */,
+				8F56693E1CE0DFCC00C54942 /* A15-09_11-g.xml in Resources */,
+				8F5669EA1CE0DFCC00C54942 /* A15-09_45_WildlifePreserve.shp in Resources */,
+				8F5669D61CE0DFCC00C54942 /* A15-09_41_WildlifePreserve.shp in Resources */,
+				8F5669291CE0DFCC00C54942 /* KS-META-A15-09_06-g.xml in Resources */,
+				8F5669BD1CE0DFCC00C54942 /* A15-09_36_WildlifePreserve.shp in Resources */,
+				8F5669711CE0DFCC00C54942 /* A15-09_21_WildlifePreserve.dbf in Resources */,
+				8F5669A91CE0DFCC00C54942 /* A15-09_32_WildlifePreserve.shp in Resources */,
+				8F5669791CE0DFCC00C54942 /* KS-META-A15-09_22-g.xml in Resources */,
+				8F5669E41CE0DFCC00C54942 /* A15-09_44_WildlifePreserve.dbf in Resources */,
+				8F5669311CE0DFCC00C54942 /* A15-09_08_WildlifePreserve.shp in Resources */,
+				8F56691A1CE0DFCC00C54942 /* KS-META-A15-09_03-g.xml in Resources */,
+				8F5669CC1CE0DFCC00C54942 /* A15-09_39_WildlifePreserve.shp in Resources */,
+				8F5669721CE0DFCC00C54942 /* A15-09_21_WildlifePreserve.shp in Resources */,
+				8F56695B1CE0DFCC00C54942 /* KS-META-A15-09_16-g.xml in Resources */,
+				8F56691D1CE0DFCC00C54942 /* A15-09_04_WildlifePreserve.shp in Resources */,
+				8F5669A31CE0DFCC00C54942 /* A15-09_31_WildlifePreserve.dbf in Resources */,
+				8F56693D1CE0DFCC00C54942 /* KS-META-A15-09_10-g.xml in Resources */,
+				8F5669171CE0DFCC00C54942 /* A15-09_03_WildlifePreserve.dbf in Resources */,
+				8F5669811CE0DFCC00C54942 /* A15-09_24_WildlifePreserve.shp in Resources */,
+				8F5669F21CE0DFCC00C54942 /* A15-09_47-g.xml in Resources */,
+				8F5669F31CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.dbf in Resources */,
+				8F5669D21CE0DFCC00C54942 /* A15-09_40_WildlifePreserve.shx in Resources */,
+				8F5669331CE0DFCC00C54942 /* KS-META-A15-09_08-g.xml in Resources */,
+				8F5669F51CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.shx in Resources */,
+				8F5669F41CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.shp in Resources */,
+				8F5669491CE0DFCC00C54942 /* A15-09_13_WildlifePreserve.dbf in Resources */,
+				8F5669951CE0DFCC00C54942 /* A15-09_28_WildlifePreserve.shp in Resources */,
+				8F5669ED1CE0DFCC00C54942 /* A15-09_46-g.xml in Resources */,
+				8F5669DB1CE0DFCC00C54942 /* A15-09_42_WildlifePreserve.shp in Resources */,
+				8F56693F1CE0DFCC00C54942 /* A15-09_11_WildlifePreserve.dbf in Resources */,
+				8F56698C1CE0DFCC00C54942 /* A15-09_26_WildlifePreserve.shx in Resources */,
+				8F5669101CE0DFCC00C54942 /* KS-META-A15-09_01-g.xml in Resources */,
+				8F5669621CE0DFCC00C54942 /* A15-09_18_WildlifePreserve.dbf in Resources */,
+				8F56696D1CE0DFCC00C54942 /* A15-09_20_WildlifePreserve.shp in Resources */,
+				8F5669EF1CE0DFCC00C54942 /* A15-09_46_WildlifePreserve.shp in Resources */,
+				8F5669E61CE0DFCC00C54942 /* A15-09_44_WildlifePreserve.shx in Resources */,
+				8F5669281CE0DFCC00C54942 /* A15-09_06_WildlifePreserve.shx in Resources */,
+				8F5669C61CE0DFCC00C54942 /* A15-09_38_WildlifePreserve.dbf in Resources */,
+				8F5669F11CE0DFCC00C54942 /* KS-META-A15-09_46-g.xml in Resources */,
+				8F5669691CE0DFCC00C54942 /* A15-09_19_WildlifePreserve.shx in Resources */,
+				8F5669521CE0DFCC00C54942 /* A15-09_15-g.xml in Resources */,
+				8F5669C11CE0DFCC00C54942 /* A15-09_37_WildlifePreserve.dbf in Resources */,
+				8F56695E1CE0DFCC00C54942 /* A15-09_17_WildlifePreserve.shp in Resources */,
+				8F5669981CE0DFCC00C54942 /* A15-09_29-g.xml in Resources */,
+				8F5669CD1CE0DFCC00C54942 /* A15-09_39_WildlifePreserve.shx in Resources */,
+				8F56693A1CE0DFCC00C54942 /* A15-09_10_WildlifePreserve.dbf in Resources */,
+				8F56692D1CE0DFCC00C54942 /* A15-09_07_WildlifePreserve.shx in Resources */,
+				8F56694A1CE0DFCC00C54942 /* A15-09_13_WildlifePreserve.shp in Resources */,
+				8F5669B71CE0DFCC00C54942 /* A15-09_35_WildlifePreserve.dbf in Resources */,
+				8F5669651CE0DFCC00C54942 /* KS-META-A15-09_18-g.xml in Resources */,
+				8F56698F1CE0DFCC00C54942 /* A15-09_27_WildlifePreserve.dbf in Resources */,
+				8F5669801CE0DFCC00C54942 /* A15-09_24_WildlifePreserve.dbf in Resources */,
+				8F5669BF1CE0DFCC00C54942 /* KS-META-A15-09_36-g.xml in Resources */,
+				8F5669AF1CE0DFCC00C54942 /* A15-09_33_WildlifePreserve.shx in Resources */,
+				8F5669DD1CE0DFCC00C54942 /* KS-META-A15-09_42-g.xml in Resources */,
+				8F5669581CE0DFCC00C54942 /* A15-09_16_WildlifePreserve.dbf in Resources */,
+				8F56695A1CE0DFCC00C54942 /* A15-09_16_WildlifePreserve.shx in Resources */,
+				8F5669DF1CE0DFCC00C54942 /* A15-09_43_WildlifePreserve.dbf in Resources */,
+				8F5669571CE0DFCC00C54942 /* A15-09_16-g.xml in Resources */,
+				8F5669541CE0DFCC00C54942 /* A15-09_15_WildlifePreserve.shp in Resources */,
+				8F5669731CE0DFCC00C54942 /* A15-09_21_WildlifePreserve.shx in Resources */,
+				8F5669EE1CE0DFCC00C54942 /* A15-09_46_WildlifePreserve.dbf in Resources */,
+				8F5669161CE0DFCC00C54942 /* A15-09_03-g.xml in Resources */,
+				8F56697C1CE0DFCC00C54942 /* A15-09_23_WildlifePreserve.shp in Resources */,
+				8F56691F1CE0DFCC00C54942 /* KS-META-A15-09_04-g.xml in Resources */,
+				8F5669921CE0DFCC00C54942 /* KS-META-A15-09_27-g.xml in Resources */,
+				8F5669131CE0DFCC00C54942 /* A15-09_02_WildlifePreserve.shp in Resources */,
+				8F5669141CE0DFCC00C54942 /* A15-09_02_WildlifePreserve.shx in Resources */,
+				8F5669E51CE0DFCC00C54942 /* A15-09_44_WildlifePreserve.shp in Resources */,
+				8F56694C1CE0DFCC00C54942 /* KS-META-A15-09_13-g.xml in Resources */,
+				8F5669271CE0DFCC00C54942 /* A15-09_06_WildlifePreserve.shp in Resources */,
+				8F5669E91CE0DFCC00C54942 /* A15-09_45_WildlifePreserve.dbf in Resources */,
+				8F5669761CE0DFCC00C54942 /* A15-09_22_WildlifePreserve.dbf in Resources */,
+				8F5669431CE0DFCC00C54942 /* A15-09_12-g.xml in Resources */,
+				8F5669471CE0DFCC00C54942 /* KS-META-A15-09_12-g.xml in Resources */,
+				8F5669551CE0DFCC00C54942 /* A15-09_15_WildlifePreserve.shx in Resources */,
+				8F5669AE1CE0DFCC00C54942 /* A15-09_33_WildlifePreserve.shp in Resources */,
+				8F5669961CE0DFCC00C54942 /* A15-09_28_WildlifePreserve.shx in Resources */,
+				8F56690F1CE0DFCC00C54942 /* A15-09_01_WildlifePreserve.shx in Resources */,
+				8F5669F01CE0DFCC00C54942 /* A15-09_46_WildlifePreserve.shx in Resources */,
+				8F5669C51CE0DFCC00C54942 /* A15-09_38-g.xml in Resources */,
+				8F5669821CE0DFCC00C54942 /* A15-09_24_WildlifePreserve.shx in Resources */,
+				8F5669C01CE0DFCC00C54942 /* A15-09_37-g.xml in Resources */,
+				8F5669EC1CE0DFCC00C54942 /* KS-META-A15-09_45-g.xml in Resources */,
+				8F56690D1CE0DFCC00C54942 /* A15-09_01_WildlifePreserve.dbf in Resources */,
+				8F5669401CE0DFCC00C54942 /* A15-09_11_WildlifePreserve.shp in Resources */,
+				8F5669941CE0DFCC00C54942 /* A15-09_28_WildlifePreserve.dbf in Resources */,
+				8F56699F1CE0DFCC00C54942 /* A15-09_30_WildlifePreserve.shp in Resources */,
+				8F5669D31CE0DFCC00C54942 /* KS-META-A15-09_40-g.xml in Resources */,
+				8F56696F1CE0DFCC00C54942 /* KS-META-A15-09_20-g.xml in Resources */,
+				8F5669151CE0DFCC00C54942 /* KS-META-A15-09_02-g.xml in Resources */,
+				8F5669BC1CE0DFCC00C54942 /* A15-09_36_WildlifePreserve.dbf in Resources */,
+				8F56695C1CE0DFCC00C54942 /* A15-09_17-g.xml in Resources */,
+				8F5669681CE0DFCC00C54942 /* A15-09_19_WildlifePreserve.shp in Resources */,
+				8F5669AA1CE0DFCC00C54942 /* A15-09_32_WildlifePreserve.shx in Resources */,
+				8F5669B21CE0DFCC00C54942 /* A15-09_34_WildlifePreserve.dbf in Resources */,
+				8F5669971CE0DFCC00C54942 /* KS-META-A15-09_28-g.xml in Resources */,
+				8F5669B11CE0DFCC00C54942 /* A15-09_34-g.xml in Resources */,
 				8F1FAD021CE0720A008C4762 /* icon_location.png in Resources */,
-				8F4E8EE81CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.dbf in Resources */,
-				8F4E8EE91CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shp in Resources */,
-				8F4E8EEA1CDF3C3A00A865E2 /* A15-09_14_WildlifePreserve.shx in Resources */,
+				8F56695F1CE0DFCC00C54942 /* A15-09_17_WildlifePreserve.shx in Resources */,
+				8F5669831CE0DFCC00C54942 /* KS-META-A15-09_24-g.xml in Resources */,
+				8F5669CF1CE0DFCC00C54942 /* A15-09_40-g.xml in Resources */,
+				8F5669AC1CE0DFCC00C54942 /* A15-09_33-g.xml in Resources */,
+				8F56697F1CE0DFCC00C54942 /* A15-09_24-g.xml in Resources */,
+				8F5669C31CE0DFCC00C54942 /* A15-09_37_WildlifePreserve.shx in Resources */,
+				8F56694D1CE0DFCC00C54942 /* A15-09_14-g.xml in Resources */,
+				8F5669511CE0DFCC00C54942 /* KS-META-A15-09_14-g.xml in Resources */,
+				8F5669BA1CE0DFCC00C54942 /* KS-META-A15-09_35-g.xml in Resources */,
+				8F5669771CE0DFCC00C54942 /* A15-09_22_WildlifePreserve.shp in Resources */,
+				8F56692C1CE0DFCC00C54942 /* A15-09_07_WildlifePreserve.shp in Resources */,
+				8F5669591CE0DFCC00C54942 /* A15-09_16_WildlifePreserve.shp in Resources */,
+				8F5669391CE0DFCC00C54942 /* A15-09_10-g.xml in Resources */,
+				8F5669671CE0DFCC00C54942 /* A15-09_19_WildlifePreserve.dbf in Resources */,
+				8F5669441CE0DFCC00C54942 /* A15-09_12_WildlifePreserve.dbf in Resources */,
+				8F5669641CE0DFCC00C54942 /* A15-09_18_WildlifePreserve.shx in Resources */,
+				8F5669E11CE0DFCC00C54942 /* A15-09_43_WildlifePreserve.shx in Resources */,
 				8F5667F01CE0959C00C54942 /* icon_add.png in Resources */,
+				8F5669911CE0DFCC00C54942 /* A15-09_27_WildlifePreserve.shx in Resources */,
+				8F5669DA1CE0DFCC00C54942 /* A15-09_42_WildlifePreserve.dbf in Resources */,
+				8F5669D91CE0DFCC00C54942 /* A15-09_42-g.xml in Resources */,
+				8F5669931CE0DFCC00C54942 /* A15-09_28-g.xml in Resources */,
+				8F5669201CE0DFCC00C54942 /* A15-09_05-g.xml in Resources */,
+				8F5669B31CE0DFCC00C54942 /* A15-09_34_WildlifePreserve.shp in Resources */,
+				8F56698D1CE0DFCC00C54942 /* KS-META-A15-09_26-g.xml in Resources */,
 				8FEE7DE61CDDBE9400BFDA8C /* LaunchScreen.storyboard in Resources */,
+				8F5669D41CE0DFCC00C54942 /* A15-09_41-g.xml in Resources */,
+				8F56692E1CE0DFCC00C54942 /* KS-META-A15-09_07-g.xml in Resources */,
+				8F5669361CE0DFCC00C54942 /* A15-09_09_WildlifePreserve.shp in Resources */,
+				8F5669301CE0DFCC00C54942 /* A15-09_08_WildlifePreserve.dbf in Resources */,
+				8F5669751CE0DFCC00C54942 /* A15-09_22-g.xml in Resources */,
+				8F5669181CE0DFCC00C54942 /* A15-09_03_WildlifePreserve.shp in Resources */,
+				8F5669C81CE0DFCC00C54942 /* A15-09_38_WildlifePreserve.shx in Resources */,
+				8F5669231CE0DFCC00C54942 /* A15-09_05_WildlifePreserve.shx in Resources */,
+				8F56690C1CE0DFCC00C54942 /* A15-09_01-g.xml in Resources */,
+				8F5669A01CE0DFCC00C54942 /* A15-09_30_WildlifePreserve.shx in Resources */,
+				8F5669531CE0DFCC00C54942 /* A15-09_15_WildlifePreserve.dbf in Resources */,
+				8F56692A1CE0DFCC00C54942 /* A15-09_07-g.xml in Resources */,
 				8FEE7DE31CDDBE9400BFDA8C /* Assets.xcassets in Resources */,
+				8F5669DC1CE0DFCC00C54942 /* A15-09_42_WildlifePreserve.shx in Resources */,
+				8F5669B81CE0DFCC00C54942 /* A15-09_35_WildlifePreserve.shp in Resources */,
+				8F5669C71CE0DFCC00C54942 /* A15-09_38_WildlifePreserve.shp in Resources */,
+				8F5669381CE0DFCC00C54942 /* KS-META-A15-09_09-g.xml in Resources */,
+				8F56694F1CE0DFCC00C54942 /* A15-09_14_WildlifePreserve.shp in Resources */,
+				8F5669211CE0DFCC00C54942 /* A15-09_05_WildlifePreserve.dbf in Resources */,
+				8F5669601CE0DFCC00C54942 /* KS-META-A15-09_17-g.xml in Resources */,
+				8F5669E81CE0DFCC00C54942 /* A15-09_45-g.xml in Resources */,
+				8F5669841CE0DFCC00C54942 /* A15-09_25-g.xml in Resources */,
+				8F5669BE1CE0DFCC00C54942 /* A15-09_36_WildlifePreserve.shx in Resources */,
+				8F56697B1CE0DFCC00C54942 /* A15-09_23_WildlifePreserve.dbf in Resources */,
+				8F5669241CE0DFCC00C54942 /* KS-META-A15-09_05-g.xml in Resources */,
+				8F5669341CE0DFCC00C54942 /* A15-09_09-g.xml in Resources */,
+				8F56698B1CE0DFCC00C54942 /* A15-09_26_WildlifePreserve.shp in Resources */,
+				8F5669B01CE0DFCC00C54942 /* KS-META-A15-09_33-g.xml in Resources */,
+				8F56699E1CE0DFCC00C54942 /* A15-09_30_WildlifePreserve.dbf in Resources */,
+				8F56697D1CE0DFCC00C54942 /* A15-09_23_WildlifePreserve.shx in Resources */,
+				8F5669321CE0DFCC00C54942 /* A15-09_08_WildlifePreserve.shx in Resources */,
+				8F5669261CE0DFCC00C54942 /* A15-09_06_WildlifePreserve.dbf in Resources */,
+				8F56691C1CE0DFCC00C54942 /* A15-09_04_WildlifePreserve.dbf in Resources */,
+				8F5669851CE0DFCC00C54942 /* A15-09_25_WildlifePreserve.dbf in Resources */,
+				8F56696E1CE0DFCC00C54942 /* A15-09_20_WildlifePreserve.shx in Resources */,
+				8F5669501CE0DFCC00C54942 /* A15-09_14_WildlifePreserve.shx in Resources */,
+				8F5669991CE0DFCC00C54942 /* A15-09_29_WildlifePreserve.dbf in Resources */,
+				8F5669E01CE0DFCC00C54942 /* A15-09_43_WildlifePreserve.shp in Resources */,
 				8FEE7DE11CDDBE9400BFDA8C /* Main.storyboard in Resources */,
+				8F5669CB1CE0DFCC00C54942 /* A15-09_39_WildlifePreserve.dbf in Resources */,
+				8F5669871CE0DFCC00C54942 /* A15-09_25_WildlifePreserve.shx in Resources */,
+				8F5669A41CE0DFCC00C54942 /* A15-09_31_WildlifePreserve.shp in Resources */,
+				8F5669371CE0DFCC00C54942 /* A15-09_09_WildlifePreserve.shx in Resources */,
+				8F5669D81CE0DFCC00C54942 /* KS-META-A15-09_41-g.xml in Resources */,
+				8F5669561CE0DFCC00C54942 /* KS-META-A15-09_15-g.xml in Resources */,
+				8F5669A81CE0DFCC00C54942 /* A15-09_32_WildlifePreserve.dbf in Resources */,
+				8F56696C1CE0DFCC00C54942 /* A15-09_20_WildlifePreserve.dbf in Resources */,
+				8F5669B51CE0DFCC00C54942 /* KS-META-A15-09_34-g.xml in Resources */,
+				8F5669A21CE0DFCC00C54942 /* A15-09_31-g.xml in Resources */,
+				8F5669F61CE0DFCC00C54942 /* KS-META-A15-09_47-g.xml in Resources */,
+				8F5669661CE0DFCC00C54942 /* A15-09_19-g.xml in Resources */,
+				8F56699D1CE0DFCC00C54942 /* A15-09_30-g.xml in Resources */,
+				8F56698A1CE0DFCC00C54942 /* A15-09_26_WildlifePreserve.dbf in Resources */,
+				8F5669A11CE0DFCC00C54942 /* KS-META-A15-09_30-g.xml in Resources */,
+				8F5669631CE0DFCC00C54942 /* A15-09_18_WildlifePreserve.shp in Resources */,
+				8F5669611CE0DFCC00C54942 /* A15-09_18-g.xml in Resources */,
+				8F56691E1CE0DFCC00C54942 /* A15-09_04_WildlifePreserve.shx in Resources */,
+				8F56696A1CE0DFCC00C54942 /* KS-META-A15-09_19-g.xml in Resources */,
+				8F56699A1CE0DFCC00C54942 /* A15-09_29_WildlifePreserve.shp in Resources */,
+				8F5669C91CE0DFCC00C54942 /* KS-META-A15-09_38-g.xml in Resources */,
+				8F5669E31CE0DFCC00C54942 /* A15-09_44-g.xml in Resources */,
+				8F56691B1CE0DFCC00C54942 /* A15-09_04-g.xml in Resources */,
+				8F56693C1CE0DFCC00C54942 /* A15-09_10_WildlifePreserve.shx in Resources */,
+				8F5669E71CE0DFCC00C54942 /* KS-META-A15-09_44-g.xml in Resources */,
+				8F5669221CE0DFCC00C54942 /* A15-09_05_WildlifePreserve.shp in Resources */,
+				8F5669351CE0DFCC00C54942 /* A15-09_09_WildlifePreserve.dbf in Resources */,
+				8F5669AD1CE0DFCC00C54942 /* A15-09_33_WildlifePreserve.dbf in Resources */,
+				8F56697E1CE0DFCC00C54942 /* KS-META-A15-09_23-g.xml in Resources */,
+				8F5669E21CE0DFCC00C54942 /* KS-META-A15-09_43-g.xml in Resources */,
+				8F56699B1CE0DFCC00C54942 /* A15-09_29_WildlifePreserve.shx in Resources */,
+				8F5669451CE0DFCC00C54942 /* A15-09_12_WildlifePreserve.shp in Resources */,
+				8F5669AB1CE0DFCC00C54942 /* KS-META-A15-09_32-g.xml in Resources */,
+				8F5669481CE0DFCC00C54942 /* A15-09_13-g.xml in Resources */,
+				8F5669B91CE0DFCC00C54942 /* A15-09_35_WildlifePreserve.shx in Resources */,
+				8F56696B1CE0DFCC00C54942 /* A15-09_20-g.xml in Resources */,
+				8F5669701CE0DFCC00C54942 /* A15-09_21-g.xml in Resources */,
+				8F5669D11CE0DFCC00C54942 /* A15-09_40_WildlifePreserve.shp in Resources */,
+				8F5669BB1CE0DFCC00C54942 /* A15-09_36-g.xml in Resources */,
+				8F5669B61CE0DFCC00C54942 /* A15-09_35-g.xml in Resources */,
+				8F56699C1CE0DFCC00C54942 /* KS-META-A15-09_29-g.xml in Resources */,
+				8F5669A61CE0DFCC00C54942 /* KS-META-A15-09_31-g.xml in Resources */,
+				8F5669A51CE0DFCC00C54942 /* A15-09_31_WildlifePreserve.shx in Resources */,
+				8F56692B1CE0DFCC00C54942 /* A15-09_07_WildlifePreserve.dbf in Resources */,
+				8F5669C41CE0DFCC00C54942 /* KS-META-A15-09_37-g.xml in Resources */,
+				8F5669121CE0DFCC00C54942 /* A15-09_02_WildlifePreserve.dbf in Resources */,
+				8F5669CE1CE0DFCC00C54942 /* KS-META-A15-09_39-g.xml in Resources */,
+				8F5669901CE0DFCC00C54942 /* A15-09_27_WildlifePreserve.shp in Resources */,
+				8F5669411CE0DFCC00C54942 /* A15-09_11_WildlifePreserve.shx in Resources */,
+				8F5669741CE0DFCC00C54942 /* KS-META-A15-09_21-g.xml in Resources */,
+				8F5669D51CE0DFCC00C54942 /* A15-09_41_WildlifePreserve.dbf in Resources */,
+				8F56697A1CE0DFCC00C54942 /* A15-09_23-g.xml in Resources */,
+				8F56692F1CE0DFCC00C54942 /* A15-09_08-g.xml in Resources */,
+				8F5669461CE0DFCC00C54942 /* A15-09_12_WildlifePreserve.shx in Resources */,
+				8F5669881CE0DFCC00C54942 /* KS-META-A15-09_25-g.xml in Resources */,
+				8F5669B41CE0DFCC00C54942 /* A15-09_34_WildlifePreserve.shx in Resources */,
+				8F5669861CE0DFCC00C54942 /* A15-09_25_WildlifePreserve.shp in Resources */,
+				8F56694B1CE0DFCC00C54942 /* A15-09_13_WildlifePreserve.shx in Resources */,
+				8F5669EB1CE0DFCC00C54942 /* A15-09_45_WildlifePreserve.shx in Resources */,
+				8F5669111CE0DFCC00C54942 /* A15-09_02-g.xml in Resources */,
+				8F56690E1CE0DFCC00C54942 /* A15-09_01_WildlifePreserve.shp in Resources */,
+				8F5669191CE0DFCC00C54942 /* A15-09_03_WildlifePreserve.shx in Resources */,
+				8F5669D71CE0DFCC00C54942 /* A15-09_41_WildlifePreserve.shx in Resources */,
+				8F5669781CE0DFCC00C54942 /* A15-09_22_WildlifePreserve.shx in Resources */,
+				8F56694E1CE0DFCC00C54942 /* A15-09_14_WildlifePreserve.dbf in Resources */,
+				8F56693B1CE0DFCC00C54942 /* A15-09_10_WildlifePreserve.shp in Resources */,
+				8F5669D01CE0DFCC00C54942 /* A15-09_40_WildlifePreserve.dbf in Resources */,
+				8F5669CA1CE0DFCC00C54942 /* A15-09_39-g.xml in Resources */,
+				8F5669251CE0DFCC00C54942 /* A15-09_06-g.xml in Resources */,
+				8F5669C21CE0DFCC00C54942 /* A15-09_37_WildlifePreserve.shp in Resources */,
+				8F5669421CE0DFCC00C54942 /* KS-META-A15-09_11-g.xml in Resources */,
+				8F5669DE1CE0DFCC00C54942 /* A15-09_43-g.xml in Resources */,
+				8F56695D1CE0DFCC00C54942 /* A15-09_17_WildlifePreserve.dbf in Resources */,
+				8F56698E1CE0DFCC00C54942 /* A15-09_27-g.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

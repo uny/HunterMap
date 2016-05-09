@@ -52,7 +52,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     
     
     // MARK: - MapView Delegate Methods
-    func mapViewDidFinishLoadingMap(mapView: MKMapView) {
+    func mapView(mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
         renderRestrictedAreas()
     }
     
@@ -60,10 +60,6 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         if mapViewRegionDidChangeFromUserInteraction() {
             setLocationTrackingEnabled(false)
         }
-    }
-    
-    func mapView(mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
-        renderRestrictedAreas()
     }
     
     func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOverlayRenderer {
