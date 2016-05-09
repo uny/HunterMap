@@ -58,11 +58,13 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     }
     
     func mapView(mapView: MKMapView, regionWillChangeAnimated animated: Bool) {
-        renderRestrictedAreas()
-        
         if mapViewRegionDidChangeFromUserInteraction() {
             setLocationTrackingEnabled(false)
         }
+    }
+    
+    func mapView(mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
+        renderRestrictedAreas()
     }
     
     func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOverlayRenderer {
