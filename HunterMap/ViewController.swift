@@ -75,9 +75,6 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         } else if overlay is HMGameReserveOverlay {
             polygonView.strokeColor = UIColor.blackColor().colorWithAlphaComponent(0.2)
             polygonView.fillColor = UIColor.grayColor().colorWithAlphaComponent(0.7)
-        } else {
-            polygonView.strokeColor = UIColor.blackColor().colorWithAlphaComponent(0.2)
-            polygonView.fillColor = UIColor.grayColor().colorWithAlphaComponent(0.7)
         }
         
         return polygonView
@@ -110,6 +107,9 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     
     @IBAction func enableLocationTracking(sender: AnyObject) {
         setLocationTrackingEnabled(true)
+        let latitudeDelta = min(self.mapView.region.span.latitudeDelta, 0.1)
+        let longitudeDelta = min(self.mapView.region.span.longitudeDelta, 0.1)
+        self.mapView.region.span = MKCoordinateSpanMake(latitudeDelta, longitudeDelta)
     }
     
     @IBAction func createLog(sender: AnyObject) {
