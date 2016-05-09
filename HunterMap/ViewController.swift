@@ -19,6 +19,8 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     
     @IBOutlet weak var locationTrackingButton: UIButton!
     
+    @IBOutlet weak var createLogButton: UIButton!
+    
     let locationManager = CLLocationManager()
     
     enum MapType: Int {
@@ -30,10 +32,6 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     // MARK: - ViewController methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        // uiButton
-        self.locationTrackingButton.addTarget(self,
-                                                 action: #selector(ViewController.enableLocationTracking),
-                                                 forControlEvents: UIControlEvents.TouchDown)
         
         // location manager
         self.locationManager.delegate = self
@@ -50,6 +48,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     override func viewDidAppear(animated: Bool) {
         self.locationTrackingButton.enabled = false
     }
+    
     
     
     // MARK: - MapView Delegate Methods
@@ -113,11 +112,12 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         }
     }
     
-    /**
-     enable location tracking
-     */
     @IBAction func enableLocationTracking(sender: AnyObject) {
         setLocationTrackingEnabled(true)
+    }
+    
+    @IBAction func createLog(sender: AnyObject) {
+        print("pressed")
     }
     
     // MARK: - error handlings

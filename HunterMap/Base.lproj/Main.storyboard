@@ -54,21 +54,35 @@
                                     <action selector="enableLocationTracking:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c5I-99-j1z"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vT-Hx-ZUY">
+                                <rect key="frame" x="532" y="532" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="eVU-9R-ZoN"/>
+                                    <constraint firstAttribute="height" constant="48" id="fLy-Tb-AdA"/>
+                                </constraints>
+                                <state key="normal" image="icon_add.png"/>
+                                <connections>
+                                    <action selector="createLog:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0HR-Ky-7Up"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="aDQ-1m-QEq" secondAttribute="trailing" id="8Gp-mr-vzU"/>
+                            <constraint firstAttribute="trailing" secondItem="3vT-Hx-ZUY" secondAttribute="trailing" constant="20" id="8rB-nV-kbk"/>
                             <constraint firstItem="uUW-xQ-hVj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="8tc-ES-yB4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="w44-HD-kXT" secondAttribute="trailing" constant="-20" id="LuI-T7-mtD"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="w44-HD-kXT" secondAttribute="bottom" id="RqS-c5-ooy"/>
                             <constraint firstItem="aDQ-1m-QEq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="aPR-Nq-BHv"/>
                             <constraint firstItem="w44-HD-kXT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="hen-kW-3yB"/>
                             <constraint firstItem="aDQ-1m-QEq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ipK-63-lcS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3vT-Hx-ZUY" secondAttribute="bottom" constant="20" id="kGq-Wg-ANr"/>
                             <constraint firstItem="w44-HD-kXT" firstAttribute="top" secondItem="aDQ-1m-QEq" secondAttribute="bottom" id="ktP-NB-BQm"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uUW-xQ-hVj" secondAttribute="bottom" constant="20" id="sts-n6-XaE"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="createLogButton" destination="3vT-Hx-ZUY" id="HfL-wD-IsD"/>
                         <outlet property="locationTrackingButton" destination="uUW-xQ-hVj" id="VTa-zG-Nvm"/>
                         <outlet property="mapOptions" destination="ENS-wB-tku" id="rXs-Wg-4vL"/>
                         <outlet property="mapView" destination="w44-HD-kXT" id="eqv-uR-pmJ"/>
@@ -80,6 +94,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="icon_add.png" width="128" height="128"/>
         <image name="icon_location.png" width="128" height="128"/>
     </resources>
 </document>
