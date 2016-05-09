@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,25 +18,68 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aDQ-1m-QEq">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <items>
+                                    <navigationItem id="kwJ-4k-C5m">
+                                        <nil key="title"/>
+                                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="ENS-wB-tku">
+                                            <rect key="frame" x="204.5" y="7" width="191" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <segments>
+                                                <segment title="Map"/>
+                                                <segment title="Hybrid"/>
+                                                <segment title="Satellite"/>
+                                            </segments>
+                                            <connections>
+                                                <action selector="mapTypeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="zPF-Go-WgE"/>
+                                            </connections>
+                                        </segmentedControl>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" id="4W4-LV-LzZ"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUW-xQ-hVj">
+                                <rect key="frame" x="20" y="516" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="8LE-RR-d0B"/>
+                                    <constraint firstAttribute="height" constant="64" id="In5-zg-KMP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" image="icon_location.png"/>
+                                <connections>
+                                    <action selector="enableLocationTracking:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c5I-99-j1z"/>
+                                </connections>
+                            </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="w44-HD-kXT">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <rect key="frame" x="0.0" y="44" width="600" height="556"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="w44-HD-kXT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="AUm-qQ-C50"/>
-                            <constraint firstItem="w44-HD-kXT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="er4-Hi-7iZ"/>
-                            <constraint firstAttribute="trailing" secondItem="w44-HD-kXT" secondAttribute="trailing" id="fm1-PF-0VC"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="w44-HD-kXT" secondAttribute="bottom" id="jzM-eu-xFK"/>
+                            <constraint firstAttribute="trailing" secondItem="aDQ-1m-QEq" secondAttribute="trailing" id="8Gp-mr-vzU"/>
+                            <constraint firstItem="uUW-xQ-hVj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="8tc-ES-yB4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="w44-HD-kXT" secondAttribute="trailing" constant="-20" id="LuI-T7-mtD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="w44-HD-kXT" secondAttribute="bottom" id="RqS-c5-ooy"/>
+                            <constraint firstItem="aDQ-1m-QEq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="aPR-Nq-BHv"/>
+                            <constraint firstItem="w44-HD-kXT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="hen-kW-3yB"/>
+                            <constraint firstItem="aDQ-1m-QEq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ipK-63-lcS"/>
+                            <constraint firstItem="w44-HD-kXT" firstAttribute="top" secondItem="aDQ-1m-QEq" secondAttribute="bottom" id="ktP-NB-BQm"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uUW-xQ-hVj" secondAttribute="bottom" constant="20" id="sts-n6-XaE"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="mapView" destination="w44-HD-kXT" id="mky-Mq-TwQ"/>
+                        <outlet property="locationTrackingButton" destination="uUW-xQ-hVj" id="VTa-zG-Nvm"/>
+                        <outlet property="mapOptions" destination="ENS-wB-tku" id="rXs-Wg-4vL"/>
+                        <outlet property="mapView" destination="w44-HD-kXT" id="eqv-uR-pmJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="400" y="551"/>
+            <point key="canvasLocation" x="346" y="530"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon_location.png" width="128" height="128"/>
+    </resources>
 </document>

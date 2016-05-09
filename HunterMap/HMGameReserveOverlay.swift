@@ -7,8 +7,7 @@
 //
 
 import Foundation
-import MapKit
 
-class HMGameReserveOverlay: MKPolygon {
+class HMGameReserveOverlay: HMRestrictedAreaOverlay {
     
 }

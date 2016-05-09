@@ -10,6 +10,9 @@ import Foundation
 import MapKit
 import shapelib
 
+/**
+ * dataSource : http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-A15.html
+ */
 enum ShapeFiles: String {
     case Kanagawa = "A15-09_14_WildlifePreserve"
 }
@@ -25,6 +28,10 @@ enum AreaType: Int {
 struct RestrictedArea {
     // defined as variable for MKPolygon, basically its a let
     var coordinates: [CLLocationCoordinate2D]
+    let maxLat: Double
+    let minLat: Double
+    let maxLng: Double
+    let minLng: Double
     let id: Int
     let pref: Int
     let areaType: Int
@@ -36,20 +43,64 @@ struct RestrictedArea {
 
 class RestrictedAreaModel {
     
-    // fieldNames defined in DBF
-    static let kFieldNameId = "A15_001"
-    static let kFieldNamePref = "A15_002"
-    static let kFieldNameInstitution = "A15_003"
-    static let kFieldNameAreaType = "A15_004"
-    static let kFieldNameAreaName = "A15_005"
-    static let kFieldNameListedDate = "A15_006"
-    static let kFieldNameDelistedDate = "A15_007"
+    // make class singleton
+    static var sharedInstance: RestrictedAreaModel = {
+        return RestrictedAreaModel()
+    }()
+    private init() {
+        refreshCache()
+    }
     
-    static func loadRestrictedAreas(shapeFile: ShapeFiles) -> [RestrictedArea] {
-        var restrictedAreas = [RestrictedArea]()
+    // fieldNames defined in DBF
+    let kFieldNameId = "A15_001"
+    let kFieldNamePref = "A15_002"
+    let kFieldNameInstitution = "A15_003"
+    let kFieldNameAreaType = "A15_004"
+    let kFieldNameAreaName = "A15_005"
+    let kFieldNameListedDate = "A15_006"
+    let kFieldNameDelistedDate = "A15_007"
+    
+    var restrictedAreas = [RestrictedArea]()
+    
+    func refreshCache() {
+        loadFromSource(ShapeFiles.Kanagawa)
+    }
+    
+    func getAll(loadFromSource: Bool = false) -> [RestrictedArea] {
+        if loadFromSource {
+            refreshCache()
+        }
+        return restrictedAreas
+    }
+    
+    func getByRegion(region: MKCoordinateRegion, maxDelta: Double = 10/60) -> [RestrictedArea] {
+        let latitudeDelta = min(region.span.latitudeDelta, maxDelta)
+        let longitudeDelta = min(region.span.longitudeDelta, maxDelta)
+        
+        return restrictedAreas
+            .filter({$0.maxLat <= region.center.latitude + latitudeDelta})
+            .filter({$0.minLat >= region.center.latitude - latitudeDelta})
+            .filter({$0.maxLng <= region.center.longitude + longitudeDelta})
+            .filter({$0.minLng >= region.center.longitude - longitudeDelta})
+    }
+    
+    private func loadFromSource(shapeFile: ShapeFiles) {
+        restrictedAreas.removeAll()
         
         func handler(coordinates: [CLLocationCoordinate2D], shpObject: SHPObject, dbf: DBFHandle) -> Void {
+            var maxLat: Double = 0, maxLng: Double = 0, minLat: Double = Double.infinity, minLng: Double = Double.infinity
+            for coordinate in coordinates {
+                maxLat = max(maxLat, coordinate.latitude)
+                maxLng = max(maxLng, coordinate.longitude)
+                minLat = min(minLat, coordinate.latitude)
+                minLng = min(minLng, coordinate.longitude)
+            }
+            
             let area = RestrictedArea(coordinates: coordinates,
+                                      maxLat: maxLat,
+                                      minLat: minLat,
+                                      maxLng: maxLng,
+                                      minLng: minLng,
                                       id: getIntFieldValue(kFieldNameId, dbf: dbf, shpObject: shpObject),
                                       pref: getIntFieldValue(kFieldNamePref, dbf: dbf, shpObject: shpObject),
                                       areaType: getIntFieldValue(kFieldNameAreaType, dbf: dbf, shpObject: shpObject),
@@ -62,16 +113,14 @@ class RestrictedAreaModel {
         
         let path = ShapeFileUtil.getResourcePathForShapeLib(shapeFile.rawValue)
         ShapeFileUtil.loadShapeFile(path, handler: handler)
-        
-        return restrictedAreas
     }
     
-    static func getStringFieldValue(fieldName: String, dbf: DBFHandle, shpObject: SHPObject) -> String? {
+    private func getStringFieldValue(fieldName: String, dbf: DBFHandle, shpObject: SHPObject) -> String? {
         let fieldIndex = DBFGetFieldIndex(dbf, fieldName)
         return String.fromCString(DBFReadStringAttribute(dbf, shpObject.nShapeId, fieldIndex))
     }
     
-    static func getIntFieldValue(fieldName: String, dbf: DBFHandle, shpObject: SHPObject) -> Int {
+    private func getIntFieldValue(fieldName: String, dbf: DBFHandle, shpObject: SHPObject) -> Int {
         return Int(DBFReadIntegerAttribute(dbf, shpObject.nShapeId, DBFGetFieldIndex(dbf, fieldName)))
     }
 }

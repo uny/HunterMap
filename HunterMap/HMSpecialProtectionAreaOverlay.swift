@@ -7,8 +7,7 @@
 //
 
 import Foundation
-import MapKit
 
-class HMSpecialProtectionAreaOverlay: MKPolygon {
+class HMSpecialProtectionAreaOverlay: HMRestrictedAreaOverlay {
     
 }
