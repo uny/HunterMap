@@ -252,6 +252,7 @@
 		8F5669F41CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5669091CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.shp */; };
 		8F5669F51CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.shx in Resources */ = {isa = PBXBuildFile; fileRef = 8F56690A1CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.shx */; };
 		8F5669F61CE0DFCC00C54942 /* KS-META-A15-09_47-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F56690B1CE0DFCC00C54942 /* KS-META-A15-09_47-g.xml */; };
+		8F5669FB1CE162A100C54942 /* HunterMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F5669F91CE162A100C54942 /* HunterMap.xcdatamodeld */; };
 		8FEE7DDC1CDDBE9400BFDA8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE7DDB1CDDBE9400BFDA8C /* AppDelegate.swift */; };
 		8FEE7DDE1CDDBE9400BFDA8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE7DDD1CDDBE9400BFDA8C /* ViewController.swift */; };
 		8FEE7DE11CDDBE9400BFDA8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FEE7DDF1CDDBE9400BFDA8C /* Main.storyboard */; };
@@ -530,6 +531,7 @@
 		8F5669091CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_47_WildlifePreserve.shp"; sourceTree = "<group>"; };
 		8F56690A1CE0DFCC00C54942 /* A15-09_47_WildlifePreserve.shx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_47_WildlifePreserve.shx"; sourceTree = "<group>"; };
 		8F56690B1CE0DFCC00C54942 /* KS-META-A15-09_47-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "KS-META-A15-09_47-g.xml"; sourceTree = "<group>"; };
+		8F5669FA1CE162A100C54942 /* HunterMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HunterMap.xcdatamodel; sourceTree = "<group>"; };
 		8FEE7DD81CDDBE9400BFDA8C /* HunterMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HunterMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FEE7DDB1CDDBE9400BFDA8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FEE7DDD1CDDBE9400BFDA8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -1268,6 +1270,7 @@
 				8F4E8EEB1CDF4C4100A865E2 /* Views */,
 				8FEE7DDB1CDDBE9400BFDA8C /* AppDelegate.swift */,
 				8FEE7DDD1CDDBE9400BFDA8C /* ViewController.swift */,
+				8F5669F91CE162A100C54942 /* HunterMap.xcdatamodeld */,
 				8FEE7DDF1CDDBE9400BFDA8C /* Main.storyboard */,
 				8FEE7DE21CDDBE9400BFDA8C /* Assets.xcassets */,
 				8FEE7DE41CDDBE9400BFDA8C /* LaunchScreen.storyboard */,
@@ -1811,6 +1814,7 @@
 			files = (
 				8F4E8EF11CDF4CC400A865E2 /* HMSpecialProtectionAreaOverlay.swift in Sources */,
 				8F5667EE1CE0839A00C54942 /* HMRestrictedAreaOverlay.swift in Sources */,
+				8F5669FB1CE162A100C54942 /* HunterMap.xcdatamodeld in Sources */,
 				8FEE7DDE1CDDBE9400BFDA8C /* ViewController.swift in Sources */,
 				8F4E8EF51CDF4D1200A865E2 /* HMGameReserveOverlay.swift in Sources */,
 				8FEE7DDC1CDDBE9400BFDA8C /* AppDelegate.swift in Sources */,
@@ -2070,6 +2074,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8F5669F91CE162A100C54942 /* HunterMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8F5669FA1CE162A100C54942 /* HunterMap.xcdatamodel */,
+			);
+			currentVersion = 8F5669FA1CE162A100C54942 /* HunterMap.xcdatamodel */;
+			path = HunterMap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8FEE7DD01CDDBE9400BFDA8C /* Project object */;
 }
