@@ -5,6 +5,7 @@ use_frameworks!
 
 target 'HunterMap' do
     pod 'shapelib', '~> 1.3'
+    pod 'RealmSwift'
 end
 
 target 'HunterMapTests' do

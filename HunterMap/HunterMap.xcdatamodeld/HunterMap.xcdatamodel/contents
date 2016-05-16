@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15E65" minimumToolsVersion="Xcode 7.0">
-    <entity name="Area" syncable="YES">
-        <attribute name="area_id" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="area_name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="area_type" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="delisted_date" optional="YES" attributeType="Date" syncable="YES"/>
+    <entity name="Area" representedClassName=".Area" syncable="YES">
+        <attribute name="areaId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="areaName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="areaType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="boundingRectDimension" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="delistedDate" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="institution" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="listed_date" optional="YES" attributeType="Date" syncable="YES"/>
-        <attribute name="max_lat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="max_lng" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="min_lat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="min_lng" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="listedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="maxLat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maxLng" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="minLat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="minLng" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
         <attribute name="pref" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <relationship name="toMany" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Coordinate" inverseName="toOne" inverseEntity="Coordinate" syncable="YES"/>
     </entity>
-    <entity name="Coordinate" syncable="YES">
-        <attribute name="area_id" optional="YES" attributeType="String" syncable="YES"/>
+    <entity name="Coordinate" representedClassName=".Coordinate" syncable="YES">
+        <attribute name="areaId" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
         <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
         <relationship name="toOne" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Area" inverseName="toMany" inverseEntity="Area" syncable="YES"/>
     </entity>
+    <entity name="User" representedClassName=".User" syncable="YES">
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <elements>
+        <element name="Area" positionX="-54" positionY="0" width="128" height="240"/>
         <element name="Coordinate" positionX="-63" positionY="-18" width="128" height="105"/>
-        <element name="Area" positionX="-54" positionY="0" width="128" height="225"/>
+        <element name="User" positionX="-63" positionY="90" width="128" height="75"/>
     </elements>
 </model>

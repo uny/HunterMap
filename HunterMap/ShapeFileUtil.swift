@@ -34,7 +34,7 @@ class ShapeFileUtil {
      load shape file with result handler
      arg "path" should not contain extension, use getResourcePathForShapeLib for it
      */
-    static func loadShapeFile(path: String, handler: ((args: ShapeFileHandlerArgs)->Void)?) {
+    static func loadShapeFile(path: String, withHandler: ((args: ShapeFileHandlerArgs)->Void)?) {
         // open dbf
         let dbf = DBFOpen(path, "rb")
         defer { DBFClose(dbf) }
@@ -66,7 +66,7 @@ class ShapeFileUtil {
                 }
                 
                 // handle entity
-                handler?(args: ShapeFileHandlerArgs(
+                withHandler?(args: ShapeFileHandlerArgs(
                     coordinates: coordinates,
                     boundingRectDimension: getBoundingRectDimention(shpObject),
                     shpObject: shpObject,

@@ -53,12 +53,12 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     
     // MARK: - MapView Delegate Methods
     func mapView(mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
-        renderRestrictedAreas()
+        self.renderRestrictedAreas()
     }
     
     func mapView(mapView: MKMapView, regionWillChangeAnimated animated: Bool) {
         if mapViewRegionDidChangeFromUserInteraction() {
-            setLocationTrackingEnabled(false)
+            self.setLocationTrackingEnabled(false)
         }
     }
     
@@ -66,17 +66,19 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         let polygonView = MKPolygonRenderer(overlay: overlay)
         polygonView.lineWidth = 3
         
-        if overlay is HMWildlifeProtectionAreaOverlay {
+        switch overlay {
+        case is HMWildlifeProtectionAreaOverlay:
             polygonView.strokeColor = UIColor.blackColor().colorWithAlphaComponent(0.2)
             polygonView.fillColor = UIColor.magentaColor().colorWithAlphaComponent(0.7)
-        } else if overlay is HMSpecialProtectionAreaOverlay {
+        case is HMSpecialProtectionAreaOverlay:
             polygonView.strokeColor = UIColor.blackColor().colorWithAlphaComponent(0.2)
             polygonView.fillColor = UIColor.redColor().colorWithAlphaComponent(0.7)
-        } else if overlay is HMGameReserveOverlay {
+        case is HMGameReserveOverlay:
             polygonView.strokeColor = UIColor.blackColor().colorWithAlphaComponent(0.2)
             polygonView.fillColor = UIColor.grayColor().colorWithAlphaComponent(0.7)
+        default:
+            break
         }
-        
         return polygonView
     }
     
@@ -106,7 +108,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     }
     
     @IBAction func enableLocationTracking(sender: AnyObject) {
-        setLocationTrackingEnabled(true)
+        self.setLocationTrackingEnabled(true)
         let latitudeDelta = min(self.mapView.region.span.latitudeDelta, 0.1)
         let longitudeDelta = min(self.mapView.region.span.longitudeDelta, 0.1)
         self.mapView.region.span = MKCoordinateSpanMake(latitudeDelta, longitudeDelta)
@@ -130,19 +132,23 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         let restrictedAreaOverlays = self.mapView.overlays.filter({$0 is HMRestrictedAreaOverlay})
         self.mapView.removeOverlays(restrictedAreaOverlays)
         
-        let restrictedAreaModel = RestrictedAreaModel.sharedInstance
-        let restrictedAreas = restrictedAreaModel.getByRegion(self.mapView.region)
-        
-        for var area in restrictedAreas {
-            switch area.areaType {
+        let restrictedAreas = RestrictedAreaModel.selectAreasByRegion(self.mapView.region)
+        for i in 0..<min(restrictedAreas.count, 30) {
+            let area = restrictedAreas[i]
+            guard area.areaType.value != nil else {
+                continue
+            }
+            
+            var coordinates = area.coordinates.map { $0.getCLLocationCoordinate2D() }
+            switch area.areaType.value! {
             case AreaType.WildlifeProtectionArea.rawValue:
-                let polygon = HMWildlifeProtectionAreaOverlay(coordinates: &area.coordinates, count: area.coordinates.count)
+                let polygon = HMWildlifeProtectionAreaOverlay(coordinates: &coordinates, count: coordinates.count)
                 self.mapView.addOverlay(polygon)
             case AreaType.SpecialProtectionArea.rawValue:
-                let polygon = HMSpecialProtectionAreaOverlay(coordinates: &area.coordinates, count: area.coordinates.count)
+                let polygon = HMSpecialProtectionAreaOverlay(coordinates: &coordinates, count: coordinates.count)
                 self.mapView.addOverlay(polygon)
             case AreaType.GameReserve.rawValue:
-                let polygon = HMGameReserveOverlay(coordinates: &area.coordinates, count: area.coordinates.count)
+                let polygon = HMGameReserveOverlay(coordinates: &coordinates, count: coordinates.count)
                 self.mapView.addOverlay(polygon)
             default:
                 break
