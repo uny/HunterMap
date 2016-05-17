@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -53,7 +53,7 @@
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="48" id="FRa-JV-ft3"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                <state key="normal" image="icon_location.png"/>
+                                <state key="normal" image="LocationIcon"/>
                                 <connections>
                                     <action selector="enableLocationTracking:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c5I-99-j1z"/>
                                 </connections>
@@ -64,7 +64,7 @@
                                     <constraint firstAttribute="width" constant="48" id="eVU-9R-ZoN"/>
                                     <constraint firstAttribute="height" constant="48" id="fLy-Tb-AdA"/>
                                 </constraints>
-                                <state key="normal" image="icon_add.png"/>
+                                <state key="normal" image="AddIcon"/>
                                 <connections>
                                     <action selector="createLog:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0HR-Ky-7Up"/>
                                 </connections>
@@ -98,7 +98,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icon_add.png" width="128" height="128"/>
-        <image name="icon_location.png" width="128" height="128"/>
+        <image name="AddIcon" width="128" height="128"/>
+        <image name="LocationIcon" width="128" height="129"/>
     </resources>
 </document>

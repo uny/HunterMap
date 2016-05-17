@@ -9,14 +9,12 @@
 /* Begin PBXBuildFile section */
 		06B57FFF565B7E85FB41A512 /* Pods_HunterMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6921E72053184F938B5C6BC4 /* Pods_HunterMap.framework */; };
 		0C27B835E10B5424339E8287 /* Pods_HunterMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7F6059BDAC7230E764FFFA /* Pods_HunterMapTests.framework */; };
-		8F1FAD021CE0720A008C4762 /* icon_location.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1FAD011CE0720A008C4762 /* icon_location.png */; };
 		8F4E8EED1CDF4C7B00A865E2 /* HMWildlifeProtectionAreaOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EEC1CDF4C7B00A865E2 /* HMWildlifeProtectionAreaOverlay.swift */; };
 		8F4E8EF11CDF4CC400A865E2 /* HMSpecialProtectionAreaOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EF01CDF4CC400A865E2 /* HMSpecialProtectionAreaOverlay.swift */; };
 		8F4E8EF51CDF4D1200A865E2 /* HMGameReserveOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EF41CDF4D1200A865E2 /* HMGameReserveOverlay.swift */; };
 		8F4E8EFA1CDF6A5500A865E2 /* ShapeFileUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EF91CDF6A5500A865E2 /* ShapeFileUtil.swift */; };
 		8F4E8EFC1CDF74BA00A865E2 /* RestrictedAreaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E8EFB1CDF74BA00A865E2 /* RestrictedAreaModel.swift */; };
 		8F5667EE1CE0839A00C54942 /* HMRestrictedAreaOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5667ED1CE0839A00C54942 /* HMRestrictedAreaOverlay.swift */; };
-		8F5667F01CE0959C00C54942 /* icon_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F5667EF1CE0959C00C54942 /* icon_add.png */; };
 		8F56690C1CE0DFCC00C54942 /* A15-09_01-g.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8F5667F31CE0DFCB00C54942 /* A15-09_01-g.xml */; };
 		8F56690D1CE0DFCC00C54942 /* A15-09_01_WildlifePreserve.dbf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5667F41CE0DFCB00C54942 /* A15-09_01_WildlifePreserve.dbf */; };
 		8F56690E1CE0DFCC00C54942 /* A15-09_01_WildlifePreserve.shp in Resources */ = {isa = PBXBuildFile; fileRef = 8F5667F51CE0DFCB00C54942 /* A15-09_01_WildlifePreserve.shp */; };
@@ -289,14 +287,12 @@
 		6921E72053184F938B5C6BC4 /* Pods_HunterMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HunterMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		702ED2A17F7BA9D5A2134B9B /* Pods-HunterMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HunterMapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HunterMapTests/Pods-HunterMapTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B5DD7F817A4E15A7CD51DC1 /* Pods_HunterMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HunterMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F1FAD011CE0720A008C4762 /* icon_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_location.png; sourceTree = "<group>"; };
 		8F4E8EEC1CDF4C7B00A865E2 /* HMWildlifeProtectionAreaOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMWildlifeProtectionAreaOverlay.swift; sourceTree = "<group>"; };
 		8F4E8EF01CDF4CC400A865E2 /* HMSpecialProtectionAreaOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSpecialProtectionAreaOverlay.swift; sourceTree = "<group>"; };
 		8F4E8EF41CDF4D1200A865E2 /* HMGameReserveOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMGameReserveOverlay.swift; sourceTree = "<group>"; };
 		8F4E8EF91CDF6A5500A865E2 /* ShapeFileUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeFileUtil.swift; sourceTree = "<group>"; };
 		8F4E8EFB1CDF74BA00A865E2 /* RestrictedAreaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestrictedAreaModel.swift; sourceTree = "<group>"; };
 		8F5667ED1CE0839A00C54942 /* HMRestrictedAreaOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMRestrictedAreaOverlay.swift; sourceTree = "<group>"; };
-		8F5667EF1CE0959C00C54942 /* icon_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_add.png; sourceTree = "<group>"; };
 		8F5667F31CE0DFCB00C54942 /* A15-09_01-g.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "A15-09_01-g.xml"; sourceTree = "<group>"; };
 		8F5667F41CE0DFCB00C54942 /* A15-09_01_WildlifePreserve.dbf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_01_WildlifePreserve.dbf"; sourceTree = "<group>"; };
 		8F5667F51CE0DFCB00C54942 /* A15-09_01_WildlifePreserve.shp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A15-09_01_WildlifePreserve.shp"; sourceTree = "<group>"; };
@@ -1243,8 +1239,6 @@
 		8FEE7DCF1CDDBE9400BFDA8C = {
 			isa = PBXGroup;
 			children = (
-				8F1FAD011CE0720A008C4762 /* icon_location.png */,
-				8F5667EF1CE0959C00C54942 /* icon_add.png */,
 				8F5667F11CE0DFCB00C54942 /* Data */,
 				8FEE7E091CDDBFC400BFDA8C /* MapKit.framework */,
 				8FEE7DDA1CDDBE9400BFDA8C /* HunterMap */,
@@ -1528,7 +1522,6 @@
 				8F5669B21CE0DFCC00C54942 /* A15-09_34_WildlifePreserve.dbf in Resources */,
 				8F5669971CE0DFCC00C54942 /* KS-META-A15-09_28-g.xml in Resources */,
 				8F5669B11CE0DFCC00C54942 /* A15-09_34-g.xml in Resources */,
-				8F1FAD021CE0720A008C4762 /* icon_location.png in Resources */,
 				8F56695F1CE0DFCC00C54942 /* A15-09_17_WildlifePreserve.shx in Resources */,
 				8F5669831CE0DFCC00C54942 /* KS-META-A15-09_24-g.xml in Resources */,
 				8F5669CF1CE0DFCC00C54942 /* A15-09_40-g.xml in Resources */,
@@ -1546,7 +1539,6 @@
 				8F5669441CE0DFCC00C54942 /* A15-09_12_WildlifePreserve.dbf in Resources */,
 				8F5669641CE0DFCC00C54942 /* A15-09_18_WildlifePreserve.shx in Resources */,
 				8F5669E11CE0DFCC00C54942 /* A15-09_43_WildlifePreserve.shx in Resources */,
-				8F5667F01CE0959C00C54942 /* icon_add.png in Resources */,
 				8F5669911CE0DFCC00C54942 /* A15-09_27_WildlifePreserve.shx in Resources */,
 				8F5669DA1CE0DFCC00C54942 /* A15-09_42_WildlifePreserve.dbf in Resources */,
 				8F5669D91CE0DFCC00C54942 /* A15-09_42-g.xml in Resources */,
