@@ -596,7 +596,7 @@
 				8F4E8EF41CDF4D1200A865E2 /* HMGameReserveOverlay.swift */,
 				8F5667ED1CE0839A00C54942 /* HMRestrictedAreaOverlay.swift */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		8F4E8EF81CDF6A4300A865E2 /* Models */ = {
@@ -606,7 +606,7 @@
 				8F955DC31CE72CED00B21A30 /* Area.swift */,
 				8F955DC51CE72D5D00B21A30 /* Coordinate.swift */,
 			);
-			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		8F4E8EFD1CDF7B1A00A865E2 /* Utils */ = {
@@ -614,7 +614,7 @@
 			children = (
 				8F4E8EF91CDF6A5500A865E2 /* ShapeFileUtil.swift */,
 			);
-			name = Utils;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		8F5667F11CE0DFCB00C54942 /* Data */ = {
