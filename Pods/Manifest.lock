@@ -1,0 +1,20 @@
+PODS:
+  - Realm (0.102.1):
+    - Realm/Headers (= 0.102.1)
+  - Realm/Headers (0.102.1)
+  - RealmSwift (0.102.1):
+    - Realm (= 0.102.1)
+  - shapelib (1.3)
+
+DEPENDENCIES:
+  - RealmSwift
+  - shapelib (~> 1.3)
+
+SPEC CHECKSUMS:
+  Realm: 5254be610db3e5024879684717bf038990bb59ec
+  RealmSwift: 3e24e6bcf56d98ccc134f4909e00839b81a659af
+  shapelib: 70f767e1e6484b824bd9986613afb66cb16e9df4
+
+PODFILE CHECKSUM: c149e9f34fa74316a25e9f7fb43a138475c6e1e9
+
+COCOAPODS: 1.0.0

@@ -1,0 +1,6 @@
+framework module Pods_HunterMap {
+  umbrella header "Pods-HunterMap-umbrella.h"
+
+  export *
+  module * { export * }
+}
